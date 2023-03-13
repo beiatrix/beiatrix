@@ -37,11 +37,13 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/vue
 }
 
 #container strong {
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 26px;
 }
 
 #container p {
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 22px;
   
