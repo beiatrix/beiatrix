@@ -93,7 +93,7 @@ ion-toolbar {
 }
 
 .app-bar-item-text {
-  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+  font-family: 'Manrope', Helvetica, Arial, sans-serif;
   color: var(--ion-color-primary);
 }
 </style>

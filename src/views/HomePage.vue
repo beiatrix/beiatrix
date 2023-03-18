@@ -1,15 +1,19 @@
 <script setup lang="ts">
 // ionic + vue
 import { 
+  IonCol,
   IonContent,
+  IonGrid,
   IonHeader,
-  IonPage
+  IonPage,
+  IonRow
 } from '@ionic/vue'
 
 // components
 import AppBar from '@/components/AppBar.vue'
 import AppBarMenu from '@/components/AppBarMenu.vue'
 import AppFooter from '@/components/AppFooter.vue'
+import SectionHello from '@/components/SectionHello.vue'
 </script>
 
 <template>
@@ -24,9 +28,19 @@ import AppFooter from '@/components/AppFooter.vue'
       </ion-header>
 
       <ion-content :fullscreen="true">
-        <div id="container">
-          <strong>🚧 Beep Boop! Under Construction. 🚧</strong>
-        </div>
+        <ion-grid class="container">
+          <ion-row class="ion-justify-content-center ion-padding">
+            <ion-col
+              class="ion-padding"
+              size="12"
+              size-sm="10"
+              size-md="8"
+              size-xl="6"
+            >
+              <SectionHello />
+            </ion-col>
+          </ion-row>
+        </ion-grid>
       </ion-content>
 
       <AppFooter />
@@ -35,32 +49,8 @@ import AppFooter from '@/components/AppFooter.vue'
 </template>
 
 <style scoped>
-#container {
-  text-align: center;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-family: 'Manrope', Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 22px;
-  
-  color: #8c8c8c;
-  
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
+.container {
+  background-color: var(--ion-color-creme);
+  height: 100%;
 }
 </style>

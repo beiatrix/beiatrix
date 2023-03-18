@@ -68,7 +68,7 @@ ion-item {
 
 .menu-item-text {
   color: var(--ion-color-tertiary);
-  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.075rem;
 }

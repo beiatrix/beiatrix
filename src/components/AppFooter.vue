@@ -29,7 +29,7 @@ const currentYear = computed(() => {
 <style scoped>
 ion-title {
   color: var(--ion-color-creme);
-  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
   font-size: 0.9rem;
 }
 </style>
