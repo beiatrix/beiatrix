@@ -9,6 +9,7 @@ import {
 // components
 import AppBar from '@/components/AppBar.vue'
 import AppBarMenu from '@/components/AppBarMenu.vue'
+import AppFooter from '@/components/AppFooter.vue'
 </script>
 
 <template>
@@ -27,6 +28,8 @@ import AppBarMenu from '@/components/AppBarMenu.vue'
           <strong>🚧 Beep Boop! Under Construction. 🚧</strong>
         </div>
       </ion-content>
+
+      <AppFooter />
     </div>
   </ion-page>
 </template>
