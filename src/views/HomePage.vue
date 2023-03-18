@@ -1,25 +1,33 @@
 <script setup lang="ts">
+// ionic + vue
 import { 
   IonContent,
   IonHeader,
   IonPage
 } from '@ionic/vue'
-import AppBar from '@/components/AppBar.vue'
 
+// components
+import AppBar from '@/components/AppBar.vue'
+import AppBarMenu from '@/components/AppBarMenu.vue'
 </script>
 
 <template>
   <ion-page>
-    <ion-header class="ion-no-border">
-      <AppBar />
-    </ion-header>
+    <AppBarMenu />
+    <div
+      class="ion-page"
+      id="main-content"
+    >
+      <ion-header class="ion-no-border">
+        <AppBar />
+      </ion-header>
 
-    <ion-content :fullscreen="true">
-      <div id="container">
-        <strong>Ready to create an app?</strong>
-        <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-      </div>
-    </ion-content>
+      <ion-content :fullscreen="true">
+        <div id="container">
+          <strong>🚧 Beep Boop! Under Construction. 🚧</strong>
+        </div>
+      </ion-content>
+    </div>
   </ion-page>
 </template>
 
