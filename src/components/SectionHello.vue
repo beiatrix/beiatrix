@@ -2,13 +2,12 @@
 // ionic + vue
 import {
   IonCol,
-  IonImg,
   IonRow
 } from '@ionic/vue'
 </script>
 
 <template>
-  <ion-row class="ion-padding-top">
+  <ion-row class="ion-padding-top ion-justify-space-between">
     <ion-col
       class="header-content"
       size="12"
@@ -16,7 +15,7 @@ import {
       size-xl="8"
     >
       <ion-row>
-        <ion-img
+        <img
           :src="require('@/assets/images/hello.svg')"
           alt="hello"
           class="hello"
@@ -38,6 +37,7 @@ import {
       </ion-row>
     </ion-col>
     <ion-col 
+      class="container-headshot"
       size="12"
       size-md="5"
       size-xl="4"
@@ -58,6 +58,11 @@ import {
   justify-content: space-around;
 }
 
+.container-headshot {
+  display: flex;
+  justify-content: end;
+}
+
 h1 {
   color: var(--ion-color-charcoal);
   font-family: 'Quicksand', Helvetica, Arial, sans-serif;
@@ -71,7 +76,7 @@ h2 {
   font-weight: 500;
 }
 
-ion-img.hello {
+img.hello {
   height: 3.5rem;
   margin-right: -0.5rem;
 }
@@ -86,14 +91,39 @@ img.headshot {
   font-weight: 700;
 }
 
+/* lg */
+@media (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  img.hello {
+    height: 3rem;
+    margin-right: -0.5rem;
+  }
+}
+
 /* md */
 @media (max-width: 768px) {
+  .container-headshot {
+    justify-content: start;
+  }
+
   h1 {
     font-size: 2.5rem;
   }
-  ion-img.hello {
+
+  img.hello {
     height: 2.5rem;
     margin-right: -0.5rem;
+  }
+}
+
+/* sm */
+@media (max-width: 576px) {
+  img.headshot {
+    border: 0.8rem solid var(--ion-color-tertiary);
+    max-height: 30vh;
   }
 }
 </style>

@@ -1,12 +1,22 @@
 /**
  * overrides + global styles
  */
+.header {
+  border-bottom: 1px solid var(--ion-color-secondary);
+}
+  
 .heading {
   color: var(--ion-color-primary);
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
+.bold {
+  font-weight: bold;
+}
+  
 p {
+  font-family: 'Manrope', Helvetica, Arial, sans-serif;
   color: var(--ion-color-charcoal);
+  line-height: 1.7;
 }

@@ -13,6 +13,7 @@ import {
 import AppBar from '@/components/AppBar.vue'
 import AppBarMenu from '@/components/AppBarMenu.vue'
 import AppFooter from '@/components/AppFooter.vue'
+import SectionCareer from '@/components/SectionCareer.vue'
 import SectionHello from '@/components/SectionHello.vue'
 </script>
 
@@ -27,17 +28,19 @@ import SectionHello from '@/components/SectionHello.vue'
         <AppBar />
       </ion-header>
 
-      <ion-content :fullscreen="true">
+      <ion-content>
         <ion-grid class="container">
           <ion-row class="ion-justify-content-center ion-padding">
             <ion-col
               class="ion-padding"
               size="12"
               size-sm="10"
-              size-md="8"
+              size-md="9"
+              size-lg="8"
               size-xl="6"
             >
               <SectionHello />
+              <SectionCareer />
             </ion-col>
           </ion-row>
         </ion-grid>

@@ -24,7 +24,7 @@ const showButtonText = computed(() => {
   return windowWidth.value >= 992 // lg
 })
 const showPushMenu = computed(() => {
-  return windowWidth.value < 576 // xs
+  return windowWidth.value < 576 // sm
 })
 
 // app bar item links
