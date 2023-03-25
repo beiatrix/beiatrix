@@ -7,7 +7,7 @@ import {
 </script>
 
 <template>
-  <ion-row class="ion-padding-top">
+  <ion-row class="ion-padding-top ion-justify-space-between">
     <ion-col
       class="header-content"
       size="12"
@@ -37,6 +37,7 @@ import {
       </ion-row>
     </ion-col>
     <ion-col 
+      class="container-headshot"
       size="12"
       size-md="5"
       size-xl="4"
@@ -55,6 +56,11 @@ import {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.container-headshot {
+  display: flex;
+  justify-content: end;
 }
 
 h1 {
@@ -85,11 +91,28 @@ img.headshot {
   font-weight: 700;
 }
 
+/* lg */
+@media (max-width: 992px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  img.hello {
+    height: 3rem;
+    margin-right: -0.5rem;
+  }
+}
+
 /* md */
 @media (max-width: 768px) {
+  .container-headshot {
+    justify-content: start;
+  }
+
   h1 {
     font-size: 2.5rem;
   }
+
   img.hello {
     height: 2.5rem;
     margin-right: -0.5rem;
