@@ -2,7 +2,6 @@
 // ionic + vue
 import {
   IonCol,
-  IonImg,
   IonRow
 } from '@ionic/vue'
 </script>
@@ -16,7 +15,7 @@ import {
       size-xl="8"
     >
       <ion-row>
-        <ion-img
+        <img
           :src="require('@/assets/images/hello.svg')"
           alt="hello"
           class="hello"
@@ -71,7 +70,7 @@ h2 {
   font-weight: 500;
 }
 
-ion-img.hello {
+img.hello {
   height: 3.5rem;
   margin-right: -0.5rem;
 }
@@ -91,9 +90,17 @@ img.headshot {
   h1 {
     font-size: 2.5rem;
   }
-  ion-img.hello {
+  img.hello {
     height: 2.5rem;
     margin-right: -0.5rem;
+  }
+}
+
+/* sm */
+@media (max-width: 576px) {
+  img.headshot {
+    border: 0.8rem solid var(--ion-color-tertiary);
+    max-height: 30vh;
   }
 }
 </style>
