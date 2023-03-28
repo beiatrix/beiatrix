@@ -15,6 +15,8 @@ import AppBarMenu from '@/components/AppBarMenu.vue'
 import AppFooter from '@/components/AppFooter.vue'
 import SectionCareer from '@/components/SectionCareer.vue'
 import SectionHello from '@/components/SectionHello.vue'
+import SectionInterests from '@/components/SectionInterests.vue'
+import SectionSkills from '@/components/SectionSkills.vue'
 </script>
 
 <template>
@@ -41,6 +43,8 @@ import SectionHello from '@/components/SectionHello.vue'
             >
               <SectionHello />
               <SectionCareer />
+              <SectionSkills />
+              <SectionInterests />
             </ion-col>
           </ion-row>
         </ion-grid>

@@ -93,6 +93,22 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-forest-contrast-rgb: 255,255,255;
   --ion-color-forest-shade: #2b3b30;
   --ion-color-forest-tint: #46564a;
+  
+  /** jay **/
+  --ion-color-jay: #3474DB;
+  --ion-color-jay-rgb: 52,116,219;
+  --ion-color-jay-contrast: #ffffff;
+  --ion-color-jay-contrast-rgb: 255,255,255;
+  --ion-color-jay-shade: #2e66c1;
+  --ion-color-jay-tint: #4882df;
+
+  /** taro **/
+  --ion-color-taro: #A072D6;
+  --ion-color-taro-rgb: 160,114,214;
+  --ion-color-taro-contrast: #000000;
+  --ion-color-taro-contrast-rgb: 0,0,0;
+  --ion-color-taro-shade: #8d64bc;
+  --ion-color-taro-tint: #aa80da;
 
   /** charcoal **/
   --ion-color-charcoal: #404040;
@@ -101,6 +117,30 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-charcoal-contrast-rgb: 255,255,255;
   --ion-color-charcoal-shade: #383838;
   --ion-color-charcoal-tint: #535353;
+
+  /* ruby red */
+  --ion-color-ruby-red: #CC0000;
+  --ion-color-ruby-red-rgb: 204,0,0;
+  --ion-color-ruby-red-contrast: #ffffff;
+  --ion-color-ruby-red-contrast-rgb: 255,255,255;
+  --ion-color-ruby-red-shade: #b40000;
+  --ion-color-ruby-red-tint: #d11a1a;
+
+  /** html orange **/
+  --ion-color-html-orange: #E44D26;
+  --ion-color-html-orange-rgb: 228,77,38;
+  --ion-color-html-orange-contrast: #ffffff;
+  --ion-color-html-orange-contrast-rgb: 255,255,255;
+  --ion-color-html-orange-shade: #c94421;
+  --ion-color-html-orange-tint: #e75f3c;
+
+  /** css blue **/
+  --ion-color-css-blue: #264DE4;
+  --ion-color-css-blue-rgb: 38,77,228;
+  --ion-color-css-blue-contrast: #ffffff;
+  --ion-color-css-blue-contrast-rgb: 255,255,255;
+  --ion-color-css-blue-shade: #2144c9;
+  --ion-color-css-blue-tint: #3c5fe7;
 }
 
 /** creme **/
@@ -123,6 +163,26 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-tint: var(--ion-color-forest-tint);
 }
 
+/** jay **/
+.ion-color-jay {
+  --ion-color-base: var(--ion-color-jay);
+  --ion-color-base-rgb: var(--ion-color-jay-rgb);
+  --ion-color-contrast: var(--ion-color-jay-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-jay-contrast-rgb);
+  --ion-color-shade: var(--ion-color-jay-shade);
+  --ion-color-tint: var(--ion-color-jay-tint);
+}
+
+/** taro **/
+.ion-color-taro {
+  --ion-color-base: var(--ion-color-taro);
+  --ion-color-base-rgb: var(--ion-color-taro-rgb);
+  --ion-color-contrast: var(--ion-color-taro-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-taro-contrast-rgb);
+  --ion-color-shade: var(--ion-color-taro-shade);
+  --ion-color-tint: var(--ion-color-taro-tint);
+}
+
 /** charcoal **/
 .ion-color-charcoal {
   --ion-color-base: var(--ion-color-charcoal);
@@ -131,4 +191,34 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-contrast-rgb: var(--ion-color-charcoal-contrast-rgb);
   --ion-color-shade: var(--ion-color-charcoal-shade);
   --ion-color-tint: var(--ion-color-charcoal-tint);
+}
+
+/** ruby red **/
+.ion-color-ruby-red {
+  --ion-color-base: var(--ion-color-ruby-red);
+  --ion-color-base-rgb: var(--ion-color-ruby-red-rgb);
+  --ion-color-contrast: var(--ion-color-ruby-red-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-ruby-red-contrast-rgb);
+  --ion-color-shade: var(--ion-color-ruby-red-shade);
+  --ion-color-tint: var(--ion-color-ruby-red-tint);
+}
+
+/** html orange **/
+.ion-color-html-orange {
+  --ion-color-base: var(--ion-color-html-orange);
+  --ion-color-base-rgb: var(--ion-color-html-orange-rgb);
+  --ion-color-contrast: var(--ion-color-html-orange-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-html-orange-contrast-rgb);
+  --ion-color-shade: var(--ion-color-html-orange-shade);
+  --ion-color-tint: var(--ion-color-html-orange-tint);
+}
+
+/** css blue **/
+.ion-color-css-blue {
+  --ion-color-base: var(--ion-color-css-blue);
+  --ion-color-base-rgb: var(--ion-color-css-blue-rgb);
+  --ion-color-contrast: var(--ion-color-css-blue-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-css-blue-contrast-rgb);
+  --ion-color-shade: var(--ion-color-css-blue-shade);
+  --ion-color-tint: var(--ion-color-css-blue-tint);
 }

@@ -4,7 +4,7 @@
 .header {
   border-bottom: 1px solid var(--ion-color-secondary);
 }
-  
+
 .heading {
   color: var(--ion-color-primary);
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
@@ -14,7 +14,11 @@
 .bold {
   font-weight: bold;
 }
-  
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 p {
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
   color: var(--ion-color-charcoal);

@@ -1,3 +1,4 @@
+// ionic
 import { 
   colorPalette,
   logoGithub,
@@ -7,7 +8,10 @@ import {
   mail
 } from 'ionicons/icons'
 
-export const appBarItems = [
+// types
+import { Item } from '@/types/item'
+
+export const appBarItems: Item[] = [
   {
     icon: logoYoutube,
     text: 'YouTube',
