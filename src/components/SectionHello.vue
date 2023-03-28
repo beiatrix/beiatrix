@@ -60,7 +60,7 @@ import {
 
 .container-headshot {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 h1 {
@@ -124,6 +124,14 @@ img.headshot {
   img.headshot {
     border: 0.8rem solid var(--ion-color-tertiary);
     max-height: 30vh;
+  }
+}
+
+/* mobile landscape */
+@media (max-height: 600px) {
+  img.headshot {
+    border: 0.8rem solid var(--ion-color-tertiary);
+    max-height: 25vw;
   }
 }
 </style>
