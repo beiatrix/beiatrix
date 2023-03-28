@@ -2,8 +2,6 @@
 // ionic + vue
 import {
   IonCol,
-  IonIcon,
-  IonItem,
   IonItemDivider,
   IonItemGroup,
   IonLabel,
@@ -12,6 +10,9 @@ import {
 
 // config
 import { skillItems } from '@/config/skillItems'
+
+// components
+import SectionItem from './SectionItem.vue'
 </script>
 
 <template>
@@ -34,45 +35,18 @@ import { skillItems } from '@/config/skillItems'
           </ion-label>
         </ion-item-divider>
 
-        <ion-item   
+        <SectionItem
           v-for="(item, index) in value"
           :key="`technical-skill-item-${index}`"
-          lines="none"
-        >
-          <img 
-            v-if="item.logo"
-            class="skill-item-img ion-margin-end"
-            :alt="item.text" 
-            :src="item.logo"
-          />
-          <ion-icon
-            v-if="item.icon"
-            class="ion-margin-end"
-            :color="item.iconColor"
-            :src="item.icon"
-          />
-          <ion-label class="item-label">
-            {{ item.text }}
-          </ion-label>
-        </ion-item>
+          :item="item"
+        />
       </ion-item-group>
     </ion-col>
   </ion-row>
 </template>
 
 <style scoped>
-.skill-item-thumbnail {
-  background-color: none;
-  max-height: 1.5rem;
-  max-width: 1.5rem;
-}
-
-.skill-item-img {
-  border-radius: 0.2rem;
-  max-width: 1.5rem;
-}
-
-.item-type, .item-label {
+.item-type {
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
 }
 
