@@ -20,14 +20,20 @@ const yearsOfExperience = computed(() => {
 
 <template>
   <ion-row class="ion-padding-vertical ion-justify-space-between">
-    <ion-col size="12">
+    <ion-col
+      class="observer-target"
+      size="12"
+    >
       <div class="header">
         <h1 class="heading">
           career
         </h1>
       </div>
     </ion-col>
-    <ion-col size="12">
+    <ion-col
+      class="observer-target"
+      size="12"
+    >
       <p>
         I have <span class="bold">{{ yearsOfExperience }}</span> of professional 
         experience in software engineering with a specialization in frontend 

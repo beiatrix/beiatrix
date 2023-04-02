@@ -24,3 +24,19 @@ p {
   color: var(--ion-color-charcoal);
   line-height: 1.7;
 }
+
+/* animations */
+@keyframes slide-fade {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.slide-fade {
+  animation: 2.25s ease slide-fade;
+}

@@ -8,6 +8,10 @@ import {
   IonPage,
   IonRow
 } from '@ionic/vue'
+import { onMounted, onUnmounted } from 'vue'
+
+// composables
+import { useIntersectionObserver } from '@/composables/intersectionObserver'
 
 // components
 import AppBar from '@/components/AppBar.vue'
@@ -17,6 +21,23 @@ import SectionCareer from '@/components/SectionCareer.vue'
 import SectionHello from '@/components/SectionHello.vue'
 import SectionInterests from '@/components/SectionInterests.vue'
 import SectionSkills from '@/components/SectionSkills.vue'
+
+// use IntersectionObserver to support animations on scroll into view
+const {
+  disconnectIntersectionObserver,
+  observeTargets,
+  setIntersectionObserver
+} = useIntersectionObserver()
+
+// lifecycle hooks
+onMounted(() => {
+  setIntersectionObserver()
+  observeTargets()
+})
+
+onUnmounted(() => {
+  disconnectIntersectionObserver()
+})
 </script>
 
 <template>
