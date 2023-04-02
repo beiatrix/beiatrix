@@ -15,14 +15,20 @@ import SectionItem from './SectionItem.vue'
 
 <template>
   <ion-row class="ion-padding-vertical ion-justify-space-between">
-    <ion-col size="12">
+    <ion-col
+      class="observer-target"
+      size="12"
+    >
       <div class="header">
         <h1 class="heading">
           interests
         </h1>
       </div>
     </ion-col>
-    <ion-col>
+    <ion-col
+      class="observer-target"
+      size="12"
+    >
       <ion-item-group>
         <SectionItem
           v-for="(item, index) in interestItems"

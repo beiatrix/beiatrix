@@ -17,7 +17,10 @@ import SectionItem from './SectionItem.vue'
 
 <template>
   <ion-row class="ion-padding-vertical ion-justify-space-between">
-    <ion-col size="12">
+    <ion-col 
+      class="observer-target"
+      size="12"
+    >
       <div class="header">
         <h1 class="heading">
           skills
@@ -27,6 +30,7 @@ import SectionItem from './SectionItem.vue'
     <ion-col
       v-for="(value, key) in skillItems"
       :key="`skill-group-${key}`"
+      class="observer-target"
     >
       <ion-item-group>
         <ion-item-divider color="tertiary">
