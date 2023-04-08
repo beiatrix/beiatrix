@@ -83,6 +83,7 @@ img.hello {
 
 img.headshot {
   border: 1rem solid var(--ion-color-tertiary);
+  border-radius: 2rem;
   max-height: 25vh;
   width: auto;
   object-fit: cover;
@@ -129,6 +130,7 @@ img.headshot {
 @media (max-height: 600px) {
   img.headshot {
     border: 0.8rem solid var(--ion-color-tertiary);
+    border-radius: 1.6rem;
     max-height: 50vh;
   }
 }
