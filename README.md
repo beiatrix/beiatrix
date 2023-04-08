@@ -1,16 +1,17 @@
-### Hi there 👋
+# Hi there 👋
 
-<!--
-**beiatrix/beiatrix** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+My name is **beiatrix**. I'm a software engineer and designer with a specialization in frontend JavaScript.
 
-Here are some ideas to get you started:
+- 🎨 Before launching my career in software engineering, I worked professionally as a graphic designer and illustrator
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 👩🏻‍💻 At my current role, I get to use both skill sets!
+
+- 🌿 I also create content on YouTube to share what I know
+
+- 🚀 I built my personal website with `ionic` + `vue`
+
+- 📚 I love to learn about personal finance, psychology, and philosophy
+
+- 🤖 My go-to Netflix genres are comedy, documentary, and guilty-pleasure reality shows
+
+- 🌻 For fun, I love to go on hiking adventures with the boyfriend and dog, run by the beach, do hot yoga, cook and bake, tend to my houseplants, and travel the world!
