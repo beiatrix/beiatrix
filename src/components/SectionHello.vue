@@ -84,6 +84,8 @@ img.hello {
 img.headshot {
   border: 1rem solid var(--ion-color-tertiary);
   max-height: 25vh;
+  width: auto;
+  object-fit: cover;
 }
 
 .name {
@@ -100,6 +102,10 @@ img.headshot {
   img.hello {
     height: 3rem;
     margin-right: -0.5rem;
+  }
+
+  img.headshot {
+    max-height: 30vh;
   }
 }
 
@@ -119,19 +125,11 @@ img.headshot {
   }
 }
 
-/* sm */
-@media (max-width: 576px) {
-  img.headshot {
-    border: 0.8rem solid var(--ion-color-tertiary);
-    max-height: 30vh;
-  }
-}
-
 /* mobile landscape */
 @media (max-height: 600px) {
   img.headshot {
     border: 0.8rem solid var(--ion-color-tertiary);
-    max-height: 25vw;
+    max-height: 50vh;
   }
 }
 </style>
