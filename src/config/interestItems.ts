@@ -7,6 +7,10 @@ export const interestItems: Item[] = [
     text: 'Fitness – hiking, running by the beach, weight lifting, hot yoga'
   },
   {
+    emoji: '🎨',
+    text: 'Drawing and painting'
+  },
+  {
     emoji: '📚',
     text: 'Reading great non-fiction books'
   },

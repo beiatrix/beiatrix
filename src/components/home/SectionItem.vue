@@ -17,7 +17,10 @@ defineProps<Props>()
 </script>
 
 <template>
-  <ion-item lines="none">
+  <ion-item 
+    color="creme"
+    lines="none"
+  >
     <div
       v-if="item.emoji"
       class="item-emoji ion-margin-end"

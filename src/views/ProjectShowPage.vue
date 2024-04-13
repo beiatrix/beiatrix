@@ -8,36 +8,12 @@ import {
   IonPage,
   IonRow
 } from '@ionic/vue'
-import { onMounted, onUnmounted } from 'vue'
-
-// composables
-import { useIntersectionObserver } from '@/composables/intersectionObserver'
 
 // components
 import AppBar from '@/components/shared/AppBar.vue'
 import AppBarMenu from '@/components/shared/AppBarMenu.vue'
 import AppFooter from '@/components/shared/AppFooter.vue'
-import SectionCareer from '@/components/home/SectionCareer.vue'
-import SectionHello from '@/components/home/SectionHello.vue'
-import SectionInterests from '@/components/home/SectionInterests.vue'
-import SectionSkills from '@/components/home/SectionSkills.vue'
 
-// use IntersectionObserver to support animations on scroll into view
-const {
-  disconnectIntersectionObserver,
-  observeTargets,
-  setIntersectionObserver
-} = useIntersectionObserver()
-
-// lifecycle hooks
-onMounted(() => {
-  setIntersectionObserver()
-  observeTargets()
-})
-
-onUnmounted(() => {
-  disconnectIntersectionObserver()
-})
 </script>
 
 <template>
@@ -60,12 +36,13 @@ onUnmounted(() => {
               size-sm="10"
               size-md="9"
               size-lg="8"
-              size-xl="5"
+              size-xl="6"
             >
-              <SectionHello />
-              <SectionCareer />
-              <SectionSkills />
-              <SectionInterests />
+            <div class="header">
+              <h1 class="heading">
+                project name
+              </h1>
+            </div>
             </ion-col>
           </ion-row>
         </ion-grid>
