@@ -33,7 +33,7 @@ import SectionItem from './SectionItem.vue'
       class="observer-target"
     >
       <ion-item-group>
-        <ion-item-divider color="tertiary">
+        <ion-item-divider class="item-divider">
           <ion-label class="item-type bold uppercase">
             {{ key }}
           </ion-label>
@@ -58,5 +58,11 @@ import SectionItem from './SectionItem.vue'
   color: var(--ion-color-primary-shade);
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
+}
+
+.item-divider {
+  background-color: rgba(203, 216, 209, 0.25); /* tertiary-shade */
+  border-bottom: none;
+  margin-bottom: 0.5rem;
 }
 </style>

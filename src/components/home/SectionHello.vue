@@ -15,12 +15,12 @@ import {
       size-xl="8"
     >
       <ion-row>
-        <img
+        <!-- <img
           :src="require('@/assets/images/hello.svg')"
           alt="hello"
           class="hello"
-        />
-        <h1>,</h1>
+        /> -->
+        <h2>hi there 👋</h2>
       </ion-row>
       <ion-row>
         <h1>
@@ -28,7 +28,7 @@ import {
         </h1>
       </ion-row>
       <ion-row>
-        <h2>
+        <h2 class="ion-margin-bottom">
           I'm a 
           <span class="heading">software engineer</span>
           and 
@@ -64,26 +64,27 @@ import {
 }
 
 h1 {
-  color: var(--ion-color-charcoal);
+  color: rgba(var(--ion-color-charcoal-rgb), 0.9);
   font-family: 'Quicksand', Helvetica, Arial, sans-serif;
   font-weight: 500;
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin: 0;
 }
 
 h2 {
+  color: rgba(var(--ion-color-charcoal-rgb), 0.9);
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
 
 img.hello {
-  height: 3.5rem;
+  height: 2.75rem;
   margin-right: -0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 img.headshot {
-  border: 1rem solid var(--ion-color-tertiary);
-  border-radius: 2rem;
+  border: 0.75rem solid var(--ion-color-tertiary-shade);
   max-height: 25vh;
   width: auto;
   object-fit: cover;

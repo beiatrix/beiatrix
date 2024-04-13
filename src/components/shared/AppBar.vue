@@ -45,7 +45,7 @@ onMounted(() => {
       class="ion-padding"
       slot="start"
     >
-      <ion-button>
+      <ion-button href="/">
         <ion-icon
           slot="icon-only"
           :src="require('@/assets/images/logo.svg')"
