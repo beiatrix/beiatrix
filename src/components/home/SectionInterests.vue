@@ -14,7 +14,7 @@ import SectionItem from './SectionItem.vue'
 </script>
 
 <template>
-  <ion-row class="ion-padding-vertical ion-justify-space-between">
+  <ion-row class="ion-padding-vertical">
     <ion-col
       class="observer-target"
       size="12"

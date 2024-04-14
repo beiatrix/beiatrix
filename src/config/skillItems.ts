@@ -15,7 +15,7 @@ import {
 } from 'ionicons/icons'
 
 // types
-import { Item } from '@/types/item'
+import { Item } from '@/types'
 
 export const technicalSkillItems: Item[] = [
   {
@@ -59,7 +59,7 @@ export const technicalSkillItems: Item[] = [
   {
     icon: require('@/assets/images/logos/ruby.svg'),
     iconColor: 'ruby-red',
-    text: 'Ruby'
+    text: 'Ruby on Rails'
   },
   {
     icon: server,

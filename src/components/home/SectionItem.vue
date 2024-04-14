@@ -7,17 +7,21 @@ import {
 } from '@ionic/vue'
 
 // types
-import { Item } from '@/types/item'
+import { Item } from '@/types'
 
 // props
 interface Props {
+  animation?: boolean
   item: Item
 }
-defineProps<Props>()
+withDefaults(defineProps<Props>(), {
+  animation: false
+})
 </script>
 
 <template>
   <ion-item 
+    :class="`${animation ? 'animation' : ''}`"
     color="creme"
     lines="none"
   >
@@ -46,6 +50,14 @@ defineProps<Props>()
 </template>
 
 <style scoped>
+ion-item.animation {
+  transition: transform .2s; /* Animation */
+}
+
+ion-item.animation:hover {
+  transform: scale(1.1); /* (110% zoom) */
+}
+
 .item-emoji {
   font-size: 1.5rem;
 }
