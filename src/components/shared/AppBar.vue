@@ -67,6 +67,7 @@ onMounted(() => {
         <ion-button
           v-for="(item, index) in appBarItems"
           :key="`app-bar-item-${index}`"
+          :class="`${showButtonText ? 'btn-app-bar' : ''}`"
           :href="item.url"
           :target="getTargetAttribute(item.url)"
         >
@@ -95,5 +96,9 @@ ion-toolbar {
 .app-bar-item-text {
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
   color: var(--ion-color-primary);
+}
+
+.btn-app-bar {
+  margin-right: 0.5rem;
 }
 </style>

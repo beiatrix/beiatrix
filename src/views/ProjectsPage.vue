@@ -13,7 +13,10 @@ import {
 import AppBar from '@/components/shared/AppBar.vue'
 import AppBarMenu from '@/components/shared/AppBarMenu.vue'
 import AppFooter from '@/components/shared/AppFooter.vue'
+import CardProject from '@/components/projects/CardProject.vue'
 
+// config
+import { projects } from '@/config/projects'
 </script>
 
 <template>
@@ -38,11 +41,24 @@ import AppFooter from '@/components/shared/AppFooter.vue'
               size-lg="8"
               size-xl="6"
             >
-            <div class="header">
-              <h1 class="heading">
-                projects
-              </h1>
-            </div>
+              <ion-row class="ion-padding-vertical">
+                <ion-col size="12">
+                  <div class="header">
+                    <h1 class="heading">
+                      projects
+                    </h1>
+                  </div>
+                </ion-col>
+              </ion-row>
+              <ion-row>
+                <ion-col 
+                  v-for="(project, index) in projects"
+                  :key="`project-${index}`"
+                  size="6"
+                >
+                  <CardProject :project="project" />
+                </ion-col>
+              </ion-row>
             </ion-col>
           </ion-row>
         </ion-grid>

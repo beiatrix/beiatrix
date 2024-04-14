@@ -9,7 +9,7 @@ import {
 } from 'ionicons/icons'
 
 // types
-import { Item } from '@/types/item'
+import { Item } from '@/types'
 
 export const appBarItems: Item[] = [
   {

@@ -1,5 +1,5 @@
 // types
-import { Item } from '@/types/item'
+import { Item } from '@/types'
 
 export const interestItems: Item[] = [
   {
