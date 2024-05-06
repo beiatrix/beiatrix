@@ -15,12 +15,19 @@ interface Props {
   project: Project
 }
 defineProps<Props>()
+
+// methods
+function getProjectUrl (project: Project) {
+  return project.slug 
+    ? `/projects/${project.slug}`
+    : project.url
+}
 </script>
 
 <template>
   <ion-card 
     button
-    :href="`/projects/${project.slug}`"
+    :href="getProjectUrl(project)"
   >
     <img 
       :alt="project.title"

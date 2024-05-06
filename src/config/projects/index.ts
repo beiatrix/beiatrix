@@ -3,6 +3,19 @@ import { Project } from '@/types'
 
 export const projects: Project[] = [
   {
+    title: 'Wordle',
+    subtitle: 'guess the five-letter word',
+    description: 'I literally just wanted to play Wordle more than once a day, so I built this app.',
+    url: 'https://wordle-by-beiatrix.vercel.app/',
+    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    year: 2023,
+    technologies: [
+      'Ionic',
+      'Vue'
+    ],
+    content: 'lorem ipsum'
+  },
+  {
     title: 'Mobile Chat App',
     subtitle: 'Revolution Now for Mobile',
     description: 'Real-time chat messaging app for iOS and Android, built with Ionic Vue and Ruby on Rails.',
@@ -10,7 +23,8 @@ export const projects: Project[] = [
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
     year: 2023,
     technologies: [
-      'Ionic Vue',
+      'Ionic',
+      'Vue',
       'Ruby on Rails'
     ],
     content: 'lorem ipsum'
@@ -23,7 +37,8 @@ export const projects: Project[] = [
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
     year: 2022,
     technologies: [
-      'Ionic Vue'
+      'Ionic',
+      'Vue'
     ],
     content: 'lorem ipsum'
   },
@@ -35,7 +50,8 @@ export const projects: Project[] = [
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
     year: 2022,
     technologies: [
-      'Ionic Vue'
+      'Nuxt',
+      'Vue'
     ],
     content: 'lorem ipsum'
   }
