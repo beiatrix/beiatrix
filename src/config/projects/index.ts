@@ -7,7 +7,7 @@ export const projects: Project[] = [
     subtitle: 'guess the five-letter word',
     description: 'I literally just wanted to play Wordle more than once a day, so I built this app.',
     url: 'https://wordle-by-beiatrix.vercel.app/',
-    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/wordle.png',
     year: 2023,
     technologies: [
       'Ionic',

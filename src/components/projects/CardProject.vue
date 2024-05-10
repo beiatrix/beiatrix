@@ -1,10 +1,11 @@
 <script setup lang="ts">
 // ionic + vue
 import { 
-  IonCard, 
-  IonCardHeader, 
-  IonCardSubtitle, 
-  IonCardTitle 
+  IonCard,
+  IonCardHeader,
+  IonCardSubtitle,
+  IonCardTitle,
+  IonImg
 } from '@ionic/vue'
 
 // types
@@ -27,9 +28,10 @@ function getProjectUrl (project: Project) {
 <template>
   <ion-card 
     button
+    target="_blank"
     :href="getProjectUrl(project)"
   >
-    <img 
+    <ion-img 
       :alt="project.title"
       :src="project.image" 
     />
@@ -66,6 +68,10 @@ ion-card-title {
 
 ion-card-content {
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
+}
+
+ion-img {
+  border-bottom: 2px solid rgb(var(--ion-color-secondary-rgb), 0.5);
 }
 </style>
 
