@@ -86,6 +86,14 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-creme-shade: #e0e0df;
   --ion-color-creme-tint: #fffffd;
 
+  /** glow **/
+  --ion-color-glow: #adefd1;
+  --ion-color-glow-rgb: 173,239,209;
+  --ion-color-glow-contrast: #000000;
+  --ion-color-glow-contrast-rgb: 0,0,0;
+  --ion-color-glow-shade: #98d2b8;
+  --ion-color-glow-tint: #b5f1d6;
+
   /** forest **/
   --ion-color-forest: #314336;
   --ion-color-forest-rgb: 49,67,54;
@@ -151,6 +159,16 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-contrast-rgb: var(--ion-color-creme-contrast-rgb);
   --ion-color-shade: var(--ion-color-creme-shade);
   --ion-color-tint: var(--ion-color-creme-tint);
+}
+
+/** glow **/
+.ion-color-glow {
+  --ion-color-base: var(--ion-color-glow);
+  --ion-color-base-rgb: var(--ion-color-glow-rgb);
+  --ion-color-contrast: var(--ion-color-glow-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-glow-contrast-rgb);
+  --ion-color-shade: var(--ion-color-glow-shade);
+  --ion-color-tint: var(--ion-color-glow-tint);
 }
 
 /** forest **/

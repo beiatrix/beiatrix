@@ -6,6 +6,7 @@ export interface Project {
   url?: string
   image: string
   year: number
+  company?: string
   technologies: string[]
   content: string
 }

@@ -4,8 +4,7 @@ import {
   IonCard,
   IonCardHeader,
   IonCardSubtitle,
-  IonCardTitle,
-  IonImg
+  IonCardTitle
 } from '@ionic/vue'
 
 // types
