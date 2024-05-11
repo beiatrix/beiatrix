@@ -31,10 +31,12 @@ function getProjectUrl (project: Project) {
     target="_blank"
     :href="getProjectUrl(project)"
   >
-    <ion-img 
-      :alt="project.title"
-      :src="project.image" 
-    />
+    <div class="img-container">
+      <img 
+        :alt="project.title"
+        :src="project.image" 
+      />
+    </div>
 
     <ion-card-header>
       <ion-card-title>
@@ -70,8 +72,17 @@ ion-card-content {
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
 }
 
-ion-img {
-  border-bottom: 2px solid rgb(var(--ion-color-secondary-rgb), 0.5);
+img {
+  box-shadow: 1px 4px 8px rgb(var(--ion-color-charcoal-rgb), 0.2);  
+  border-radius: 0.25rem;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: var(--ion-color-light-shade);
 }
 </style>
 

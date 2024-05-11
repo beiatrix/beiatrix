@@ -39,7 +39,7 @@ import { projects } from '@/config/projects'
               size-sm="10"
               size-md="9"
               size-lg="8"
-              size-xl="6"
+              size-xl="7"
             >
               <ion-row class="ion-padding-vertical">
                 <ion-col size="12">

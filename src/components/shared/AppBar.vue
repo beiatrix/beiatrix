@@ -21,7 +21,7 @@ function setWindowWidth () {
   windowWidth.value = window.innerWidth
 }
 const showButtonText = computed(() => {
-  return windowWidth.value >= 992 // lg
+  return windowWidth.value >= 1200 // xl
 })
 const showPushMenu = computed(() => {
   return windowWidth.value < 768 // md
