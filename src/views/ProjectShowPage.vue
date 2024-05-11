@@ -8,12 +8,38 @@ import {
   IonPage,
   IonRow
 } from '@ionic/vue'
+import { computed, onMounted, ref } from 'vue'
+
+// route
+import { useRoute } from 'vue-router'
+
+// markdown
+import Markdown from 'vue3-markdown-it'
 
 // components
 import AppBar from '@/components/shared/AppBar.vue'
 import AppBarMenu from '@/components/shared/AppBarMenu.vue'
 import AppFooter from '@/components/shared/AppFooter.vue'
 
+// content
+import { projects } from '@/config/projects'
+
+/**
+ * route
+ * ================================================================
+ */
+const route = useRoute()
+const slug = computed(() => route.params.slug)
+
+/**
+ * project
+ * ================================================================
+ */
+const project = ref()
+
+onMounted(() => {
+  project.value = projects.find(project => project.slug === slug.value)
+})
 </script>
 
 <template>
@@ -38,11 +64,10 @@ import AppFooter from '@/components/shared/AppFooter.vue'
               size-lg="8"
               size-xl="6"
             >
-            <div class="header">
-              <h1 class="heading">
-                project name
-              </h1>
-            </div>
+              <Markdown 
+                v-if="project?.content"
+                :source="project.content.toString()" 
+              />
             </ion-col>
           </ion-row>
         </ion-grid>
@@ -56,5 +81,6 @@ import AppFooter from '@/components/shared/AppFooter.vue'
 <style scoped>
 .container {
   height: 100%;
+  font-family: 'Manrope', Helvetica, Arial, sans-serif;
 }
 </style>

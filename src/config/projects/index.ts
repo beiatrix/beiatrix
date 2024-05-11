@@ -1,6 +1,11 @@
 // types
 import { Project } from '@/types'
 
+// content
+import mobileAppContent from './mobileApp.md'
+import mobileChatContent from './mobileChat.md'
+import studentDashboardContent from './studentDashboard.md'
+
 export const projects: Project[] = [
   {
     title: 'Wordle',
@@ -13,7 +18,7 @@ export const projects: Project[] = [
       'Ionic',
       'Vue'
     ],
-    content: 'lorem ipsum'
+    content: ''
   },
   {
     title: 'Mobile Chat App',
@@ -27,7 +32,7 @@ export const projects: Project[] = [
       'Vue',
       'Ruby on Rails'
     ],
-    content: 'lorem ipsum'
+    content: mobileChatContent
   },
   {
     title: 'Mobile App',
@@ -40,7 +45,7 @@ export const projects: Project[] = [
       'Ionic',
       'Vue'
     ],
-    content: 'lorem ipsum'
+    content: mobileAppContent
   },
   {
     title: 'Student Dashboard',
@@ -53,6 +58,6 @@ export const projects: Project[] = [
       'Nuxt',
       'Vue'
     ],
-    content: 'lorem ipsum'
+    content: studentDashboardContent
   }
 ]
