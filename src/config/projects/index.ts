@@ -2,9 +2,13 @@
 import { Project } from '@/types'
 
 // content
+import digitalExamPlayerContent from './digitalExamPlayer.md'
+import enrollmentWizardContent from './enrollmentWizard.md'
 import mobileAppContent from './mobileApp.md'
 import mobileChatContent from './mobileChat.md'
+import schedulingWizardContent from './schedulingWizard.md'
 import studentDashboardContent from './studentDashboard.md'
+import studentProfileContent from './studentProfile.md'
 
 export const projects: Project[] = [
   {
@@ -36,6 +40,62 @@ export const projects: Project[] = [
     content: mobileChatContent
   },
   {
+    title: 'Student Dashboard',
+    subtitle: 'Revolution Prep Student Dashboard',
+    description: 'Dashboard for Revolution Prep students built with Nuxt.',
+    slug: 'student-dashboard',
+    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    year: 2021,
+    company: 'Revolution Prep',
+    technologies: [
+      'Nuxt',
+      'Vue'
+    ],
+    content: studentDashboardContent
+  },
+  {
+    title: 'Enrollment Wizard',
+    subtitle: 'Revolution Prep Enrollment Wizard',
+    description: 'Revolution Prep enrollment wizard',
+    slug: 'enrollment-wizard',
+    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    company: 'Revolution Prep',
+    year: 2024,
+    technologies: [
+      'Nuxt',
+      'Vue'
+    ],
+    content: enrollmentWizardContent
+  },
+  {
+    title: 'Scheduling Wizard',
+    subtitle: 'Revolution Prep Scheduling Wizard',
+    description: 'Revolution Prep Scheduling wizard',
+    slug: 'scheduling-wizard',
+    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    company: 'Revolution Prep',
+    year: 2024,
+    technologies: [
+      'Nuxt',
+      'Vue'
+    ],
+    content: schedulingWizardContent
+  },
+  {
+    title: 'Digital Exam Player',
+    subtitle: 'Revolution Prep Digital Exam Player',
+    description: 'Revolution Prep digital exam player',
+    slug: 'digital-exam-player',
+    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    company: 'Revolution Prep',
+    year: 2023,
+    technologies: [
+      'Ionic',
+      'Vue'
+    ],
+    content: digitalExamPlayerContent
+  },
+  {
     title: 'Mobile App',
     subtitle: 'Revolution Prep Mobile App',
     description: 'Mobile app for Revolution Prep students built with Ionic/Vue.',
@@ -50,17 +110,28 @@ export const projects: Project[] = [
     content: mobileAppContent
   },
   {
-    title: 'Student Dashboard',
-    subtitle: 'Revolution Prep Student Dashboard',
-    description: 'Dashboard for Revolution Prep students built with Nuxt.',
-    slug: 'student-dashboard',
+    title: 'Student Profile Forms',
+    subtitle: 'Revolution Prep Student Profile Forms',
+    description: 'Forms for gathering student information and tutor matching',
+    slug: 'student-profile',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
-    year: 2021,
     company: 'Revolution Prep',
+    year: 2022,
     technologies: [
       'Nuxt',
       'Vue'
     ],
-    content: studentDashboardContent
-  }
+    content: studentProfileContent
+  },
+  {
+    title: 'Documentation Samples',
+    subtitle: 'Revolution Prep Engineering Documentation',
+    description: 'Samples of documentation written for Revolution Prep Engineering',
+    slug: 'documentation-samples',
+    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    company: 'Revolution Prep',
+    year: 'ongoing',
+    technologies: [],
+    content: ''
+  },
 ]

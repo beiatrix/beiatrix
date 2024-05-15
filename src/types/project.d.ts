@@ -5,7 +5,7 @@ export interface Project {
   slug?: string
   url?: string
   image: string
-  year: number
+  year: number | string
   company?: string
   technologies: string[]
   content: string
