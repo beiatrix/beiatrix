@@ -44,7 +44,7 @@ export const projects: Project[] = [
     subtitle: 'Revolution Prep Student Dashboard',
     description: 'Dashboard for Revolution Prep students built with Nuxt.',
     slug: 'student-dashboard',
-    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.png',
     year: 2021,
     company: 'Revolution Prep',
     technologies: [

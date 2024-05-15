@@ -2,19 +2,17 @@
 
 The Student Dashboard is a web app where Revolution Prep students can schedule and join sessions with their tutors, take practice exams, and access many other resources.
 
-### Activity Feed
+#### Activity Feed
 
-[img: activity feed]
+![Activity Feed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.png)
 
-Upon logging in, the student lands on their home page: the Activity Feed. Here, the student receives personalized updates, including a welcome message upon enrolling in Private Tutoring or a Small Group Course, reminders for upcoming sessions, or calls to action to score their practice exams.
+Upon logging in, the student lands on their home page: the Activity Feed. Here, the student receives a variety of personalized updates, such as welcome messages upon enrolling in tutoring or test prep programs, reminders for upcoming sessions, and calls to action to score their practice exams.
 
-### Schedule
+#### Schedule
 
 On the Schedule page, the student can manage their sessions.
 
 [img: calendar view]
-
-![Minion](https://octodex.github.com/images/minion.png)
 
 The calendar displays their schedule at a glance.
 Past sessions are shown in grey, launchable sessions are green, sessions that are not editable are in a darker blue with a lock icon, and editable sessions are shown in a lighter blue.
@@ -43,7 +41,7 @@ A student can manage their sessions by selecting the Menu Hours Summary.
 
 Students with Private Tutoring enrollments have the ability to add more hours to their program in this purchase dialog.
 
-### Schedule Sessions
+#### Schedule Sessions
 
 Clicking "Schedule Sessions" on the Schedule page launches the scheduling flow: a 3-step process.
 
@@ -53,7 +51,7 @@ Step 2: Next, the student selects a session time and duration. The green blocks 
 
 Step 3: Finally, the student confirms their session details.
 
-### Help Now
+#### Help Now
 
 Help Now is our on-demand tutoring service that allows students to receive homework help from a tutor via text chat or video.
 
@@ -63,11 +61,11 @@ If they select video,
 
 If the yselect text,
 
-### Videos
+#### Videos
 
 On the Videos page, the student can access helpful content across various test-prep related subjects.
 
-### Exams
+#### Exams
 
 On the Exams page, the student can view transcripts for their practice exams. A chart tracks their progress if they have multiple scores.
 
@@ -79,11 +77,11 @@ The Score Exam button launches an exam scoring flow, where the student submits t
 
 Finally, the Take Digital Exam button launches our Digital SAT Exam Player.
 
-### Profile
+#### Profile
 
-### Help
+#### Help
 
-### Global components
+#### Global components
 
 My subjects modal
 
