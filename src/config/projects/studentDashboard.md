@@ -1,48 +1,48 @@
-## Background
+## **Background**
 
 The Student Dashboard is a web app where Revolution Prep students can schedule and join sessions with their tutors, take practice exams, and access many other resources.
 
-#### Activity Feed
+#### **Activity Feed**
 
 Upon logging in, the student lands on their home page: the Activity Feed. Here, the student receives a variety of personalized updates, such as welcome messages upon enrolling in tutoring or test prep programs, reminders for upcoming sessions, and calls to action to score their practice exams.
 
 ![Activity Feed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.jpg)
 
 
-#### Schedule
+#### **Schedule**
 
 On the Schedule page, the student can manage their sessions.
 
-[img: calendar view]
+**[img: calendar view]**
 
 The calendar displays their schedule at a glance.
 Past sessions are shown in grey, launchable sessions are green, sessions that are not editable are in a darker blue with a lock icon, and editable sessions are shown in a lighter blue.
 
-[img: list view]
+**[img: list view]**
 
 They also have the option to view their sessions in a list.
 
-[img: session detail]
+**[img: session detail]**
 
 Selecting a session in the calendar or list opens the session detail dialog, where the student can upload attachments for their tutor to review.
 
-[img: edit session dialog]
+**[img: edit session dialog]**
 
 The student may also have the option to edit their session by clicking "Edit Session." Here the student can update the session time, duration, and subject(s).
 
-[img: event dialog]
+**[img: event dialog]**
 
 Selecting a date in the calendar opens the Event Dialog, where a student can add or modify events.
 
-[img: menu hours summary]
+**[img: menu hours summary]**
 
 A student can manage their sessions by selecting the Menu Hours Summary.
 
-[img: add hours]
+**[img: add hours]**
 
 Students with Private Tutoring enrollments have the ability to add more hours to their program in this purchase dialog.
 
-#### Schedule Sessions
+#### **Schedule Sessions**
 
 Clicking "Schedule Sessions" on the Schedule page launches the scheduling flow: a 3-step process.
 
@@ -52,7 +52,7 @@ Step 2: Next, the student selects a session time and duration. The green blocks 
 
 Step 3: Finally, the student confirms their session details.
 
-#### Help Now
+#### **Help Now**
 
 Help Now is our on-demand tutoring service that allows students to receive homework help from a tutor via text chat or video.
 
@@ -62,7 +62,7 @@ If they select video,
 
 If the yselect text,
 
-#### Videos
+#### **Videos**
 
 On the Videos page, the student can access helpful content across various test-prep related subjects.
 
@@ -72,7 +72,7 @@ On the Videos page, the student can access helpful content across various test-p
 
 ![Videos Watch](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/videos-watch.jpg)
 
-#### Exams
+#### **Exams**
 
 On the Exams page, the student can view transcripts for their practice exams. A chart tracks their progress if they have multiple scores.
 
@@ -87,11 +87,11 @@ The Score Exam button launches an exam scoring flow, where the student submits t
 
 Finally, the Take Digital Exam button launches our Digital SAT Exam Player.
 
-#### Profile
+#### **Profile**
 
-#### Help
+#### **Help**
 
-#### Global components
+#### **Global components**
 
 My subjects modal
 
@@ -103,7 +103,7 @@ Snackbar - refresh to update?
 
 Reviews?
 
-## My Contributions
+## **My Contributions**
 
 
 - gather requirements, design UI with Adobe XD, build features in Vue and Nuxt, test, and provide improvements and bug fixes for Student Dashboard.

@@ -1,3 +1,3 @@
-## Background
+## **Background**
 
 Lorem ipsum
