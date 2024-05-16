@@ -4,7 +4,7 @@ The Student Dashboard is a web app where Revolution Prep students can schedule a
 
 #### Activity Feed
 
-![Activity Feed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.png)
+![Activity Feed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.jpg)
 
 Upon logging in, the student lands on their home page: the Activity Feed. Here, the student receives a variety of personalized updates, such as welcome messages upon enrolling in tutoring or test prep programs, reminders for upcoming sessions, and calls to action to score their practice exams.
 
@@ -66,6 +66,8 @@ If the yselect text,
 On the Videos page, the student can access helpful content across various test-prep related subjects.
 
 #### Exams
+
+![Exams](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams.jpg)
 
 On the Exams page, the student can view transcripts for their practice exams. A chart tracks their progress if they have multiple scores.
 

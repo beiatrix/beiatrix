@@ -16,7 +16,7 @@ export const projects: Project[] = [
     subtitle: 'guess the five-letter word',
     description: 'I literally just wanted to play Wordle more than once a day, so I built this app.',
     url: 'https://wordle-by-beiatrix.vercel.app/',
-    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/wordle.png',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/wordle/wordle.jpg',
     year: 2023,
     technologies: [
       'Ionic',
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     subtitle: 'Revolution Prep Student Dashboard',
     description: 'Dashboard for Revolution Prep students built with Nuxt.',
     slug: 'student-dashboard',
-    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.png',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.jpg',
     year: 2021,
     company: 'Revolution Prep',
     technologies: [
