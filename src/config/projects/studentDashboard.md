@@ -54,9 +54,9 @@ Step 3: Finally, the student confirms their session details.
 
 #### **Help Now**
 
-Help Now is our on-demand tutoring service that allows students to receive homework help from a tutor via text chat or video.
+Help Now is a service that allows students to receive on-demand homework help from a tutor via text chat or video.
 
-First, the student selects which modality they prefer. They always have the option to toggle between video and chat by making a selection in the app bar.
+First, a dialog appears, prompting the student to select a delivery method. They always have the option to toggle between video and chat by making a selection in the app bar.
 
 If they select video,
 
