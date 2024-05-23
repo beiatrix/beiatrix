@@ -43,7 +43,7 @@ import {
       size-xl="4"
     >
       <img
-        src="https://i.imgur.com/iFc0B4c.jpg"
+        src="https://beiatrix.s3.us-west-1.amazonaws.com/headshot/headshot.jpg"
         alt="Beiatrix Pedrasa"
         class="headshot"
       />
