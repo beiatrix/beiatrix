@@ -101,15 +101,15 @@ On the Exams page, the student can view transcripts for their practice exams. A 
 
 The Download Exams button opens a dialog where the student can download practice exams and answer sheets.
 
-**[TODO] download exams**
+![Exams - Download](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams-download.jpg)
 
 Clicking the Self Proctor button launches a flow to self-administer a practice exam.
 
-**[TODO] self proctor**
+![Exams - Proctor](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams-proctor.gif)
 
-The Score Exam button launches an exam scoring flow, where the student submits their practice exam answers and receives a score.
+The Score Exam button presents a dialog that dislays two options for exam scoring: 1) download the Revolution Prep [mobile app](/projects/digital-exam-player) to scan exam pages with a phone camera, or 2) launch an exam scoring app on the desktop to submit practice exam answers and receive a score.
 
-**[TODO] score exam**
+![Exams - Score](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams-score.jpg)
 
 Finally, the Take Digital Exam button launches our [Digital SAT Exam Player](/projects/digital-exam-player).
 
@@ -121,7 +121,7 @@ The Profile page is where the student can edit their personal details.
 
 It also has one of my favorite features I've worked on: the avatar editor!
 
-![Profile Avatar](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/profile-avatar.jpg)
+![Profile Avatar](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/profile-avatar.gif)
 
 #### **Help**
 
@@ -150,4 +150,4 @@ This student dashboard is part of a monorepo that also contains the next generat
 
 Over the years, we continued to add many features to support key business initiatives, such as the addition of [Student Profile Forms](/projects/student-profile), [Digital SAT Exam Player](/projects/digital-exam-player), and [Enrollment Wizard](/projects/enrollment-wizard).
 
-In 2024 we released a major update to the platform: a rewrite of the entire monorepo from Nuxt 2 / Vue 2 to Nuxt 3 / Vue 3. For this upgrade, I challenged myself to improve my DevOps skills by architecting an automated CI/CD pipeline that handled versioning and publishing with Changesets, deployment with Vercel, bundling packages in Turborepo with `tsup`, and GitHub Actions to build,lint, and test our feature PRs.
+In 2024 we released a major update: a rewrite of the entire monorepo from Nuxt 2 / Vue 2 to Nuxt 3 / Vue 3. For this upgrade, I challenged myself to improve my DevOps skills by architecting an automated CI/CD pipeline that handled versioning and publishing with Changesets, deployment with Vercel, bundling packages in Turborepo with `tsup`, and building/linting/testing our feature PRs with GitHub Actions.
