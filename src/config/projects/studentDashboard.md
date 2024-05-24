@@ -1,15 +1,17 @@
-## **Background**
+# **Background**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
 The Student Dashboard is a web app where Revolution Prep students can schedule and join sessions with their tutors, take practice exams, and access many other resources.
 
-#### **Activity Feed**
+## **Activity Feed**
 
 Upon logging in, the student lands on their home page: the Activity Feed. Here, the student receives a variety of personalized updates, such as welcome messages upon enrolling in tutoring or test prep programs, reminders for upcoming sessions, and calls to action to score their practice exams.
 
 ![Activity Feed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.jpg)
 
 
-#### **Schedule**
+## **Schedule**
 
 On the Schedule page, the student can manage their sessions.
 
@@ -30,6 +32,9 @@ Selecting a session in the calendar or list opens the session detail dialog, whe
 
 The student may also have the option to edit their session by clicking "Edit Session." Here the student can update the session time, duration, and subject(s).
 
+**[TODO] join session**
+
+
 **[TODO] event dialog**
 
 Selecting a date in the calendar opens the Event Dialog, where a student can add or modify events.
@@ -42,7 +47,7 @@ A student can manage their sessions by selecting the Menu Hours Summary.
 
 Students with Private Tutoring enrollments have the ability to add more hours to their program in this purchase dialog.
 
-#### **Schedule Sessions**
+## **Schedule Sessions**
 
 Clicking "Schedule Sessions" on the Schedule page launches the scheduling flow: a 3-step process.
 
@@ -58,7 +63,7 @@ Step 2: Next, the student selects a session time and duration. The green blocks 
 
 Step 3: Finally, the student confirms their session details.
 
-#### **Help Now**
+## **Help Now**
 
 Help Now is a service that allows students to receive on-demand homework help from a tutor via text chat or video.
 
@@ -76,9 +81,11 @@ If they select text,
 
 ![Help Now - Upcoming](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-upcoming.jpg)
 
+**[TODO] Text screenshots**
+
 **[TODO] Reviews modal**
 
-#### **Videos**
+## **Videos**
 
 On the Videos page, the student can access helpful content across various test-prep related subjects.
 
@@ -93,7 +100,7 @@ They can also click the magnifying glass to perform a quick search:
 Selecting a video title brings the student to the viewing page:
 ![Videos Watch](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/videos-watch.jpg)
 
-#### **Exams**
+## **Exams**
 
 On the Exams page, the student can view transcripts for their practice exams. A chart tracks their progress if they have multiple scores.
 
@@ -113,7 +120,7 @@ The Score Exam button presents a dialog that dislays two options for exam scorin
 
 Finally, the Take Digital Exam button launches our [Digital SAT Exam Player](/projects/digital-exam-player).
 
-#### **Profile**
+## **Profile**
 
 The Profile page is where the student can edit their personal details.
 
@@ -123,16 +130,16 @@ It also has one of my favorite features I've worked on: the avatar editor!
 
 ![Profile Avatar](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/profile-avatar.gif)
 
-#### **Help**
+## **Help**
 
 The Help page contains a quick reference for students find answers to frequently asked questions about the student dashboard or Revolution Prep programs, or access customer support.
 
 ![Help](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help.jpg)
 
 
-## **My Contributions**
+# **My Contributions**
 
-___
+<hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
 For the initial launch of the Student Dashboard, I helped gather requirements, design UI/UX with Adobe XD, build features in Vue and Nuxt, write unit tests with Jest, and provide continuous improvements and bug fixes post-launch. 
 

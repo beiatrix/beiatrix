@@ -25,10 +25,10 @@ export const projects: Project[] = [
     content: ''
   },
   {
-    title: 'Mobile Chat App',
+    title: 'Chat App',
     subtitle: 'Revolution Now for Mobile',
     description: 'Real-time chat messaging app for iOS and Android, built with Ionic/Vue and Ruby on Rails.',
-    slug: 'mobile-chat',
+    slug: 'chat-app',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
     company: 'Revolution Prep',
     year: 2023,

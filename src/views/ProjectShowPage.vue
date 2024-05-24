@@ -68,7 +68,7 @@ onMounted(() => {
               size-lg="8"
               size-xl="6"
             >
-              <h1>
+              <h1 class="title">
                 {{ project.title }}
               </h1>
               <div class="chip-container">
@@ -85,6 +85,7 @@ onMounted(() => {
               </div>
               <Markdown 
                 v-if="project.content"
+                :html="true"
                 :source="project.content.toString()" 
               />
             </ion-col>
@@ -104,8 +105,13 @@ onMounted(() => {
   color: var(--ion-color-dark);
 }
 
-h1 {
+h1.title {
+  font-size: 3rem;
   font-weight: 700;
+}
+
+hr {
+  border-bottom: 3px solid var(--ion-color-medium);
 }
 
 ion-chip {
