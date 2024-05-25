@@ -72,7 +72,7 @@ ion-card-content {
 }
 
 img {
-  box-shadow: 1px 4px 8px rgb(var(--ion-color-charcoal-rgb), 0.2);  
+  box-shadow: 1px 4px 8px rgb(var(--ion-color-charcoal-rgb), 0.2);
   border-radius: 0.25rem;
 }
 

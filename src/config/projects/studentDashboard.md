@@ -37,33 +37,45 @@ Selecting a date in the calendar opens the Event Dialog, where a student can add
 
 ![Schedule - Event Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-event-dialog.gif)
 
-**[TODO] menu hours summary**
+A student can manage their tutoring hours by opening the My Hours menu.
 
-A student can manage their sessions by selecting the Menu Hours Summary.
+![Schedule - My Hours Menu](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-my-hours-menu.gif)
 
-**[TODO] add hours**
+Students with Private Tutoring enrollments can click "Add Hours" to purchase more tutoring hours.
 
-Students with Private Tutoring enrollments have the ability to add more hours to their program in this purchase dialog.
+![Schedule - Add Hours Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-add-hours-dialog.gif)
 
 ### **Schedule Sessions**
 
 Clicking "Schedule Sessions" on the Schedule page launches the scheduling flow: a 3-step process.
 
-**[TODO] Schedule Step 1**
+Step 1: First, the student selects a tutor and clicks "Schedule."
 
-Step 1: First, the student selects a tutor.
+![Schedule Sessions - Step 1](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-step-1.jpg)
 
-**[TODO] Schedule Step 2**
+Step 2: Next, the student selects a session time and duration. The green blocks represent their tutor's availability, broken up into chunks based on the duration selected. Clicking a time in the calendar moves them on to the next step.
 
-Step 2: Next, the student selects a session time and duration. The green blocks represent their tutor's availability, broken up into chunks based on the duration selected.
+![Schedule Sessions - Step 2](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-step-2.gif)
 
-**[TODO] Schedule Step 3**
+Step 3: Finally, the student confirms their session details. They have the option to book out repeat sessions at the same time slot for multiple weeks ahead.
 
-Step 3: Finally, the student confirms their session details.
+![Schedule Sessions - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-step-3.jpg)
+
+Success! Upon completing a booking, a dialog displays the list of time(s) booked. Finally, clicking "Back to my Schedule" takes the student back to their calendar.
+
+![Schedule Sessions - Success](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-success.jpg)
 
 ### **Join Sessions**
 
+When it's time for a session to start, the student has two options:
+
+A live session banner appears on all pages where the student can quickly click "Join" to launch their tutoring session (a zoom meeting).
+
 **[TODO] Live session banner**
+
+On their calendar, their session calendar item turns green when the session is live. They may join by opening the session dialog.
+
+**[TODO] Live session dialog**
 
 ## **Help Now**
 
