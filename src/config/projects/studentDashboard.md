@@ -4,11 +4,13 @@
 
 The Student Dashboard is a web app where Revolution Prep students can schedule and join sessions with their tutors, take practice exams, and access many other resources.
 
+![Student Dashboard](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.jpg)
+
 ## **Activity Feed**
 
 Upon logging in, the student lands on their home page: the Activity Feed. Here, the student receives a variety of personalized updates, such as welcome messages upon enrolling in tutoring or test prep programs, reminders for upcoming sessions, and calls to action to score their practice exams.
 
-![Activity Feed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.jpg)
+![Activity Feed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/activity-feed.gif)
 
 
 ## **Schedule**
@@ -23,13 +25,13 @@ They also have the option to view their sessions in a list.
 
 ![Schedule - List](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-list.jpg)
 
-Selecting a session in the calendar or list opens the session detail dialog, where the student can upload attachments for their tutor to review.
+Selecting a session in the calendar or list opens the session detail dialog, where the student can update their session topic and upload attachments for their tutor to review.
 
-![Schedule - Session Detail Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-session-detail-dialog.jpg)
+![Schedule - Session Detail Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-session-detail-dialog.gif)
 
 The student may also edit their session by clicking "Edit Session." Here the student can update the session time, duration, and subject(s).
 
-![Schedule - Session Edit Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-session-detail-dialog.jpg)
+![Schedule - Session Edit Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-session-edit-dialog.gif)
 
 Selecting a date in the calendar opens the Event Dialog, where a student can add or modify events.
 
@@ -69,9 +71,7 @@ Help Now is a service that allows students to receive on-demand homework help fr
 
 First, a dialog appears, prompting the student to select a delivery method. They always have the option to toggle between video and chat by making a selection in the app bar.
 
-If they select video,
-
-If they select text,
+### **Video Chat**
 
 ![Help Now - Delivery Method](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-delivery-method.gif)
 
@@ -81,9 +81,11 @@ If they select text,
 
 ![Help Now - Upcoming](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-upcoming.jpg)
 
-**[TODO] Text screenshots**
-
 **[TODO] Reviews modal**
+
+### **Text Chat**
+
+**[TODO] Text screenshots**
 
 ## **Videos**
 
