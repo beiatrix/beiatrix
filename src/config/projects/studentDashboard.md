@@ -15,29 +15,25 @@ Upon logging in, the student lands on their home page: the Activity Feed. Here, 
 
 On the Schedule page, the student can manage their sessions.
 
-**[TODO] calendar view**
-
 The calendar displays their schedule at a glance.
-Past sessions are shown in grey, launchable sessions are green, sessions that are not editable are in a darker blue with a lock icon, and editable sessions are shown in a lighter blue.
 
-**[TODO] list view**
+![Schedule](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule.jpg)
 
 They also have the option to view their sessions in a list.
 
-**[TODO] session detail**
+![Schedule - List](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-list.jpg)
 
 Selecting a session in the calendar or list opens the session detail dialog, where the student can upload attachments for their tutor to review.
 
-**[TODO] edit session dialog**
+![Schedule - Session Detail Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-session-detail-dialog.jpg)
 
-The student may also have the option to edit their session by clicking "Edit Session." Here the student can update the session time, duration, and subject(s).
+The student may also edit their session by clicking "Edit Session." Here the student can update the session time, duration, and subject(s).
 
-**[TODO] join session**
-
-
-**[TODO] event dialog**
+![Schedule - Session Edit Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-session-detail-dialog.jpg)
 
 Selecting a date in the calendar opens the Event Dialog, where a student can add or modify events.
+
+![Schedule - Event Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-event-dialog.gif)
 
 **[TODO] menu hours summary**
 
@@ -47,7 +43,7 @@ A student can manage their sessions by selecting the Menu Hours Summary.
 
 Students with Private Tutoring enrollments have the ability to add more hours to their program in this purchase dialog.
 
-## **Schedule Sessions**
+### **Schedule Sessions**
 
 Clicking "Schedule Sessions" on the Schedule page launches the scheduling flow: a 3-step process.
 
@@ -62,6 +58,10 @@ Step 2: Next, the student selects a session time and duration. The green blocks 
 **[TODO] Schedule Step 3**
 
 Step 3: Finally, the student confirms their session details.
+
+### **Join Sessions**
+
+**[TODO] Live session banner**
 
 ## **Help Now**
 
