@@ -67,33 +67,39 @@ Success! Upon completing a booking, a dialog displays the list of time(s) booked
 
 ### **Join Sessions**
 
-When it's time for a session to start, the student has two options:
+When it's time for a session to start, the student has two ways to join.
 
 A live session banner appears on all pages where the student can quickly click "Join" to launch their tutoring session (a zoom meeting).
 
-**[TODO] Live session banner**
+On their calendar, their session calendar item turns green when the session is live. They may join by clicking the "Join" button in the session dialog.
 
-On their calendar, their session calendar item turns green when the session is live. They may join by opening the session dialog.
-
-**[TODO] Live session dialog**
+![Schedule - Join Session](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-join-session.gif)
 
 ## **Help Now**
 
-Help Now is a service that allows students to receive on-demand homework help from a tutor via text chat or video.
+Help Now is a service that allows students to receive on-demand homework help from a tutor via text chat or video call.
 
-First, a dialog appears, prompting the student to select a delivery method. They always have the option to toggle between video and chat by making a selection in the app bar.
-
-### **Video Chat**
+First, a dialog appears, prompting the student to select a delivery method. They always have the option to toggle between video and chat from the app bar later.
 
 ![Help Now - Delivery Method](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-delivery-method.gif)
 
-![Help Now - Subjects](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-subjects.jpg)
+### **Video Chat**
 
-![Help Now - Live Now](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-live-now.jpg)
+For video sessions, students can browse upcoming help sessions happening today in the carousel, or use the calendar below to reserve sessions in advance.
 
 ![Help Now - Upcoming](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-upcoming.jpg)
 
-**[TODO] Reviews modal**
+Once a session is live, they can launch a session directly from the "Join Now" button.
+
+![Help Now - Live Now](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-live-now.jpg)
+
+To find help in a specific subject, students can open the My Subjects modal from the app bar to update their study areas. The blue chat bubble icon indicates subjects eligible for Help Now.
+
+![Help Now - Subjects](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-subjects.jpg)
+
+After their session, a dialog appears, prompting students to leave a review for their tutor.
+
+![Help Now - Reviews](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-reviews.gif)
 
 ### **Text Chat**
 
@@ -105,13 +111,12 @@ On the Videos page, the student can access helpful content across various test-p
 
 ![Videos](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/videos.jpg)
 
-Upon clicking a subject, the student can browse the videos in that showcase:
-![Videos Subject](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/videos-subject.jpg)
+Upon clicking a subject, the student can browse the videos in that showcase. They can also click the magnifying glass to perform a quick search:
 
-They can also click the magnifying glass to perform a quick search:
-![Videos Search](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/videos-search.jpg)
+![Videos Search](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/videos-search.gif)
 
 Selecting a video title brings the student to the viewing page:
+
 ![Videos Watch](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/videos-watch.jpg)
 
 ## **Exams**
