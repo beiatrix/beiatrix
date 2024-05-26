@@ -103,6 +103,14 @@ After their session, a dialog appears, prompting students to leave a review for 
 
 ### **Text Chat**
 
+For text sessions, students can get help in a particular subject by clicking "Ask A Tutor" one of the subject cards.
+
+![Help Now - Text](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text.jpg)
+
+Just like with video chat, students can add more study areas by clicking the "Add missing subjects" link.
+
+![Help Now - Text Subjects](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-subjects.jpg)
+
 **[TODO] Text screenshots**
 
 ## **Videos**
