@@ -103,7 +103,7 @@ After their session, a dialog appears, prompting students to leave a review for 
 
 ### **Text Chat**
 
-For text sessions, students can get help in a particular subject by clicking "Ask A Tutor" one of the subject cards.
+For text sessions, students can get help in a particular subject by selecting one of the subject cards.
 
 ![Help Now - Text](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text.jpg)
 
@@ -111,7 +111,29 @@ Just like with video chat, students can add more study areas by clicking the "Ad
 
 ![Help Now - Text Subjects](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-subjects.jpg)
 
-**[TODO] Text screenshots**
+Clicking "Ask a Tutor" on one of the subject cards launches a chat room, where the student can begin exchanging text messages with their tutor.
+
+![Help Now - Text Messages](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-messages.gif)
+
+The student can click "Send a File" to upload an attachment, such as a homework problem, for their tutor to view.
+
+**[TODO] Upload Attachments**
+
+Clicking "Draw On" allows the student to mark up images sent in previous messages.
+
+**[TODO] Draw on**
+
+The smiley face icon button opens an emoji picker.
+
+**[TODO] Emoji picker**
+
+The draw button opens the whiteboard, where students can create and send drawings.
+
+**[TODO] Whiteboard**
+
+Finally, students can click "End Chat" to end the session and leave a review for teir tutor.
+
+**[TODO] End chat + Reviews modal**
 
 ## **Videos**
 
