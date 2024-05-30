@@ -117,23 +117,28 @@ Clicking "Ask a Tutor" on one of the subject cards launches a chat room, where t
 
 The student can click "Send a File" to upload an attachment, such as a homework problem, for their tutor to view.
 
-**[TODO] Upload Attachments**
+![Help Now - Text Upload](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-upload.gif)
 
 Clicking "Draw On" allows the student to mark up images sent in previous messages.
 
-**[TODO] Draw on**
+![Help Now - Draw On](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-draw-on.gif)
 
 The smiley face icon button opens an emoji picker.
 
-**[TODO] Emoji picker**
+![Help Now - Emoji](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-emoji.gif)
 
-The draw button opens the whiteboard, where students can create and send drawings.
 
-**[TODO] Whiteboard**
+The "Draw" button opens the whiteboard, where students can create and send drawings.
 
-Finally, students can click "End Chat" to end the session and leave a review for teir tutor.
+![Help Now - Whiteboard](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-whiteboard.gif)
 
-**[TODO] End chat + Reviews modal**
+Students can click "End Chat" when they are ready to end the session.
+
+![Help Now - End Chat](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-end.gif)
+
+Once the chat is ended, the student has a chance to leave a review for teir tutor.
+
+![Help Now - Review](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-review.gif)
 
 ## **Videos**
 
