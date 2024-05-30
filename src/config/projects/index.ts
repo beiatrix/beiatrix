@@ -2,7 +2,7 @@
 import { Project } from '@/types'
 
 // content
-import digitalExamPlayerContent from './digitalExamPlayer.md'
+import examPlayerContent from './examPlayer.md'
 import enrollmentWizardContent from './enrollmentWizard.md'
 import mobileAppContent from './mobileApp.md'
 import mobileChatContent from './mobileChat.md'
@@ -44,7 +44,7 @@ export const projects: Project[] = [
     subtitle: 'Revolution Prep Student Dashboard',
     description: 'Dashboard for Revolution Prep students built with Nuxt.',
     slug: 'student-dashboard',
-    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.jpg',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard-cover.gif',
     year: 2021,
     company: 'Revolution Prep',
     technologies: [
@@ -82,10 +82,10 @@ export const projects: Project[] = [
     content: schedulingWizardContent
   },
   {
-    title: 'Digital Exam Player',
-    subtitle: 'Revolution Prep Digital Exam Player',
-    description: 'Revolution Prep digital exam player',
-    slug: 'digital-exam-player',
+    title: 'Exam Player',
+    subtitle: 'Revolution Prep Exam Player',
+    description: 'Revolution Prep exam player',
+    slug: 'exam-player',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
     company: 'Revolution Prep',
     year: 2023,
@@ -93,7 +93,7 @@ export const projects: Project[] = [
       'Ionic',
       'Vue'
     ],
-    content: digitalExamPlayerContent
+    content: examPlayerContent
   },
   {
     title: 'Mobile App',

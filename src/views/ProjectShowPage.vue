@@ -9,7 +9,13 @@ import {
   IonPage,
   IonRow
 } from '@ionic/vue'
-import { computed, onMounted, ref } from 'vue'
+import { 
+  computed, 
+  nextTick, 
+  onMounted, 
+  onUpdated, 
+  ref 
+} from 'vue'
 
 // route
 import { useRoute } from 'vue-router'
@@ -40,6 +46,33 @@ const project = ref()
 
 onMounted(() => {
   project.value = projects.find(project => project.slug === slug.value)
+})
+
+/**
+ * images
+ * ================================================================
+ */
+const projectContentElement = ref<HTMLElement | undefined>(undefined)
+function applyImageStyles () {
+  /**
+   * using style scoped to attempt to access the img tags is not working –
+   * likely due to the way the question content is loaded via v-html.
+   * while not ideal, this method is a functioning workaround.
+   */
+  const images = projectContentElement.value?.getElementsByTagName('img')
+  if (images) {
+    for (const image of images) {
+      image.style.margin = '0.5rem'
+      image.style.borderRadius = '0.3rem'
+      image.style.boxShadow = '1px 4px 8px rgb(var(--ion-color-charcoal-rgb), 0.3)'
+    }
+  }
+}
+
+// lifecycle hooks
+onUpdated(async () => {
+  await nextTick()
+  applyImageStyles()
 })
 </script>
 
@@ -83,11 +116,13 @@ onMounted(() => {
                   {{ technology }}
                 </IonChip>
               </div>
-              <Markdown 
-                v-if="project.content"
-                :html="true"
-                :source="project.content.toString()" 
-              />
+              <div ref="projectContentElement">
+                <Markdown 
+                  v-if="project.content"
+                  :html="true"
+                  :source="project.content.toString()" 
+                />
+              </div>
             </ion-col>
           </ion-row>
         </ion-grid>

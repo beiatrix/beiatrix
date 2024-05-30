@@ -4,7 +4,7 @@
 
 The Student Dashboard is a web app where Revolution Prep students can schedule and join sessions with their tutors, take practice exams, and access many other resources.
 
-![Student Dashboard](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard.jpg)
+![Student Dashboard](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard-cover.gif)
 
 ## **Activity Feed**
 
@@ -29,7 +29,7 @@ Selecting a session in the calendar or list opens the session detail dialog, whe
 
 ![Schedule - Session Detail Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-session-detail-dialog.gif)
 
-The student may also edit their session by clicking "Edit Session." Here the student can update the session time, duration, and subject(s).
+The student may also edit their session by clicking "Edit Session." Here, the student can update the session time, duration, and subject(s).
 
 ![Schedule - Session Edit Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-session-edit-dialog.gif)
 
@@ -57,7 +57,7 @@ Step 2: Next, the student selects a session time and duration. The green blocks 
 
 ![Schedule Sessions - Step 2](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-step-2.gif)
 
-Step 3: Finally, the student confirms their session details. They have the option to book out repeat sessions at the same time slot for multiple weeks ahead.
+Step 3: Finally, the student confirms their session details. They have the option to book repeat sessions at the same time slot for multiple weeks ahead.
 
 ![Schedule Sessions - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-step-3.jpg)
 
@@ -69,7 +69,7 @@ Success! Upon completing a booking, a dialog displays the list of time(s) booked
 
 When it's time for a session to start, the student has two ways to join.
 
-A live session banner appears on all pages where the student can quickly click "Join" to launch their tutoring session (a zoom meeting).
+A live session banner appears on all pages where the student can quickly click "Join" to launch their tutoring session (a Zoom meeting).
 
 On their calendar, their session calendar item turns green when the session is live. They may join by clicking the "Join" button in the session dialog.
 
@@ -85,7 +85,7 @@ First, a dialog appears, prompting the student to select a delivery method. They
 
 ### **Video Chat**
 
-For video sessions, students can browse upcoming help sessions happening today in the carousel, or use the calendar below to reserve sessions in advance.
+For video sessions, students can browse upcoming help sessions happening today in the carousel or use the calendar below to reserve sessions in advance.
 
 ![Help Now - Upcoming](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-upcoming.jpg)
 
@@ -127,7 +127,6 @@ The smiley face icon button opens an emoji picker.
 
 ![Help Now - Emoji](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-emoji.gif)
 
-
 The "Draw" button opens the whiteboard, where students can create and send drawings.
 
 ![Help Now - Whiteboard](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-whiteboard.gif)
@@ -136,9 +135,15 @@ Students can click "End Chat" when they are ready to end the session.
 
 ![Help Now - End Chat](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-end.gif)
 
-Once the chat is ended, the student has a chance to leave a review for teir tutor.
+Once the chat is ended, the student has a chance to leave a review for their tutor.
 
 ![Help Now - Review](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-review.gif)
+
+## **Course Materials**
+
+If a student is enrolled in a Small Group Course, the Course Materials menu item conditionally appears, allowing them to access their lessons and homework.
+
+![Course Materials](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/course-materials.jpg)
 
 ## **Videos**
 
@@ -168,11 +173,11 @@ Clicking the Self Proctor button launches a flow to self-administer a practice e
 
 ![Exams - Proctor](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams-proctor.gif)
 
-The Score Exam button presents a dialog that dislays two options for exam scoring: 1) download the Revolution Prep [mobile app](/projects/digital-exam-player) to scan exam pages with a phone camera, or 2) launch an exam scoring app on the desktop to submit practice exam answers and receive a score.
+The Score Exam button presents a dialog that dislays two options for scoring practice exams: 1) download the Revolution Prep [Mobile App](/projects/digital-exam-player) to scan exam pages with a phone camera, or 2) launch an exam scoring app on the desktop to submit answers and receive a score.
 
-![Exams - Score](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams-score.jpg)
+![Exams - Score](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams-score.gif)
 
-Finally, the Take Digital Exam button launches our [Digital SAT Exam Player](/projects/digital-exam-player).
+Finally, the Take Digital Exam button launches the [Exam Player](/projects/digital-exam-player).
 
 ## **Profile**
 
@@ -186,29 +191,75 @@ It also has one of my favorite features I've worked on: the avatar editor!
 
 ## **Help**
 
-The Help page contains a quick reference for students find answers to frequently asked questions about the student dashboard or Revolution Prep programs, or access customer support.
+The Help page contains a quick reference for students to find answers to frequently asked questions about the Student Dashboard or Revolution Prep programs, or access customer support.
 
 ![Help](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help.jpg)
-
 
 # **My Contributions**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-For the initial launch of the Student Dashboard, I helped gather requirements, design UI/UX with Adobe XD, build features in Vue and Nuxt, write unit tests with Jest, and provide continuous improvements and bug fixes post-launch. 
+For the initial launch of the Student Dashboard in 2021, I helped gather requirements, design UI/UX with Adobe XD, build features in Vue and Nuxt, write unit tests with Jest, and provide continuous improvements and bug fixes post-launch.
 
-This Student Dashboard is the successor to a legacy app built in AngularJS. I was instrumental in crafting the modern look and feel of the next-generation apps. Here are some screenshots of the legacy student dashboard:
+This Student Dashboard is the successor to a legacy app built in AngularJS. I was instrumental in crafting the look and feel of the next-generation apps. Here are some side-by-side screenshots comparing the legacy and next versions of the Student Dashboard:
 
-**[TODO] legacy dashboard**
+<div 
+  style="display: flex; flex-direction: row; justify-content: space-between"
+>
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-legacy.jpg"
+    alt="Schedule Page - Legacy" 
+    style="width: 48%; height: auto;"
+  />
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule.jpg"
+    alt="Schedule Page" 
+    style="width: 48%; height: auto;"
+  />
+</div>
 
-Here are some screenshots of work done in XD to refresh the design:
+<div 
+  style="display: flex; flex-direction: row; justify-content: space-between"
+>
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-legacy.jpg"
+    alt="Help Now Page - Legacy" 
+    style="width: 48%; height: auto;"
+  />
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now.jpg"
+    alt="Help Now Page" 
+    style="width: 48%; height: auto;"
+  />
+</div>
 
-**[TODO] XD designs**
+<div 
+  style="display: flex; flex-direction: row; justify-content: space-between"
+>
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams-legacy.jpg"
+    alt="Exams Page - Legacy" 
+    style="width: 48%; height: auto;"
+  />
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams.jpg"
+    alt="Exams Page" 
+    style="width: 48%; height: auto;"
+  />
+</div>
 
-I had my hand in the design and development of every single page. Among my biggest code contributions were in the Schedule page and Schedule Sessions views, which contained a critical functionality: allowing students to schedule and manage sessions with their tutors. I built the calendar components initially with Vuetify before rewriting them in FullCalendar. Realtime updates to sessions and availabilities are powered by Pusher.
+Here is a sample of work done in XD to refresh the design:
 
-This student dashboard is part of a monorepo that also contains the next generations of our internal admin and tutor dashboards. Another contribution I made (that can't be seen in screenshots!) is an NPM package for reusable fixtures, used for writing unit testing across multiple apps and repositories across the organization. This package helped [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) up our testing code and improve our team's Developer Experience.
+![Design - Activity Feed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/design-activity-feed.jpg)
 
-Over the years, we continued to add many features to support key business initiatives, such as the addition of [Student Profile Forms](/projects/student-profile), [Digital SAT Exam Player](/projects/digital-exam-player), and [Enrollment Wizard](/projects/enrollment-wizard).
+![Design - Videos](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/design-videos.jpg)
 
-In 2024 we released a major update: a rewrite of the entire monorepo from Nuxt 2 / Vue 2 to Nuxt 3 / Vue 3. For this upgrade, I challenged myself to improve my DevOps skills by architecting an automated CI/CD pipeline that handled versioning and publishing with Changesets, deployment with Vercel, bundling packages in Turborepo with `tsup`, and building/linting/testing our feature PRs with GitHub Actions.
+I had my hand in the development of almost every single page. I built much of the Exams, Help, and Videos pages; provided foundational work for the Activity Feed page and layout for the Help Now page; and fleshed out the forms in the Profile page. Among my most impactful code contributions were in the Schedule page and Schedule Sessions views, which contained critical functionality: allowing students to schedule and manage sessions with their tutors. I implemented the calendar components initially with Vuetify before rewriting them in FullCalendar in 2023. Real-time updates to sessions and availabilities are powered by Pusher.
+
+This Student Dashboard is part of a monorepo that also contains the next generations of our internal Admin and Tutor Dashboards.* Another contribution I made in this monorepo (that can't be seen in screenshots!) is an NPM package for reusable fixtures, used for writing unit tests across multiple apps and repositories within the organization. This package helped [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) up our testing code and improve our team's developer experience.
+
+Over the years, we continued to add many features to support key business initiatives, such as the addition of [Student Profile Forms](/projects/student-profile), [Exam Player](/projects/digital-exam-player), and [Enrollment Wizard](/projects/enrollment-wizard).
+
+In 2024, we released a major update: a rewrite of the entire monorepo from Nuxt 2 / Vue 2 to Nuxt 3 / Vue 3. For this upgrade, I challenged myself to improve my DevOps skills by architecting an automated CI/CD pipeline that handled versioning and publishing with Changesets, deployment with Vercel, bundling packages in Turborepo with `tsup`, and building/linting/testing our feature PRs with GitHub Actions.
+
+*<small>The "Help Now" Text Chat is actually a separate repository: a full-stack Ruby on Rails application. One of my teammates built most of the desktop chat app! I helped out with styling and some small features/fixes.</small>
