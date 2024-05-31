@@ -79,7 +79,7 @@ On their calendar, their session calendar item turns green when the session is l
 
 Help Now is a service that allows students to receive on-demand homework help from a tutor via text chat or video call.
 
-First, a dialog appears, prompting the student to select a delivery method. They always have the option to toggle between video and chat from the app bar later.
+First, a dialog appears, prompting the student to select a delivery method. They always have the option to toggle between video and text chat from the app bar later.
 
 ![Help Now - Delivery Method](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-delivery-method.gif)
 
@@ -183,7 +183,7 @@ Finally, the Take Digital Exam button launches the [Exam Player](/projects/digit
 
 The Profile page is where the student can edit their personal details.
 
-![Profile](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/profile.jpg)
+![Profile](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/profile.gif)
 
 It also has one of my favorite features I've worked on: the avatar editor!
 
@@ -201,7 +201,7 @@ The Help page contains a quick reference for students to find answers to frequen
 
 For the initial launch of the Student Dashboard in 2021, I helped gather requirements, design UI/UX with Adobe XD, build features in Vue and Nuxt, write unit tests with Jest, and provide continuous improvements and bug fixes post-launch.
 
-This Student Dashboard is the successor to a legacy app built in AngularJS. I was instrumental in crafting the look and feel of the next-generation apps. Here are some side-by-side screenshots comparing the legacy and next versions of the Student Dashboard:
+This incarnation of the Student Dashboard is the successor to a legacy app built in AngularJS. I was instrumental in crafting the look and feel of the next-generation apps. Here are some side-by-side screenshots comparing the legacy and next versions of the Student Dashboard:
 
 <div 
   style="display: flex; flex-direction: row; justify-content: space-between"
@@ -260,6 +260,6 @@ This Student Dashboard is part of a monorepo that also contains the next generat
 
 Over the years, we continued to add many features to support key business initiatives, such as the addition of [Student Profile Forms](/projects/student-profile), [Exam Player](/projects/digital-exam-player), and [Enrollment Wizard](/projects/enrollment-wizard).
 
-In 2024, we released a major update: a rewrite of the entire monorepo from Nuxt 2 / Vue 2 to Nuxt 3 / Vue 3. For this upgrade, I challenged myself to improve my DevOps skills by architecting an automated CI/CD pipeline that handled versioning and publishing with Changesets, deployment with Vercel, bundling packages in Turborepo with `tsup`, and building/linting/testing our feature PRs with GitHub Actions.
+In 2024, we released a major update: a rewrite of the entire monorepo from Nuxt 2 / Vue 2 to Nuxt 3 / Vue 3. We also migrated from Vuex to Pinia for state management, Jest to Vitest for unit testing, and Axios to oFetch for API calls. For this upgrade, I challenged myself to improve my DevOps skills by architecting an automated CI/CD pipeline that handled versioning and publishing with Changesets, deployment with Vercel, bundling packages in Turborepo with `tsup`, and building/linting/testing our feature PRs with GitHub Actions.
 
 *<small>The "Help Now" Text Chat is actually a separate repository: a full-stack Ruby on Rails application. One of my teammates built most of the desktop chat app! I helped out with styling and some small features/fixes.</small>
