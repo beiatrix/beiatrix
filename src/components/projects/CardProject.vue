@@ -80,7 +80,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.5rem;
+  padding: 1.25rem;
   background-color: var(--ion-color-light-shade);
 }
 </style>

@@ -9,7 +9,10 @@ import { computed } from 'vue'
 // utilities
 import { formatDistanceToNowStrict } from 'date-fns'
 
-// years of experience
+/**
+ * years of experience
+ * ================================================================
+ */
 const startDate = new Date('2019-05-13T00:00:00')
 const yearsOfExperience = computed(() => {
   return formatDistanceToNowStrict(startDate, {

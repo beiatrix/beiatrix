@@ -20,6 +20,7 @@ import AppFooter from '@/components/shared/AppFooter.vue'
 import SectionCareer from '@/components/home/SectionCareer.vue'
 import SectionHello from '@/components/home/SectionHello.vue'
 import SectionInterests from '@/components/home/SectionInterests.vue'
+import SectionProjects from '@/components/home/SectionProjects.vue'
 import SectionSkills from '@/components/home/SectionSkills.vue'
 
 // use IntersectionObserver to support animations on scroll into view
@@ -60,11 +61,12 @@ onUnmounted(() => {
               size-sm="10"
               size-md="9"
               size-lg="8"
-              size-xl="5"
+              size-xl="6"
             >
               <SectionHello />
               <SectionCareer />
               <SectionSkills />
+              <SectionProjects />
               <SectionInterests />
             </ion-col>
           </ion-row>

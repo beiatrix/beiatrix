@@ -9,4 +9,5 @@ export interface Project {
   company?: string
   technologies: string[]
   content: string
+  private: boolean
 }

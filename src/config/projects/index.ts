@@ -22,11 +22,27 @@ export const projects: Project[] = [
       'Ionic',
       'Vue'
     ],
-    content: ''
+    content: '',
+    private: false
+  },
+  {
+    title: 'Student Dashboard',
+    subtitle: 'Revolution Prep • Student Dashboard',
+    description: 'Dashboard for Revolution Prep students built with Nuxt.',
+    slug: 'student-dashboard',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard-cover.gif',
+    year: 2021,
+    company: 'Revolution Prep',
+    technologies: [
+      'Nuxt',
+      'Vue'
+    ],
+    content: studentDashboardContent,
+    private: false
   },
   {
     title: 'Chat App',
-    subtitle: 'Revolution Now for Mobile',
+    subtitle: 'Revolution Prep • Mobile Chat App',
     description: 'Real-time chat messaging app for iOS and Android, built with Ionic/Vue and Ruby on Rails.',
     slug: 'chat-app',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
@@ -37,25 +53,12 @@ export const projects: Project[] = [
       'Vue',
       'Ruby on Rails'
     ],
-    content: mobileChatContent
-  },
-  {
-    title: 'Student Dashboard',
-    subtitle: 'Revolution Prep Student Dashboard',
-    description: 'Dashboard for Revolution Prep students built with Nuxt.',
-    slug: 'student-dashboard',
-    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard-cover.gif',
-    year: 2021,
-    company: 'Revolution Prep',
-    technologies: [
-      'Nuxt',
-      'Vue'
-    ],
-    content: studentDashboardContent
+    content: mobileChatContent,
+    private: true
   },
   {
     title: 'Enrollment Wizard',
-    subtitle: 'Revolution Prep Enrollment Wizard',
+    subtitle: 'Revolution Prep • Enrollment Wizard',
     description: 'Revolution Prep enrollment wizard',
     slug: 'enrollment-wizard',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
@@ -65,11 +68,12 @@ export const projects: Project[] = [
       'Nuxt',
       'Vue'
     ],
-    content: enrollmentWizardContent
+    content: enrollmentWizardContent,
+    private: true
   },
   {
     title: 'Scheduling Wizard',
-    subtitle: 'Revolution Prep Scheduling Wizard',
+    subtitle: 'Revolution Prep • Scheduling Wizard',
     description: 'Revolution Prep Scheduling wizard',
     slug: 'scheduling-wizard',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
@@ -79,11 +83,12 @@ export const projects: Project[] = [
       'Nuxt',
       'Vue'
     ],
-    content: schedulingWizardContent
+    content: schedulingWizardContent,
+    private: true
   },
   {
     title: 'Exam Player',
-    subtitle: 'Revolution Prep Exam Player',
+    subtitle: 'Revolution Prep • Exam Player',
     description: 'Revolution Prep exam player',
     slug: 'exam-player',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
@@ -93,11 +98,12 @@ export const projects: Project[] = [
       'Ionic',
       'Vue'
     ],
-    content: examPlayerContent
+    content: examPlayerContent,
+    private: true
   },
   {
     title: 'Mobile App',
-    subtitle: 'Revolution Prep Mobile App',
+    subtitle: 'Revolution Prep • Mobile App',
     description: 'Mobile app for Revolution Prep students built with Ionic/Vue.',
     slug: 'mobile-app',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
@@ -107,11 +113,12 @@ export const projects: Project[] = [
       'Ionic',
       'Vue'
     ],
-    content: mobileAppContent
+    content: mobileAppContent,
+    private: true
   },
   {
     title: 'Student Profile Forms',
-    subtitle: 'Revolution Prep Student Profile Forms',
+    subtitle: 'Revolution Prep • Student Profile Forms',
     description: 'Forms for gathering student information and tutor matching',
     slug: 'student-profile',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
@@ -121,17 +128,19 @@ export const projects: Project[] = [
       'Nuxt',
       'Vue'
     ],
-    content: studentProfileContent
+    content: studentProfileContent,
+    private: true
   },
   {
     title: 'Documentation Samples',
-    subtitle: 'Revolution Prep Engineering Documentation',
+    subtitle: 'Revolution Prep • Engineering Documentation',
     description: 'Samples of documentation written for Revolution Prep Engineering',
     slug: 'documentation-samples',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
     company: 'Revolution Prep',
     year: 'ongoing',
     technologies: [],
-    content: ''
+    content: '',
+    private: true
   },
 ]

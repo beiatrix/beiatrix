@@ -8,6 +8,7 @@ import {
   IonPage,
   IonRow
 } from '@ionic/vue'
+import { computed } from 'vue'
 
 // components
 import AppBar from '@/components/shared/AppBar.vue'
@@ -17,6 +18,14 @@ import CardProject from '@/components/projects/CardProject.vue'
 
 // config
 import { projects } from '@/config/projects'
+
+/**
+ * projects
+ * ================================================================
+ */
+const filteredProjects = computed(() => {
+  return projects.filter((project) => !project.private)
+})
 </script>
 
 <template>
@@ -38,8 +47,6 @@ import { projects } from '@/config/projects'
               size="12"
               size-sm="10"
               size-md="9"
-              size-lg="8"
-              size-xl="7"
             >
               <ion-row class="ion-padding-vertical">
                 <ion-col size="12">
@@ -52,9 +59,11 @@ import { projects } from '@/config/projects'
               </ion-row>
               <ion-row>
                 <ion-col 
-                  v-for="(project, index) in projects"
+                  v-for="(project, index) in filteredProjects"
                   :key="`project-${index}`"
-                  size="6"
+                  size-md="6"
+                  size-xl="4"
+                  size="12"
                 >
                   <CardProject :project="project" />
                 </ion-col>
