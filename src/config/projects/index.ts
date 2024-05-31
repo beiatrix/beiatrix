@@ -9,6 +9,7 @@ import mobileChatContent from './mobileChat.md'
 import schedulingWizardContent from './schedulingWizard.md'
 import studentDashboardContent from './studentDashboard.md'
 import studentProfileContent from './studentProfile.md'
+import tutorMatchingContent from './tutorMatching.md'
 
 export const projects: Project[] = [
   {
@@ -117,9 +118,24 @@ export const projects: Project[] = [
     private: true
   },
   {
+    title: 'Tutor Matching Form',
+    subtitle: 'Revolution Prep • Tutor Matching Form',
+    description: 'Form to help students to match with a tutor',
+    slug: 'tutor-matching',
+    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    company: 'Revolution Prep',
+    year: 2022,
+    technologies: [
+      'Nuxt',
+      'Vue'
+    ],
+    content: tutorMatchingContent,
+    private: true
+  },
+  {
     title: 'Student Profile Forms',
     subtitle: 'Revolution Prep • Student Profile Forms',
-    description: 'Forms for gathering student information and tutor matching',
+    description: 'Forms for gathering student information',
     slug: 'student-profile',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
     company: 'Revolution Prep',

@@ -4,7 +4,7 @@ import { Item } from '@/types'
 export const interestItems: Item[] = [
   {
     emoji: '💪',
-    text: 'Fitness – hiking, running by the beach, weight lifting, hot yoga'
+    text: 'Fitness – hiking, running, rock climbing, weight lifting, hot yoga'
   },
   {
     emoji: '🎨',
