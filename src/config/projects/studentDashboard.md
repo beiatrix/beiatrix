@@ -1,4 +1,4 @@
-# **Background**
+# **<a style="color: var(--ion-color-dark);" name="overview">Overview</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
@@ -6,14 +6,14 @@ The Student Dashboard is a web app where Revolution Prep students can schedule a
 
 ![Student Dashboard](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/student-dashboard-cover.gif)
 
-## **Activity Feed**
+## **<a style="color: var(--ion-color-dark);" name="activity-feed">Activity Feed</a>**
 
 Upon logging in, the student lands on their home page: the Activity Feed. Here, the student receives a variety of personalized updates, such as welcome messages upon enrolling in tutoring or test prep programs, reminders for upcoming sessions, and calls to action to score their practice exams.
 
 ![Activity Feed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/activity-feed.gif)
 
 
-## **Schedule**
+## **<a style="color: var(--ion-color-dark);" name="schedule">Schedule</a>**
 
 On the Schedule page, the student can manage their sessions.
 
@@ -45,7 +45,7 @@ Students with Private Tutoring enrollments can click "Add Hours" to purchase mor
 
 ![Schedule - Add Hours Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-add-hours-dialog.gif)
 
-### **Schedule Sessions**
+### **<a style="color: var(--ion-color-dark);" name="schedule-sessions">Schedule Sessions</a>**
 
 Clicking "Schedule Sessions" on the Schedule page launches the scheduling flow: a 3-step process.
 
@@ -65,7 +65,7 @@ Success! Upon completing a booking, a dialog displays the list of time(s) booked
 
 ![Schedule Sessions - Success](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-success.jpg)
 
-### **Join Sessions**
+### **<a style="color: var(--ion-color-dark);" name="join-sessions">Join Sessions</a>**
 
 When it's time for a session to start, the student has two ways to join.
 
@@ -75,7 +75,7 @@ On their calendar, their session calendar item turns green when the session is l
 
 ![Schedule - Join Session](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-join-session.gif)
 
-## **Help Now**
+## **<a style="color: var(--ion-color-dark);" name="help-now">Help Now</a>**
 
 Help Now is a service that allows students to receive on-demand homework help from a tutor via text chat or video call.
 
@@ -83,7 +83,7 @@ First, a dialog appears, prompting the student to select a delivery method. They
 
 ![Help Now - Delivery Method](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-delivery-method.gif)
 
-### **Video Chat**
+### **<a style="color: var(--ion-color-dark);" name="video-chat">Video Chat</a>**
 
 For video sessions, students can browse upcoming help sessions happening today in the carousel or use the calendar below to reserve sessions in advance.
 
@@ -101,7 +101,7 @@ After their session, a dialog appears, prompting students to leave a review for 
 
 ![Help Now - Reviews](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-reviews.gif)
 
-### **Text Chat**
+### **<a style="color: var(--ion-color-dark);" name="text-chat">Text Chat</a>**
 
 For text sessions, students can get help in a particular subject by selecting one of the subject cards.
 
@@ -139,13 +139,13 @@ Once the chat is ended, the student has a chance to leave a review for their tut
 
 ![Help Now - Review](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-text-review.gif)
 
-## **Course Materials**
+## **<a style="color: var(--ion-color-dark);" name="course-materials">Course Materials</a>**
 
 If a student is enrolled in a Small Group Course, the Course Materials menu item conditionally appears, allowing them to access their lessons and homework.
 
 ![Course Materials](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/course-materials.jpg)
 
-## **Videos**
+## **<a style="color: var(--ion-color-dark);" name="videos">Videos</a>**
 
 On the Videos page, the student can access helpful content across various test-prep related subjects.
 
@@ -159,7 +159,7 @@ Selecting a video title brings the student to the viewing page:
 
 ![Videos Watch](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/videos-watch.jpg)
 
-## **Exams**
+## **<a style="color: var(--ion-color-dark);" name="exams">Exams</a>**
 
 On the Exams page, the student can view transcripts for their practice exams. A chart tracks their progress if they have multiple scores.
 
@@ -173,13 +173,13 @@ Clicking the Self Proctor button launches a flow to self-administer a practice e
 
 ![Exams - Proctor](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams-proctor.gif)
 
-The Score Exam button presents a dialog that dislays two options for scoring practice exams: 1) download the Revolution Prep **[Mobile App](/projects/exam-player)** to scan exam pages with a phone camera, or 2) launch an exam scoring app on the desktop to submit answers and receive a score.
+The Score Exam button presents a dialog that dislays two options for scoring practice exams: 1) download the Revolution Prep **[Mobile App](/projects/mobile-app)** to scan exam pages with a phone camera, or 2) launch an exam scoring app on the desktop to submit answers and receive a score.
 
 ![Exams - Score](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams-score.gif)
 
 Finally, the Take Digital Exam button launches the **[Exam Player](/projects/exam-player)**.
 
-## **Profile**
+## **<a style="color: var(--ion-color-dark);" name="profile">Profile</a>**
 
 The Profile page is where the student can edit their personal details.
 
@@ -189,13 +189,13 @@ It also has one of my favorite features I've worked on: the avatar editor!
 
 ![Profile Avatar](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/profile-avatar.gif)
 
-## **Help**
+## **<a style="color: var(--ion-color-dark);" name="help">Help</a>**
 
 The Help page contains a quick reference for students to find answers to frequently asked questions about the Student Dashboard or Revolution Prep programs, or access customer support.
 
 ![Help](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help.jpg)
 
-# **My Contributions**
+# **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
@@ -260,6 +260,6 @@ This Student Dashboard is part of a monorepo that also contains the next generat
 
 Over the years, we continued to add many features to support key business initiatives, such as the addition of the **[Tutor Matching Form](/projects/tutor-matching)**, **[Exam Player](/projects/exam-player)**, and **[Enrollment Wizard](/projects/enrollment-wizard)**.
 
-In 2024, we released a major update: a rewrite of the entire monorepo from Nuxt 2 / Vue 2 to Nuxt 3 / Vue 3. We also migrated from Vuex to Pinia for state management, Jest to Vitest for unit testing, and Axios to oFetch for API calls. For this upgrade, I challenged myself to improve my DevOps skills by architecting an automated CI/CD pipeline that handled versioning and publishing with Changesets, deployment with Vercel, bundling packages in Turborepo with `tsup`, and building/linting/testing our feature PRs with GitHub Actions.
+In 2024, we released a major update: a rewrite of the entire monorepo from Nuxt 2 / Vue 2 to Nuxt 3 / Vue 3. We migrated from Lerna to Turborepo for our monorepo, Vuex to Pinia for state management, Jest to Vitest for unit testing, and Axios to oFetch for API calls. For this upgrade, I challenged myself to improve my DevOps skills by architecting an automated CI/CD pipeline that handled versioning and publishing with Changesets, deployment with Vercel, bundling packages in Turborepo with `tsup`, and building/linting/testing our feature PRs with GitHub Actions.
 
 *<small>The "Help Now" Text Chat is actually a separate repository: a full-stack Ruby on Rails application. One of my teammates built most of the desktop chat app! I helped out with styling and some small features/fixes.</small>
