@@ -85,7 +85,7 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: schedulingWizardContent,
-    private: true
+    private: false
   },
   {
     title: 'Exam Player',

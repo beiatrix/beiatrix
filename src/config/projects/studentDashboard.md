@@ -8,12 +8,16 @@ The Student Dashboard is a web app where Revolution Prep students can schedule a
 
 ## **<a style="color: var(--ion-color-dark);" name="activity-feed">Activity Feed</a>**
 
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
 Upon logging in, the student lands on their home page: the Activity Feed. Here, the student receives a variety of personalized updates, such as welcome messages upon enrolling in tutoring or test prep programs, reminders for upcoming sessions, and calls to action to score their practice exams.
 
 ![Activity Feed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/activity-feed.gif)
 
 
 ## **<a style="color: var(--ion-color-dark);" name="schedule">Schedule</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
 On the Schedule page, the student can manage their sessions.
 
@@ -76,6 +80,8 @@ On their calendar, their session calendar item turns green when the session is l
 ![Schedule - Join Session](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-join-session.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="help-now">Help Now</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
 Help Now is a service that allows students to receive on-demand homework help from a tutor via text chat or video call.
 
@@ -141,11 +147,15 @@ Once the chat is ended, the student has a chance to leave a review for their tut
 
 ## **<a style="color: var(--ion-color-dark);" name="course-materials">Course Materials</a>**
 
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
 If a student is enrolled in a Small Group Course, the Course Materials menu item conditionally appears, allowing them to access their lessons and homework.
 
 ![Course Materials](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/course-materials.jpg)
 
 ## **<a style="color: var(--ion-color-dark);" name="videos">Videos</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
 On the Videos page, the student can access helpful content across various test-prep related subjects.
 
@@ -160,6 +170,8 @@ Selecting a video title brings the student to the viewing page:
 ![Videos Watch](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/videos-watch.jpg)
 
 ## **<a style="color: var(--ion-color-dark);" name="exams">Exams</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
 On the Exams page, the student can view transcripts for their practice exams. A chart tracks their progress if they have multiple scores.
 
@@ -181,6 +193,8 @@ Finally, the Take Digital Exam button launches the **[Exam Player](/projects/exa
 
 ## **<a style="color: var(--ion-color-dark);" name="profile">Profile</a>**
 
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
 The Profile page is where the student can edit their personal details.
 
 ![Profile](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/profile.gif)
@@ -190,6 +204,8 @@ It also has one of my favorite features I've worked on: the avatar editor!
 ![Profile Avatar](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/profile-avatar.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="help">Help</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
 The Help page contains a quick reference for students to find answers to frequently asked questions about the Student Dashboard or Revolution Prep programs, or access customer support.
 
