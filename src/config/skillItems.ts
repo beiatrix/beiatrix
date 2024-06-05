@@ -103,42 +103,42 @@ export const designSkillItems: Item[] = [
 export const interpersonalSkillItems: Item[] = [
   {
     icon: search,
-    iconColor: 'charcoal',
+    iconColor: 'forest',
     text: 'Attention to Detail'
   },
   {
     icon: people,
-    iconColor: 'charcoal',
+    iconColor: 'forest',
     text: 'Collaboration'
   },
   {
     icon: chatbubbleEllipses,
-    iconColor: 'charcoal',
+    iconColor: 'forest',
     text: 'Communication'
   },
   {
     icon: school,
-    iconColor: 'charcoal',
+    iconColor: 'forest',
     text: 'Continuous Learning'
   },
   {
     icon: create,
-    iconColor: 'charcoal',
+    iconColor: 'forest',
     text: 'Documentation'
   },
   {
     icon: list,
-    iconColor: 'charcoal',
+    iconColor: 'forest',
     text: 'Organization'
   },
   {
     icon: rocket,
-    iconColor: 'charcoal',
+    iconColor: 'forest',
     text: 'Project Management'
   },
   {
     icon: telescope,
-    iconColor: 'charcoal',
+    iconColor: 'forest',
     text: 'Proactivity'
   }
 ]

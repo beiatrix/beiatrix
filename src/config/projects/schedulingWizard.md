@@ -4,7 +4,7 @@
 
 In 2024, we launched an updated version of the Revolution Prep **[Student Dashboard - Schedule Sessions](/projects/student-dashboard#schedule-sessions)** feature.
 
-**[TODO] cover gif**
+![Schedule Sessions](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-cover.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="schedule-sessions-version-1">Schedule Sessions | Version 1</a>**
 
@@ -114,7 +114,7 @@ Clicking "Schedule" next to a tutor's name takes the student to Step 2.
 
 On step 2, the student views an improved scheduling calendar. 
 
-**[TODO] Step 2 - still image**
+![Schedule Sessions - Step 2](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-2.jpg)
 
 The light green areas indicate when the tutor is available, while the outlined rectangles indicate when the student is available. Now, the student can easily locate where their availabilities overlap, and can pick an ideal time.
 

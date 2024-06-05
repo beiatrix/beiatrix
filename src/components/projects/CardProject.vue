@@ -10,13 +10,22 @@ import {
 // types
 import { Project } from '@/types'
 
-// props
+// components
+import IconTechnology from '@/components/projects/IconTechnology.vue'
+
+/**
+ * props
+ * ================================================================
+ */
 interface Props {
   project: Project
 }
 defineProps<Props>()
 
-// methods
+/**
+ * projects
+ * ================================================================
+ */
 function getProjectUrl (project: Project) {
   return project.slug 
     ? `/projects/${project.slug}`
@@ -42,9 +51,18 @@ function getProjectUrl (project: Project) {
         {{ project.title }}
       </ion-card-title>
       <ion-card-subtitle class="overline">
-        {{ project.subtitle }}
+        <div>
+          {{ project.subtitle }}
+        </div>
+        <div class="icon-technology-container">
+          <IconTechnology 
+            v-for="technology in project.technologies"
+            :key="`${project.title}-${technology}`"
+            :technology-name="technology"
+          />
+        </div>
       </ion-card-subtitle>
-    </ion-card-header>
+    </ion-card-header>    
   </ion-card>
 </template>
 
@@ -67,6 +85,11 @@ ion-card-title {
   font-weight: 700;
 }
 
+ion-card-subtitle {
+  display: flex;
+  justify-content: space-between;
+}
+
 ion-card-content {
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
 }
@@ -82,6 +105,11 @@ img {
   align-items: center;
   padding: 1.25rem;
   background-color: var(--ion-color-light-shade);
+}
+
+.icon-technology-container {
+  display: flex;
+  justify-content: flex-end;
 }
 </style>
 
