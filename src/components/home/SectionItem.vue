@@ -9,7 +9,10 @@ import {
 // types
 import { Item } from '@/types'
 
-// props
+/**
+ * props
+ * ================================================================
+ */
 interface Props {
   animation?: boolean
   item: Item

@@ -15,22 +15,30 @@ import { appBarItems } from '@/config/appBarItems'
 // composables
 import { useAppBarItems } from '@/composables/appBarItems'
 
-// responsiveness
+/**
+ * app bar item links
+ * ================================================================
+ */
+const { getTargetAttribute } = useAppBarItems()
+
+/**
+ * responsiveness
+ * ================================================================
+ */
 const windowWidth = ref()
-function setWindowWidth () {
-  windowWidth.value = window.innerWidth
-}
+
 const showButtonText = computed(() => {
   return windowWidth.value >= 1200 // xl
 })
+
 const showPushMenu = computed(() => {
   return windowWidth.value < 768 // md
 })
 
-// app bar item links
-const { getTargetAttribute } = useAppBarItems()
+function setWindowWidth () {
+  windowWidth.value = window.innerWidth
+}
 
-// lifecycle hooks
 onMounted(() => {
   setWindowWidth()
   window.addEventListener('resize', () => {

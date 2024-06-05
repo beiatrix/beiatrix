@@ -19,7 +19,7 @@ interface Props {
 const props = defineProps<Props>()
 
 /**
- * computed
+ * technology
  * ================================================================
  */
 const technologies = computed(() => {

@@ -14,7 +14,10 @@ import { appBarItems } from '@/config/appBarItems'
 // composables
 import { useAppBarItems } from '@/composables/appBarItems'
 
-// app bar item links
+/**
+ * app bar item links
+ * ================================================================
+ */
 const { getTargetAttribute } = useAppBarItems()
 </script>
 
