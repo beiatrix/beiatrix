@@ -63,7 +63,7 @@ function applyImageStyles () {
   const images = projectContentElement.value?.getElementsByTagName('img')
   if (images) {
     for (const image of images) {
-      image.style.margin = '0.5rem'
+      image.style.margin = '1rem 0'
       image.style.borderRadius = '0.3rem'
       image.style.boxShadow = '1px 4px 8px rgb(var(--ion-color-charcoal-rgb), 0.3)'
     }
