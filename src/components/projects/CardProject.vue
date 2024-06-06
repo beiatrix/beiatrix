@@ -51,12 +51,17 @@ function getProjectUrl (project: Project) {
         {{ project.title }}
       </ion-card-title>
       <ion-card-subtitle class="overline">
-        <div>
+        <div class="ion-padding-end">
           {{ project.subtitle }}
         </div>
         <div class="icon-technology-container">
           <IconTechnology 
-            v-for="technology in project.technologies"
+            v-for="(technology, index) in project.technologies"
+            :style="
+              index < project.technologies.length - 1
+                ? 'margin-right: 0.5rem;' 
+                : ''
+              "
             :key="`${project.title}-${technology}`"
             :technology-name="technology"
           />
@@ -77,6 +82,10 @@ ion-card {
 ion-card:hover {
   box-shadow: 2px 8px 12px rgb(var(--ion-color-charcoal-rgb), 0.2);
   transform: scale(1.03); /* (103% zoom) */
+}
+
+ion-card-header {
+  padding-bottom: 0.5rem;
 }
 
 ion-card-title {

@@ -6,6 +6,9 @@ import { computed } from 'vue'
 // types
 import { Item } from '@/types'
 
+// popover
+import { Tippy } from 'vue-tippy'
+
 // config
 import { technicalSkillItems } from '@/config/skillItems'
 
@@ -35,33 +38,33 @@ const technologyItem = computed(() => {
 </script>
 
 <template>
-  <div class="container">
-    <ion-icon
-      v-if="technologyItem.icon"
-      :color="technologyItem.iconColor"
-      :src="technologyItem.icon"
-    />
-    <img 
-      v-if="technologyItem.logo"
-      :alt="technologyItem.text" 
-      :src="technologyItem.logo"
-    />
-  </div>
+  <Tippy>
+    <div class="container">
+      <ion-icon
+        v-if="technologyItem.icon"
+        :color="technologyItem.iconColor"
+        :src="technologyItem.icon"
+      />
+      <img 
+        v-if="technologyItem.logo"
+        :alt="technologyItem.text" 
+        :src="technologyItem.logo"
+      />
+    </div>
+    <template #content>
+      {{ technologyItem.text }}
+    </template>
+  </Tippy>
 </template>
 
 <style scoped>
 .container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: start;
-}
-
-ion-icon {
-  margin-right: 0.5rem;
 }
 
 img {
   max-width: 1.5rem;
-  margin-right: 0.5rem;
 }
 </style>
