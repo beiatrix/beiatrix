@@ -27,6 +27,7 @@ import Markdown from 'vue3-markdown-it'
 import AppBar from '@/components/shared/AppBar.vue'
 import AppBarMenu from '@/components/shared/AppBarMenu.vue'
 import AppFooter from '@/components/shared/AppFooter.vue'
+import IconTechnology from '@/components/projects/IconTechnology.vue'
 
 // content
 import { projects } from '@/config/projects'
@@ -106,15 +107,17 @@ onUpdated(async () => {
               </h1>
               <div class="chip-container">
                 <IonChip v-if="project.company">
-                  {{ project.company }}
+                  @ {{ project.company }}
                 </IonChip>
                 <IonChip>{{ project.year }}</IonChip>
-                <IonChip 
-                  v-for="technology in project.technologies"
-                  :key="`ion-chip-${technology}`"
-                >
-                  {{ technology }}
-                </IonChip>
+                <div class="icon-technology-container">
+                  <IconTechnology 
+                    v-for="technology in project.technologies"
+                    style="margin-left: 0.5rem;"
+                    :key="`${project.title}-${technology}`"
+                    :technology-name="technology"
+                  />
+                </div>
               </div>
               <div ref="projectContentElement">
                 <Markdown 
@@ -150,8 +153,8 @@ hr {
 }
 
 ion-chip {
-  --background: var(--ion-color-dark);
-  --color: var(--ion-color-glow);
+  --background: var(--ion-color-tertiary);
+  --color: var(--ion-color-primary);
   border-radius: 0.25rem;
   height: 1.5rem;
   font-family: 'Quicksand', Helvetica, Arial, sans-serif;
@@ -162,10 +165,16 @@ p {
 }
 
 .chip-container {
+  display: flex;
   padding: 0.5rem 0 1.5rem 0;
 }
 
 .divider {
   border-bottom: 2px solid var(--ion-color-secondary);
+}
+
+.icon-technology-container {
+  display: flex;
+  align-items: center;
 }
 </style>
