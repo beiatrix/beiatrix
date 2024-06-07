@@ -149,31 +149,30 @@ A new addition to this view is a dedicated card for the student's session detail
 In all steps of this scheduling flow, we incorporate an "Update Availability" button. Clicking this button opens a dialog that allows students to specify when they are available and make changes in real-time.
 ![Schedule Sessions - Step 2 - Update Availability](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-2-availability.gif)
 
-This dialog re-uses the calendar from Step 2 of the **[Tutor Matching Form](/projects/tutor-matching)**. Once again, this calendar was also re-built in FullCalendar! We updated the UX to add a click-and-drag functionality to select ranges of availability.
+This dialog contains a calendar that is re-used in Step 2 of the **[Tutor Matching Form](/projects/tutor-matching)** and Step 3 of the **[Enrollment Wizard](/projects/enrollment-wizard)**. Once again, this calendar was also re-built in FullCalendar! We updated the UX to add a click-and-drag functionality to select ranges of availability.
 
 ### **<a style="color: var(--ion-color-dark);" name="step-3">Step 3</a>**
 
-On step 3, we show a table allowing the student to configure repeat options.
+Step 3 is dedicated to configuring repeat options for the session times selected in Step 2.
 
 ![Schedule Sessions - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-3.jpg)
 
-There is one row table for each of the session times selected in Step 2. 
+We present a table with one row for each of the times selected in the previous step.
 
-The session time is listed in the left-most column, "Sessions Pending Scheduled."
+The left-most column, "Sessions Pending Scheduled," lists the session time.
 
-The "Repeat For" column contains a dropdown with repeat options. 
+The "Repeat For" column contains a dropdown with repeat options.
 By default, we set the amount of repeats to consume all the student's available tutoring hours.
 
 ![Schedule Sessions - Step 3 - Repeat Dropdown](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-3-repeat-dropdown.gif)
 
-The third column, "Available Repeat Sessions," contains a list of checkboxes that allows the user to fine-tune exactly which session dates they would like to repeat. Small help text indicates if there is a holiday or if the tutor is not available on a particular date.
+The third column, "Available Repeat Sessions," contains checkboxes that allow the user to fine-tune exactly which sessions they would like to repeat. Small help text indicates if there is a holiday or if the tutor is not available on a particular date.
 
-Configuring repeat sesssions updates the progress bar in real-time.
+Modifying repeat options updates the progress bar in real-time.
 
 ![Schedule Sessions - Step 3 - Checkboxes](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-3-checkboxes.gif)
 
-
-We encourage the student to use all their tutoring hours. If they reserve fewer than all of their available hours, clicking the "Schedule Hours" button opens a call to action dialog.
+We encourage the student to use all their tutoring hours. If they reserve fewer than all of their available hours, clicking the "Schedule Hours" button opens a confirmation dialog.
 
 ![Schedule Sessions - Step 3 - Are You Sure](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-3-are-you-sure.gif)
 
@@ -181,8 +180,9 @@ Otherwise, if the student has selected all their remaining hours to be scheduled
 
 ### **<a style="color: var(--ion-color-dark);" name="success">Success</a>**
 
-- reusing our existing success dialog
-- additional feature - prompting the user to add sessions to their calendar 
+This view re-uses the existing success dialog seen in v1 of the Schedule Sessions flow, this time with simplified copy.
+
+We add a new feature prompting the user to add sessions to their personal calendar by clicking "Add to iCal" or "Add to Google Calendar". This alert component is also re-used in the Schedule page.
 
 ![Schedule Sessions - Success](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-success.jpg)
 
@@ -190,25 +190,24 @@ Otherwise, if the student has selected all their remaining hours to be scheduled
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-- frontend architecture document + proposed strategy
-		- create tickets
-	- design mocks in xd
-		- collaboration with Julie
+For this project's development in late 2023 and launch in early 2024, I...
+- collaborated closely with Product and Engineering team members to determine product requirements
+- designed UI/UX for every screen in Adobe XD
+- presented to stakeholders over two meetings, and helped win buy-in to move forward with building our design
+- led 6 meetings:
+  - 1 scoping meeting
+  - 2 design reviews
+  - 1 kickoff meeting to begin the development process
+  - 1 ticket creation meeting
+  - 1 meeting to distribute tickets
+- crafted an architecture document in partnership with one other developer
+- created, pointed, and distributed tickets in JIRA with my teammates
+- implemented the revamped scheduling calendar
+  - migrated from Vuetify to FullCalendar
+  - enabled real-time updates in Pusher
+- rebuilt the improved Student Availability Calendar in FullCalendar, now with drag-and-drop UX
+- made updates to the confirmation and success dialog components
+- continuously provided bug fixes and improvements post-launch
 
 **[TODO] XD design screenshots**
 
-- implementation
-	- rebuild student availability calendar with improvements to UX, like drag and drop (used in tutor matching, enrollment wizard, and update availability dialog)
-	- rebuild v2 of scheduling calendar (in step 2 of schedule sessions flow)
-    - Rebuilt calendar component in FullCalendar (its previous iteration was written in Vuetify).
-- led [X # of] meetings to present new UI/UX designs to stakeholders
-
-
-Impact:
-- new calendar booking system. velocity scheduling
-		- families and advisors (soon tutors) can book multiple recurring sessions in one go.
-		- new UX encourages students to use up all their hours. ideally for business, they can purchase more
-	- subscribe to tutoring calendar
-		- because tutoring sessions can now appear on student's personal calendar, they no longer need to login to our student dashboard to remember when sessions are. improve adherence to attending sessions.
-	- self-update availability
-		- students can now send updates to their availability real-time. previously, only had one chance to do it, at very beginning of enrollment. if it ever changed, a RP employee would update it manually.
