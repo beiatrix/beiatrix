@@ -2,7 +2,7 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-In 2024, we launched an updated version of the Revolution Prep **[Student Dashboard - Schedule Sessions](/projects/student-dashboard#schedule-sessions)** feature.
+In 2024, we launched an updated version of the Revolution Prep **[Student Dashboard | Schedule Sessions](/projects/student-dashboard#schedule-sessions)** feature.
 
 ![Schedule Sessions](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-cover.gif)
 
@@ -190,24 +190,11 @@ We add a new feature prompting the user to add sessions to their personal calend
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-For this project's development in late 2023 and launch in early 2024, I...
-- collaborated closely with Product and Engineering team members to determine product requirements
-- designed UI/UX for every screen in Adobe XD
-- presented to stakeholders over two meetings, and helped win buy-in to move forward with building our design
-- led 6 meetings:
-  - 1 scoping meeting
-  - 2 design reviews
-  - 1 kickoff meeting to begin the development process
-  - 1 ticket creation meeting
-  - 1 meeting to distribute tickets
-- crafted an architecture document in partnership with one other developer
-- created, pointed, and distributed tickets in JIRA with my teammates
-- implemented the revamped scheduling calendar
-  - migrated from Vuetify to FullCalendar
-  - enabled real-time updates in Pusher
-- rebuilt the improved Student Availability Calendar in FullCalendar, now with drag-and-drop UX
-- made updates to the confirmation and success dialog components
-- continuously provided bug fixes and improvements post-launch
+For this project's development in late 2023 and launch in early 2024, I collaborated closely with Product and Engineering team members to determine product requirements, designed UI/UX for every screen in Adobe XD, and built the critical calendar components.
 
 **[TODO] XD design screenshots**
+
+Over two meetings, I presented the designs to stakeholders, gathered feedback, and ultimately helped win buy-in to move forward with building our design. Furthermore, I led 6 meetings ranging from scoping, design reviews, development kickoff, to ticket creation and distribution.
+
+As this scheduling flow is part of our **[Student Dashboard](/projects/student-dashboard)** and monorepo ecosystem, it was built in Nuxt and Vue. My primary contribution was implementing the revamped scheduling calendar, migrating from Vuetify to FullCalendar, and enabling real-time updates to the availability display with Pusher. Additionally, I made updates to the confirmation and success dialog components, and continuously provided bug fixes and improvements post-launch.
 
