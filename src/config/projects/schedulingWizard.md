@@ -151,6 +151,8 @@ In all steps of this scheduling flow, we incorporate an "Update Availability" bu
 
 This dialog contains a calendar that is re-used in the **[Tutor Matching Form](/projects/tutor-matching)** and **[Enrollment Wizard](/projects/enrollment-wizard)**. Once again, this calendar was also re-built in FullCalendar! We updated the UX to add a click-and-drag functionality to select ranges of availability.
 
+Once the student is all done picking their times, they can click Next to move on to Step 3.
+
 ### **<a style="color: var(--ion-color-dark);" name="step-3">Step 3</a>**
 
 Step 3 is dedicated to configuring repeat options for the session times selected in Step 2.
@@ -194,6 +196,6 @@ For this project's development in late 2023 and launch in early 2024, I collabor
 
 ![Schedule Sessions - Design](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-design.jpg)
 
-Over two meetings, I presented the designs to stakeholders, gathered feedback, and ultimately helped win buy-in to move forward with building our design. Furthermore, I led six meetings ranging across scoping, design reviews, development kickoff, and ticket creation & distribution.
+Over two meetings, I presented the designs to stakeholders, gathered and incorporated feedback, and ultimately helped win buy-in to move forward with building our design. Furthermore, I led six meetings ranging across scoping, design reviews, development kickoff, and ticket creation & distribution.
 
 As this scheduling flow is part of our **[Student Dashboard](/projects/student-dashboard)** and monorepo ecosystem, it is built in Nuxt and Vue. My primary contribution was implementing the revamped scheduling calendar, migrating from Vuetify to FullCalendar, and enabling real-time updates to the availability display with Pusher. Additionally, I made updates to the confirmation and success dialog components, and continuously provided bug fixes and improvements post-launch.
