@@ -61,7 +61,7 @@ const technologyItem = computed(() => {
 .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
 }
 
 img {

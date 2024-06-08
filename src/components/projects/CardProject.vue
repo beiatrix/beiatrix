@@ -55,7 +55,7 @@ function getProjectUrl (project: Project) {
         {{ project.title }}
       </ion-card-title>
       <ion-card-subtitle class="overline">
-        <div class="ion-padding-end">
+        <div>
           {{ project.subtitle }}
         </div>
         <div class="icon-technology-container">
@@ -129,7 +129,7 @@ img {
 .img-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   padding: 1.25rem;
   background-color: var(--ion-color-light-shade);
 }
@@ -137,7 +137,7 @@ img {
 .icon-technology-container {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: start;
   margin-bottom: 0.2rem;
 }
 
@@ -145,6 +145,7 @@ ion-button {
   --box-shadow: 0;
   --padding-start: 0.3rem;
   --padding-end: 0.3rem;
+  margin-top: -0.4rem;
 }
 </style>
 
