@@ -17,6 +17,7 @@ export const projects: Project[] = [
     subtitle: 'guess the five-letter word',
     description: 'I literally just wanted to play Wordle more than once a day, so I built this app.',
     url: 'https://wordle-by-beiatrix.vercel.app/',
+    githubUrl: 'https://github.com/beiatrix/wordle',
     image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/wordle/wordle.gif',
     year: 2023,
     technologies: [
@@ -60,9 +61,9 @@ export const projects: Project[] = [
   {
     title: 'Enrollment Wizard',
     subtitle: '@ Revolution Prep',
-    description: 'Revolution Prep enrollment wizard',
+    description: 'Revolution Prep Enrollment Wizard',
     slug: 'enrollment-wizard',
-    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-cover-alt.gif',
     company: 'Revolution Prep',
     year: 2024,
     technologies: [
@@ -70,14 +71,14 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: enrollmentWizardContent,
-    private: true
+    private: false
   },
   {
     title: 'Scheduling Wizard',
     subtitle: '@ Revolution Prep',
-    description: 'Revolution Prep Scheduling wizard',
+    description: 'Revolution Prep Scheduling Wizard',
     slug: 'scheduling-wizard',
-    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-cover.gif',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-2.gif',
     company: 'Revolution Prep',
     year: 2024,
     technologies: [

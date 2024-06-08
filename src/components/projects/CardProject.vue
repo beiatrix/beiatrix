@@ -1,11 +1,14 @@
 <script setup lang="ts">
 // ionic + vue
 import { 
+  IonButton,
   IonCard,
   IonCardHeader,
   IonCardSubtitle,
-  IonCardTitle
+  IonCardTitle,
+  IonIcon
 } from '@ionic/vue'
+import { logoGithub } from 'ionicons/icons'
 
 // types
 import { Project } from '@/types'
@@ -56,6 +59,20 @@ function getProjectUrl (project: Project) {
           {{ project.subtitle }}
         </div>
         <div class="icon-technology-container">
+          <ion-button
+            v-if="project.githubUrl" 
+            color="white"
+            shape="round"
+            style="margin-right: 0.2rem;"
+            :href="project.githubUrl"
+            target="_blank"
+          >
+            <ion-icon 
+              color="charcoal"
+              :icon="logoGithub" 
+              slot="icon-only"
+            />
+          </ion-button>
           <IconTechnology 
             v-for="(technology, index) in project.technologies"
             :style="
@@ -120,6 +137,14 @@ img {
 .icon-technology-container {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 0.2rem;
+}
+
+ion-button {
+  --box-shadow: 0;
+  --padding-start: 0.3rem;
+  --padding-end: 0.3rem;
 }
 </style>
 

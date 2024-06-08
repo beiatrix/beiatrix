@@ -4,6 +4,7 @@ export interface Project {
   description: string
   slug?: string
   url?: string
+  githubUrl?: string
   image: string
   year: number | string
   company?: string
