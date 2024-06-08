@@ -43,7 +43,7 @@ import {
       size-xl="4"
     >
       <img
-        src="https://beiatrix.s3.us-west-1.amazonaws.com/headshot/headshot.jpg"
+        :src="require('@/assets/images/headshot.jpg')"
         alt="Beiatrix Pedrasa"
         class="headshot"
       />

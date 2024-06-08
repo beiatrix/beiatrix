@@ -38,18 +38,23 @@ const yearsOfExperience = computed(() => {
       size="12"
     >
       <p>
-        I have <span class="bold">{{ yearsOfExperience }}</span> of professional 
+        I have <strong>{{ yearsOfExperience }}</strong> of professional 
         experience in software engineering with a specialization in frontend 
         development.
       </p>
       <p>
         Before software engineering, I was a graphic designer and illustrator with
-        <span class="bold">2.5 years</span> of professional experience.
+        <strong>2.5 years</strong> of professional experience.
       </p>
       <p>
-        At my current position, I am lucky enough to be able to use both skill
-        sets. I continue to apply my design skills to deliver delightful UI and UX 
-        in my daily work.
+        I find joy in being able to use both skill sets. I continue to apply my 
+        design skills to deliver delightful UI and UX in my daily work.
+      </p>
+      <p>
+        If you'd like to learn more, here is my <strong>
+          <a href="https://beiatrix.s3.us-west-1.amazonaws.com/resume/Beiatrix_Pedrasa_-_Resume.pdf">
+            resume</a>
+        </strong>.
       </p>
     </ion-col>
   </ion-row>

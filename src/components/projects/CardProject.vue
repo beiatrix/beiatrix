@@ -36,6 +36,7 @@ function getProjectUrl (project: Project) {
 <template>
   <ion-card 
     button
+    mode="md"
     target="_blank"
     :href="getProjectUrl(project)"
   >
