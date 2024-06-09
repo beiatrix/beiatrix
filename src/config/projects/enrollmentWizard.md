@@ -1,6 +1,8 @@
 # **<a style="color: var(--ion-color-dark);" name="overview">Overview</a>**
 
-*Overview of Enrollment Wizard*
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
+This Enrollment Wizard is a 5-step form for incoming customers from affiliate companies to register for Revolution Prep tutoring.
 
 ![Enrollment Wizard](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-cover.gif)
 
@@ -8,14 +10,11 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-- magic link generated on receipt (ingestion) of reservation (from SFTP server)
-- will be sent in email for parent to enroll
-- form fields pre-filled from reservation CSV
-- note: parent email - unique identifier - greyed out.
+First, a parent enters the Enrollment Wizard by clicking a magic link sent in their email. On Step 1, they confirm profile information for themself and their student. For convenience, the parent's details are pre-filled with information from their affiliate reservation.
 
 ![Enrollment Wizard - Step 1](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-1.gif)
 
-- click next before filling form required fields - show form validation
+Form validation prevents a parent from moving forward without populating all required fields.
 
 ![Enrollment Wizard - Step 1 - Validation](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-1-validation.gif)
 
@@ -23,18 +22,13 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-- subjects are scoped to the student's grade selected in previous step
-- click a subject
-	- we see alert w default recommendations
-	- 3 30 min sessions for younger student grades (middle school or younger)
-	- 3 60 min grades for high school
-- only see frequency / duration after selecting subject
+On Step 2, the parent selects a subject for their child's tutoring. The list of subjects shown in the dropdown is scoped to the student's grade selected in the previous step.
 
 ![Enrollment Wizard - Step 2](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-2.gif)
 
-- click not listed - see alert 
-	- click mailto
-	- next btn disabled
+Only after a subject is selected, two more fields appear: frequency (times per week to meet) and duration (length of tutoring session). An alert indicates the default recommendation to meet: 3 times a week for 30-minute sessions (for younger students) or 60-minute sessions (for high schoolers). The frequency and duration fields are pre-popualted with these defaults depending on the student's grade.
+
+Many subjects are offered for tutoring, but if the customer is seeking a subject that is not listed, an alert appears prompting them to connect with a Revolution Prep team member.
 
 ![Enrollment Wizard - Step 2 - Not Listed](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-2-not-listed.jpg)
 
@@ -61,7 +55,7 @@
 
 - look at tutor profile 
 
-**![TODO](tutor profile)**
+![Enrollment Wizard - Step 4 - Profile](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-4-profile.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="step-5">Step 5</a>**
 
@@ -82,6 +76,10 @@
 
 - student login info
 - default pass
+
+![Enrollment Wizard - Complete](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-complete.gif)
+
+![Enrollment Wizard - Set Password](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-set-password.gif)
 
 login to **[Student Dashboard](/projects/student-dashboard)** and begin **[scheduling sessions](/projects/scheduling-wizard)**.
 
