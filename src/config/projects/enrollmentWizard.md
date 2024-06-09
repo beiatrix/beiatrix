@@ -36,24 +36,27 @@ Many subjects are offered for tutoring, but if the customer is seeking a subject
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-- based on your selection, changes the availabilities 
-- let vendors know before we launch in January we will be deploying an improved tool for dragging and dropping availability
+On Step 3, the user indicates availabilities for tutoring. The calendar is a re-vamped version of the availability calendar in the **[Tutor Matching Form](/projects/tutor-matching)** – now with an improved click-and-drag UX. 
 
 ![Enrollment Wizard - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-3.gif)
+
+A progress bar on the right-hand side shows how many required hours of availability have been selected, and responds in real-time to the user's inputs in the calendar.
+
+The blue alert text indicates the minimum required availability – for example, "four 120-minute time slots across four days" – which is enforced by the red validation card on the right-hand side. This requirement varies based on the frequency and duration selected on the previous screen.
 
 ## **<a style="color: var(--ion-color-dark);" name="step-4">Step 4</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-- based on availability that parent selected, we generate some tutor recommendations with availabilities that align
+On Step 4, we generate some tutor recommendations with availabilities that align with the availability selected in Step 3.
 
 ![Enrollment Wizard - Step 4](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-4.jpg)
 
-- click tutor in slide group, look at availability calendar
+The parent can explore different tutors by clicking the cards in the slide group. Below, they can examine the tutor's availability in the calendar in light green, and see how it overlaps with their own availability in the darker green outlined rectangles.
 
 ![Enrollment Wizard - Step 4 - Tutor Availabilities](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-4.gif)
 
-- look at tutor profile 
+Finally, parents can learn more about the the selected tutor by reading their bio.
 
 ![Enrollment Wizard - Step 4 - Profile](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-4-profile.gif)
 
@@ -61,12 +64,7 @@ Many subjects are offered for tutoring, but if the customer is seeking a subject
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-- review info submitted
-- note terms and conditions card
-- click terms and conditions links
-	- check if Back Up Care link is live first?
-- try clicking Complete without selecting checkbox
-- then select checkbox and go to complete page
+On Step 5, the user reviews a summary of the information submitted thus far. Once they review and agree to the Terms and Conditions, they can click "Complete" to finish their enrollment.
 
 ![Enrollment Wizard - Step 5](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-5.jpg)
 
@@ -74,14 +72,15 @@ Many subjects are offered for tutoring, but if the customer is seeking a subject
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-- student login info
-- default pass
+Success! The complete page details that the enrollment has been processed. Now, they can login to **[Student Dashboard](/projects/student-dashboard)** using the default credentials provided.
 
 ![Enrollment Wizard - Complete](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-complete.gif)
 
+A new user landing on the Student Dashboard for the first time must set their password.
+
 ![Enrollment Wizard - Set Password](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-set-password.gif)
 
-login to **[Student Dashboard](/projects/student-dashboard)** and begin **[scheduling sessions](/projects/scheduling-wizard)**.
+Finally, they may begin **[scheduling tutoring sessions](/projects/scheduling-wizard)**.
 
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
