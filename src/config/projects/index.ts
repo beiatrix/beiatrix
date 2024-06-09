@@ -63,7 +63,7 @@ export const projects: Project[] = [
     subtitle: '@ Revolution Prep',
     description: 'Revolution Prep Enrollment Wizard',
     slug: 'enrollment-wizard',
-    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-cover-alt.gif',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-4.gif',
     company: 'Revolution Prep',
     year: 2024,
     technologies: [
