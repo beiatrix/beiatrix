@@ -149,7 +149,7 @@ In all steps of this scheduling flow, we incorporate an "Update Availability" bu
 
 ![Schedule Sessions - Step 2 - Update Availability](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-2-availability.gif)
 
-This dialog contains a calendar that is re-used in the **[Tutor Matching Form](/projects/tutor-matching)** and **[Enrollment Wizard](/projects/enrollment-wizard)**. Once again, this calendar was also re-built in FullCalendar! We updated the UX to add a click-and-drag functionality to select ranges of availability.
+This dialog contains a calendar that is re-used in the **[Tutor Matching Form](/projects/tutor-matching-form)** and **[Enrollment Wizard](/projects/enrollment-wizard)**. Once again, this calendar was also re-built in FullCalendar! We updated the UX to add a click-and-drag functionality to select ranges of availability.
 
 Once the student is all done picking their times, they can click Next to move on to Step 3.
 

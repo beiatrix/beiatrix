@@ -9,7 +9,7 @@ import mobileChatContent from './mobileChat.md'
 import schedulingWizardContent from './schedulingWizard.md'
 import studentDashboardContent from './studentDashboard.md'
 import studentProfileContent from './studentProfile.md'
-import tutorMatchingContent from './tutorMatching.md'
+import tutorMatchingFormContent from './tutorMatchingForm.md'
 
 export const projects: Project[] = [
   {
@@ -89,21 +89,6 @@ export const projects: Project[] = [
     private: false
   },
   {
-    title: 'Exam Player',
-    subtitle: '@ Revolution Prep',
-    description: 'Revolution Prep exam player',
-    slug: 'exam-player',
-    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
-    company: 'Revolution Prep',
-    year: 2023,
-    technologies: [
-      'Ionic',
-      'Vue'
-    ],
-    content: examPlayerContent,
-    private: true
-  },
-  {
     title: 'Mobile App',
     subtitle: '@ Revolution Prep',
     description: 'Mobile app for Revolution Prep students built with Ionic/Vue.',
@@ -119,19 +104,34 @@ export const projects: Project[] = [
     private: true
   },
   {
+    title: 'Exam Player',
+    subtitle: '@ Revolution Prep',
+    description: 'Revolution Prep exam player',
+    slug: 'exam-player',
+    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    company: 'Revolution Prep',
+    year: 2023,
+    technologies: [
+      'Ionic',
+      'Vue'
+    ],
+    content: examPlayerContent,
+    private: true
+  },
+  {
     title: 'Tutor Matching Form',
     subtitle: '@ Revolution Prep',
-    description: 'Form to help students to match with a tutor',
-    slug: 'tutor-matching',
-    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    description: 'Form to help students match with a tutor',
+    slug: 'tutor-matching-form',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-matching-form/tutor-matching-form-cover.gif',
     company: 'Revolution Prep',
     year: 2022,
     technologies: [
       'Nuxt',
       'Vue'
     ],
-    content: tutorMatchingContent,
-    private: true
+    content: tutorMatchingFormContent,
+    private: false
   },
   {
     title: 'Student Profile Forms',

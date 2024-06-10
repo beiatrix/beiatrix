@@ -274,7 +274,7 @@ I had my hand in the development of almost every single page. I built much of th
 
 This Student Dashboard is part of a monorepo that also contains the next generations of our internal Admin and Tutor Dashboards.* Another contribution I made in this monorepo (that can't be seen in screenshots!) is an NPM package for reusable fixtures, used for writing unit tests across multiple apps and repositories within the organization. This package helped [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) up our testing code and improve our team's developer experience.
 
-Over the years, we continued to add many features to support key business initiatives, such as the addition of the **[Tutor Matching Form](/projects/tutor-matching)**, **[Exam Player](/projects/exam-player)**, and **[Enrollment Wizard](/projects/enrollment-wizard)**.
+Over the years, we continued to add many features to support key business initiatives, such as the addition of the **[Tutor Matching Form](/projects/tutor-matching-form)**, **[Exam Player](/projects/exam-player)**, and **[Enrollment Wizard](/projects/enrollment-wizard)**.
 
 In 2024, we released a major update: a rewrite of the entire monorepo from Nuxt 2 / Vue 2 to Nuxt 3 / Vue 3. We migrated from Lerna to Turborepo for our monorepo, Vuex to Pinia for state management, Jest to Vitest for unit testing, and Axios to oFetch for API calls. For this upgrade, I challenged myself to improve my DevOps skills by architecting an automated CI/CD pipeline that handled versioning and publishing with Changesets, deployment with Vercel, bundling packages in Turborepo with `tsup`, and building/linting/testing our feature PRs with GitHub Actions.
 

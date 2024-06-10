@@ -1,6 +1,6 @@
 # **<a style="color: var(--ion-color-dark);" name="overview">Overview</a>**
 
-<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+<hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
 The Enrollment Wizard is a 5-step form for incoming customers from affiliate companies to register for Revolution Prep tutoring.
 
@@ -36,7 +36,7 @@ Many subjects are offered for tutoring, but if the customer is seeking a subject
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-In Step 3, the user indicates their availability for tutoring. The calendar is a revamped version of the availability calendar in the **[Tutor Matching Form](/projects/tutor-matching)** – now with an improved click-and-drag UX.
+In Step 3, the user indicates their availability for tutoring. The calendar is a revamped version of the availability calendar in the **[Tutor Matching Form](/projects/tutor-matching-form)** – now with an improved click-and-drag UX.
 
 ![Enrollment Wizard - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-3.gif)
 
@@ -48,7 +48,7 @@ The blue alert text indicates the minimum required availability – for example,
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-In Step 4, we generate tutor recommendations with availabilities that align with the availability selected in Step 3.
+In Step 4, we generate recommendations for tutors whose availabilities align with the availability selected in Step 3.
 
 ![Enrollment Wizard - Step 4](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-4.jpg)
 
@@ -89,6 +89,7 @@ Finally, they may begin **[scheduling their first tutoring sessions](/projects/s
 In partnership with one other developer, we crafted a frontend architecture document.
 - rebuilt the improved Student Availability Calendar in FullCalendar, now with drag-and-drop UX
 
+**![TODO](XD design screenshots)**
 
 - backup care wizard
 	- collaborate max
