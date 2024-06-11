@@ -86,24 +86,15 @@ Finally, they may begin **[scheduling their first tutoring sessions](/projects/s
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-In partnership with one other developer, we crafted a frontend architecture document.
-- rebuilt the improved Student Availability Calendar in FullCalendar, now with drag-and-drop UX
+For this project, I worked with my teammates to gather product requirements, organized scoping meetings, crafted an architecture document, designed mocks for every screen in Adobe XD, and implemented the features in Step 3 and Step 4 of the Enrollment Wizard.
 
-**![TODO](XD design screenshots)**
+Here is a screenshot of the UI designs created in Adobe XD.
 
-- backup care wizard
-	- collaborate max
-		- frontend architecture document + proposed strategy
-		- create tickets
-	- design mocks in xd
-		- collaboration with team
-	- implementation
-		- step 3 - rebuild availability calendar with improvements to UX, like drag and drop
-		- step 4 - all components on page, like tutor slide group, tutor availability calendar
-		- rebuild v2 of student availability calendar
-		- scheduling = critical components!
-	- led back up care improvements meetings (todo list how many)
-		- UI/UX design - improve student dashboard scheduling
-		- present to stakeholders (2023-11-13)
+![Enrollment Wizard - Designs](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-designs.jpg)
 
-  prompted improvements to scheduling wizard. (should i mention this?)
+In collaboration with another developer, we created an architecture document proposing a strategy for implementing the frontend. Moreover, I organized six meetings to collaborate on ticket creation and grooming, app walkthroughs, and requirements gathering for features such as the availability calendar.
+
+Regarding my code contributions, I rebuilt the improved Student Availability Calendar in FullCalendar, now with an enhanced click-and-drag UX, a progress bar that responds to the user's inputs in the calendar, and validation to ensure that the user submits the required amount of availability. I implemented the calendar to be reusable in both Step 3 of this Enrollment Wizard and Step 2 of the **[Tutor Matching Form](/projects/tutor-matching-form)**. 
+
+Furthermore, I built nearly all of the components on the page in Step 4: the tutor slide group, tutor availability calendar, and tutor profile card. These calendar components, which help align the user's desired tutoring schedule with those of Revolution Prep's tutors, are critical to the enrollment process.
+
