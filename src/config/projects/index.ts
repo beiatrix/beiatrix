@@ -146,7 +146,7 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: studentProfileContent,
-    private: true
+    private: false
   },
   {
     title: 'Documentation Samples',
