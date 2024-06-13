@@ -12,17 +12,25 @@ The Student Profile project encompasses several forms: the Consult Intake form, 
 
 when a Revolution Prep academic advisor receives a lead, they complete consultations. previously, manually took notes, and information collected is not standardaized across company. now capture data in form.
 
-**![TODO](consult image)**
+![Consult](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/consult.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="student-profile">Student Profile</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-Information from the initial Consult Intake form is populated in the Student Profile form. It is available to Revolution Prep admins and tutors.
+The Student Profile form is where Revolution Prep admins and tutors can view and edit information about student
 
 all cards, all forms have read mode and edit mode
 
-**![TODO](student profile image)**
+form fields update on blur
+
+tutor package panels
+
+![Student Profile - Tutor Package Panels](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-tutor-package-panels.gif)
+
+edit sibling
+
+![Student Profile - Edit Siblings](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-edit-siblings.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="tutor-matching">Tutor Matching</a>**
 
@@ -30,7 +38,7 @@ all cards, all forms have read mode and edit mode
 
 Used by Tutor Matching team to help find perfect tutor for students.
 
-**![TODO](tutor matching image)**
+![Tutor Matching](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/tutor-matching.gif)
 
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 

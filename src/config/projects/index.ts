@@ -134,7 +134,7 @@ export const projects: Project[] = [
     private: false
   },
   {
-    title: 'Student Profile Forms',
+    title: 'Student Profile',
     subtitle: '@ Revolution Prep',
     description: 'Forms for gathering student information',
     slug: 'student-profile',
