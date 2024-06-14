@@ -2,7 +2,7 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-The Student Profile project encompasses several forms: the Consult Intake form, Student Profile form, and Tutor Matching form. These forms are used by Revolution Prep employees to help recommend academic products to students and match them up with a perfect tutor.
+The Student Profile project encompasses several forms: the Consult Intake form, Student Profile form, and Tutor Matching form. These forms are used by Revolution Prep employees to help consolidate information about students, recommend them academic products, and match them up with the perfect tutor.
 
 ![Student Profile - Cover](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-cover.gif)
 
@@ -10,48 +10,56 @@ The Student Profile project encompasses several forms: the Consult Intake form, 
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-when a Revolution Prep academic advisor receives a lead, they complete consultations. previously, manually took notes, and information collected is not standardaized across company. now capture data in form.
+When a Revolution Prep academic advisor receives a new lead, they complete a consult to learn more about the customer's needs with the goal of recommending them a product such as Private Tutoring or a Small Group Course.
+
+A Consult can have various topics, such as an Academic Strategy Session for a student looking to improve their grades, or a Score Report Review for a student working on test prep.
 
 ![Consult](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/consult.gif)
+
+The left side of the page contains cards to capture information about the parent, student, siblings, notes, academics, and test prep. On the right, the advisor notes the outcome of the Consult in a recommendation form. Every card has a "read mode" and an "edit mode" toggle.
+
+Behind the scenes, nearly all of the form fields automatically submit data on blur, reducing the amount of clicks for the user.
+
+Previously, this comprised of a manual note-taking process, and the information collected was not standardized across the company. Now, this data is captured in a form, and can then be used across our internal CRM (customer relationship management) system.
 
 ## **<a style="color: var(--ion-color-dark);" name="student-profile">Student Profile</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-The Student Profile form is where Revolution Prep admins and tutors can view and edit information about student
-
-all cards, all forms have read mode and edit mode
-
-form fields update on blur
+Information captured from the Consult page gets propagated to the Student Profile form. Here, Revolution Prep admins and tutors can view and edit information about a student.
 
 ![Student Profile](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile.gif)
 
-tutor package panels
+A user can click the tutor package expansion panels to learn more about the student's tutoring program(s). Clicking "View Completed Matches" opens a table displaying any existing tutor matches, and clicking "Initiate Tutor Match" opens the [tutor matching page](/projects/student-profile#tutor-matching).
 
 ![Student Profile - Tutor Package Panels](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-tutor-package-panels.gif)
 
-edit sibling
+
+Below are cards containing information about the parent and student. They should look familiar! All the cards on this page are reusable components – the same ones on the Consult page.
+
+The sibling card allows the admin to add a sibling to the student’s record.
 
 ![Student Profile - Edit Siblings](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-edit-siblings.gif)
 
-edit academic
+The text areas below allow the employee to add notes about the student’s personal and academic goals.
+
+Next is the academics card, where the user can record the student’s GPA, grades, or learning differences or accommodations. 
 
 ![Student Profile - Edit Academics](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-edit-academics.gif)
 
-edit test prep -- add exam
+Finally, the test prep card displays exams the student is taking. An employee can record the student’s current and target scores, view scores from practice exams, or add scores from official exams the student has taken. 
 
 ![Student Profile - Add Exam](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-add-exam.gif)
 
-edit test prep -- add official score
-
 ![Student Profile - Add Official Score](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-add-official-score.gif)
-
 
 ## **<a style="color: var(--ion-color-dark);" name="tutor-matching">Tutor Matching</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-Used by Tutor Matching team to help find perfect tutor for students.
+Finally, the tutor matching form is used by Tutor Matching team members to help find the perfect tutor for students.
+
+Form validation occurs on blur of a field, ensuring that all required fields are filled. 
 
 ![Tutor Matching](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/tutor-matching.gif)
 
