@@ -4,7 +4,7 @@
 
 The Student Profile project encompasses several forms: the Consult Intake form, Student Profile form, and Tutor Matching form. These forms are used by Revolution Prep employees to help recommend academic products to students and match them up with a perfect tutor.
 
-**![TODO](cover image)**
+![Student Profile - Cover](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-cover.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="consult-intake">Consult Intake</a>**
 
@@ -24,6 +24,8 @@ all cards, all forms have read mode and edit mode
 
 form fields update on blur
 
+![Student Profile](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile.gif)
+
 tutor package panels
 
 ![Student Profile - Tutor Package Panels](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-tutor-package-panels.gif)
@@ -31,6 +33,19 @@ tutor package panels
 edit sibling
 
 ![Student Profile - Edit Siblings](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-edit-siblings.gif)
+
+edit academic
+
+![Student Profile - Edit Academics](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-edit-academics.gif)
+
+edit test prep -- add exam
+
+![Student Profile - Add Exam](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-add-exam.gif)
+
+edit test prep -- add official score
+
+![Student Profile - Add Official Score](https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile-add-official-score.gif)
+
 
 ## **<a style="color: var(--ion-color-dark);" name="tutor-matching">Tutor Matching</a>**
 

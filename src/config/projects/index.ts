@@ -138,7 +138,7 @@ export const projects: Project[] = [
     subtitle: '@ Revolution Prep',
     description: 'Forms for gathering student information',
     slug: 'student-profile',
-    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-profile/student-profile.gif',
     company: 'Revolution Prep',
     year: 2022,
     technologies: [
