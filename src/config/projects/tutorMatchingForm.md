@@ -22,7 +22,7 @@ In Step 2, the user indicates their availability for tutoring by clicking on the
 
 ![Tutor Matching Form - Step 2](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-matching-form/tutor-matching-form-step-2.gif)
 
-In 2024, we launched an improved version of this calendar, rebuilt in FullCalendar. Rather than simply clicking a time to generate an availability block, the user now has the flexibility to click and drag to select ranges of availability. A progress bar displays how much required availability has been selected, along with a validation card to provide more context.
+In 2024, we launched an improved version of this calendar, rebuilt in FullCalendar. Rather than clicking a time to generate an availability block, the user now has the flexibility to click and drag to select ranges of availability. A progress bar displays how much required availability has been selected, along with a validation card to provide more context.
 
 ![Tutor Matching Form - Step 2 - v2](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-matching-form/tutor-matching-form-step-2-v2.gif)
 

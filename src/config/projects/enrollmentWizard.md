@@ -48,11 +48,11 @@ The blue alert text indicates the minimum required availability – for example,
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-In Step 4, we generate recommendations for tutors whose availabilities align with the availability selected in Step 3.
+In Step 4, we generate recommendations for tutors whose availabilities align with the times selected in Step 3.
 
 ![Enrollment Wizard - Step 4](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-4.jpg)
 
-The parent can explore different tutors by clicking the cards in the slide group. Below, they can examine the tutor's availability in the calendar in light green and see how it overlaps with their own availability in the darker green outlined rectangles.
+The parent can explore different tutors by clicking the cards in the slide group. Below, they can examine the tutor's availability in the calendar in light green and see how it overlaps with their student's availability in the darker green outlined rectangles.
 
 ![Enrollment Wizard - Step 4 - Tutor Availabilities](https://beiatrix.s3.us-west-1.amazonaws.com/projects/enrollment-wizard/enrollment-wizard-step-4.gif)
 

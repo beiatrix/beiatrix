@@ -43,10 +43,10 @@ export const projects: Project[] = [
     private: false
   },
   {
-    title: 'Chat App',
+    title: 'Mobile Chat',
     subtitle: '@ Revolution Prep',
     description: 'Real-time chat messaging app for iOS and Android, built with Ionic/Vue and Ruby on Rails.',
-    slug: 'chat-app',
+    slug: 'mobile-chat',
     image: 'https://ionicframework.com/docs/img/demos/card-media.png',
     company: 'Revolution Prep',
     year: 2023,
@@ -101,7 +101,7 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: mobileAppContent,
-    private: true
+    private: false
   },
   {
     title: 'Exam Player',
