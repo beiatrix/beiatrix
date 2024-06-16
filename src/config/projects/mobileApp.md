@@ -10,20 +10,27 @@ todo
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-Login page
+Landing, login form, forgot password
 
-**[img: login]**
-
-Forgot user name or password
-
-**[img: forgot user name]**
-
-App bar - profile menu
-
-- my user
-- company contact info
-
-**[img: app bar / nav drawer]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: space-between;"
+>
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/landing.jpg"
+    alt="Landing View" 
+    style="width: 30%; height: auto;"
+  />
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/login.jpg"
+    alt="Login View" 
+    style="width: 30%; height: auto;"
+  />
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/forgot-password.jpg"
+    alt="Forgot Password View" 
+    style="width: 30%; height: auto;"
+  />
+</div>
 
 ## **<a style="color: var(--ion-color-dark);" name="live-help">Live Help</a>**
 
@@ -107,6 +114,44 @@ Self proctor
 Live proctor
 
 **[img: live proctor page]**
+
+## **<a style="color: var(--ion-color-dark);" name="app-bar">App Bar</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
+App bar - profile menu
+
+- my user
+- company contact info
+- logout 
+
+**[img: app bar / nav drawer]**
+
+
+## **<a style="color: var(--ion-color-dark);" name="notifications-modal">Notifications</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
+if logging in for the first time, notifications modal and prompt
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/notifications-modal.jpg"
+      alt="Notifications Modal" 
+    />
+  </div>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/notifications-prompt.jpg"
+      alt="Notifications Prompt"
+    />
+  </div>
+</div>
+
+[see document]
 
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 

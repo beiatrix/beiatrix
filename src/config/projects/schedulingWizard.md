@@ -15,7 +15,7 @@ To summarize Version 1 of the Schedule Sessions flow:
 Beginning on the Schedule page, a student with a tutoring enrollment clicks the green "Schedule Sessions" button.
 
 <div 
-  style="display: flex; flex-direction: row; justify-content: center"
+  style="display: flex; flex-direction: row; justify-content: center;"
 >
   <img 
     src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule.jpg"
@@ -27,7 +27,7 @@ Beginning on the Schedule page, a student with a tutoring enrollment clicks the 
 Step 1: The student selects a tutor and clicks "Schedule."
 
 <div 
-  style="display: flex; flex-direction: row; justify-content: center"
+  style="display: flex; flex-direction: row; justify-content: center;"
 >
   <img 
     src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-step-1.jpg"
@@ -39,7 +39,7 @@ Step 1: The student selects a tutor and clicks "Schedule."
 Step 2: The student selects a session time and duration. The green blocks represent their tutor's availability, broken up into chunks based on the duration selected. Clicking a time in the calendar moves them on to the next step.
 
 <div 
-  style="display: flex; flex-direction: row; justify-content: center"
+  style="display: flex; flex-direction: row; justify-content: center;"
 >
   <img 
     src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-step-2.gif"
@@ -51,7 +51,7 @@ Step 2: The student selects a session time and duration. The green blocks repres
 Step 3: Finally, the student confirms their session details. They have the option to book repeat sessions at the same time slot for multiple weeks ahead.
 
 <div 
-  style="display: flex; flex-direction: row; justify-content: center"
+  style="display: flex; flex-direction: row; justify-content: center;"
 >
   <img 
     src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-step-3.jpg"
@@ -63,7 +63,7 @@ Step 3: Finally, the student confirms their session details. They have the optio
 Success! Upon completing a booking, a dialog displays the list of time(s) booked. Finally, clicking "Back to my Schedule" navigates the student back to their calendar.
 
 <div 
-  style="display: flex; flex-direction: row; justify-content: center"
+  style="display: flex; flex-direction: row; justify-content: center;"
 >
   <img 
     src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-success.jpg"

@@ -220,7 +220,7 @@ For the initial launch of the Student Dashboard in 2021, I helped gather require
 This incarnation of the Student Dashboard is the successor to a legacy app built in AngularJS. I was instrumental in crafting the look and feel of the next-generation apps. Here are some side-by-side screenshots comparing the legacy and next versions of the Student Dashboard:
 
 <div 
-  style="display: flex; flex-direction: row; justify-content: space-between"
+  style="display: flex; flex-direction: row; justify-content: space-between;"
 >
   <img 
     src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/schedule-legacy.jpg"
@@ -235,7 +235,7 @@ This incarnation of the Student Dashboard is the successor to a legacy app built
 </div>
 
 <div 
-  style="display: flex; flex-direction: row; justify-content: space-between"
+  style="display: flex; flex-direction: row; justify-content: space-between;"
 >
   <img 
     src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/help-now-legacy.jpg"
@@ -250,7 +250,7 @@ This incarnation of the Student Dashboard is the successor to a legacy app built
 </div>
 
 <div 
-  style="display: flex; flex-direction: row; justify-content: space-between"
+  style="display: flex; flex-direction: row; justify-content: space-between;"
 >
   <img 
     src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/student-dashboard/exams-legacy.jpg"
