@@ -36,6 +36,20 @@ Landing, login form, forgot password
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
+first time - opt in to trial enrollment for Revolution Now
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-now-trial.jpg"
+      alt="Help Now Trial" 
+    />
+  </div>
+</div>
+
+
 Live Help tab
 Session cards
 
@@ -119,13 +133,22 @@ Live proctor
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-App bar - profile menu
+App bar - tap avatar to open profile menu
 
 - my user
 - company contact info
 - logout 
 
-**[img: app bar / nav drawer]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/profile-menu.gif"
+      alt="Profile Menu" 
+    />
+  </div>
+</div>
 
 
 ## **<a style="color: var(--ion-color-dark);" name="notifications-modal">Notifications</a>**
@@ -147,6 +170,19 @@ if logging in for the first time, notifications modal and prompt
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/notifications-prompt.jpg"
       alt="Notifications Prompt"
+    />
+  </div>
+</div>
+
+session notification
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/session-notification.gif"
+      alt="Session Notification" 
     />
   </div>
 </div>
