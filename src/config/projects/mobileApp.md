@@ -48,20 +48,46 @@ first time - opt in to trial enrollment for Revolution Now
     />
   </div>
 </div>
-
-
 Live Help tab
 Session cards
 
-**[img: live help]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/live-help.jpg"
+      alt="Live Help" 
+    />
+  </div>
+</div>
+
+Tapping "What is this anyway" opens the marketing modal 
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/marketing-modal.gif"
+      alt="Marketing Modal" 
+    />
+  </div>
+</div>
+
 
 Select Subjects
 
-**[img: select subjects]**
-
-Marketing modal
-
-**[img: marketing modal]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/select-subjects-modal.gif"
+      alt="Select Subjects Modal" 
+    />
+  </div>
+</div>
 
 Session show page
 
