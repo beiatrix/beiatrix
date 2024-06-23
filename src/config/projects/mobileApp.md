@@ -89,29 +89,44 @@ Select Subjects
   </div>
 </div>
 
-Session show page
+Save spot > Session show page > Reserved sessions section
 
-**[img: session show page]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/save-spot.gif"
+      alt="Save Spot" 
+    />
+  </div>
+</div>
 
-Reserved sessions section
+Browse schedules > Subject Show page
 
-**[img: reserved sessions]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/subject-show.gif"
+      alt="Subject Show Page" 
+    />
+  </div>
+</div>
 
-Cancel reservation
+Cancel reservation (unreserve)
 
-**[img: cancel reservation]**
-
-Browse schedules 
-
-**[img: browse schedules]**
-
-Subject Show page
-
-**[img: subject show page]**
-
-Session notifications 
-
-**[img: session notification screenshot]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/unreserve.gif"
+      alt="Unreserve Session" 
+    />
+  </div>
+</div>
 
 ## **<a style="color: var(--ion-color-dark);" name="exams">Exams</a>**
 
