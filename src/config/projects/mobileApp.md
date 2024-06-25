@@ -41,7 +41,7 @@ first time - opt in to trial enrollment for Revolution Now
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto; margin-right: 2rem">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-now-trial.jpg"
       alt="Help Now Trial" 
@@ -54,7 +54,7 @@ Session cards
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto; margin-right: 2rem">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/live-help.jpg"
       alt="Live Help" 
@@ -67,7 +67,7 @@ Tapping "What is this anyway" opens the marketing modal
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto; margin-right: 2rem">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/marketing-modal.gif"
       alt="Marketing Modal" 
@@ -81,7 +81,7 @@ Select Subjects
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto; margin-right: 2rem">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/select-subjects-modal.gif"
       alt="Select Subjects Modal" 
@@ -94,7 +94,7 @@ Save spot > Session show page > Reserved sessions section
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto; margin-right: 2rem">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/save-spot.gif"
       alt="Save Spot" 
@@ -107,7 +107,7 @@ Browse schedules > Subject Show page
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto; margin-right: 2rem">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/subject-show.gif"
       alt="Subject Show Page" 
@@ -120,7 +120,7 @@ Cancel reservation (unreserve)
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto; margin-right: 2rem">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/unreserve.gif"
       alt="Unreserve Session" 
@@ -132,17 +132,36 @@ Cancel reservation (unreserve)
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-Exams page
+tap exams in exams tabs - Exams index page
 
-**[img: exams index page]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/exams.gif"
+      alt="Exams" 
+    />
+  </div>
+</div>
+
+Tap score exam > if first time, see help flow, then grant permissions
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-slides.gif"
+      alt="Help Slides" 
+    />
+  </div>
+</div>
 
 Scoring flow
 
 **[img: exam scoring flow]**
 
-Help flow
-
-**[img: help flow]**
 
 Review
 
@@ -183,7 +202,7 @@ App bar - tap avatar to open profile menu
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto; margin-right: 2rem">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/profile-menu.gif"
       alt="Profile Menu" 
@@ -220,7 +239,7 @@ session notification
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto; margin-right: 2rem">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/session-notification.gif"
       alt="Session Notification" 
