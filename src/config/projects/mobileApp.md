@@ -152,18 +152,39 @@ Tap score exam > if first time, see help flow, then grant permissions
 >
   <div style="width: 30%; height: auto;">
     <img 
-      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-slides.gif"
-      alt="Help Slides" 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-slides-preview.gif"
+      alt="Help Slides - Preview" 
     />
   </div>
 </div>
 
 Scoring flow
 
-**[img: exam scoring flow]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/score-exam.gif"
+      alt="Score Exam" 
+    />
+  </div>
+</div>
 
+Help Slides - Review (first time)
 
-Review
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-slides-review.gif"
+      alt="Help Slides - Review" 
+    />
+  </div>
+</div>
+
+Review flow
 
 **[img: review]**
 
