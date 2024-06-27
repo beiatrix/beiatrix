@@ -41,7 +41,7 @@ first time - opt in to trial enrollment for Revolution Now
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-now-trial.jpg"
       alt="Help Now Trial" 
@@ -54,7 +54,7 @@ Session cards
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/live-help.jpg"
       alt="Live Help" 
@@ -67,7 +67,7 @@ Tapping "What is this anyway" opens the marketing modal
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/marketing-modal.gif"
       alt="Marketing Modal" 
@@ -81,7 +81,7 @@ Select Subjects
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/select-subjects-modal.gif"
       alt="Select Subjects Modal" 
@@ -94,7 +94,7 @@ Save spot > Session show page > Reserved sessions section
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/save-spot.gif"
       alt="Save Spot" 
@@ -107,7 +107,7 @@ Browse schedules > Subject Show page
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/subject-show.gif"
       alt="Subject Show Page" 
@@ -120,7 +120,7 @@ Cancel reservation (unreserve)
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/unreserve.gif"
       alt="Unreserve Session" 
@@ -132,25 +132,29 @@ Cancel reservation (unreserve)
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
+### **<a style="color: var(--ion-color-dark);" name="exams-view">Exams View</a>**
+
 tap exams in exams tabs - Exams index page
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
-      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/exams.gif"
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/exams.jpg"
       alt="Exams" 
     />
   </div>
 </div>
+
+### **<a style="color: var(--ion-color-dark);" name="score-exam">Score Exam</a>**
 
 Tap score exam > if first time, see help flow, then grant permissions
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-slides-preview.gif"
       alt="Help Slides - Preview" 
@@ -163,7 +167,7 @@ Scoring flow
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/score-exam.gif"
       alt="Score Exam" 
@@ -176,7 +180,7 @@ Help Slides - Review (first time)
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-slides-review.gif"
       alt="Help Slides - Review" 
@@ -185,22 +189,63 @@ Help Slides - Review (first time)
 </div>
 
 Review flow
+option 1: tap magnifying glass > bubble in answers directly on photo
 
-**[img: review]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 40%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/review-photo.gif"
+      alt="Review - Photo" 
+    />
+  </div>
+</div>
 
-Answers modal
+option 2: tap edit button > open modal to edit answers
 
-**[img: answers]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 40%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/review-modal.gif"
+      alt="Review - Modal" 
+    />
+  </div>
+</div>
 
 Score announcement modal
 
-**[img: score annoucnement]**
+**[img: score announcement]**
 
-Exams show page
+submit score >> exams show page
 
-**[img: exams show page]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 40%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/submit-score.gif"
+      alt="Submit Score" 
+    />
+  </div>
+</div>
 
-~~Exam summaries page
+tap an item to view score report 
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 40%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/score-report.gif"
+      alt="Score Report" 
+    />
+  </div>
+</div>
+
+### **<a style="color: var(--ion-color-dark);" name="self-proctor-exam">Self Proctor Exam</a>**
 
 Self proctor
 
@@ -223,14 +268,13 @@ App bar - tap avatar to open profile menu
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/profile-menu.gif"
       alt="Profile Menu" 
     />
   </div>
 </div>
-
 
 ## **<a style="color: var(--ion-color-dark);" name="notifications-modal">Notifications</a>**
 
@@ -241,13 +285,13 @@ if logging in for the first time, notifications modal and prompt
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto; margin-right: 2rem">
+  <div style="width: 40%; height: auto; margin-right: 2rem">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/notifications-modal.jpg"
       alt="Notifications Modal" 
     />
   </div>
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/notifications-prompt.jpg"
       alt="Notifications Prompt"
@@ -260,7 +304,7 @@ session notification
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 30%; height: auto;">
+  <div style="width: 40%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/session-notification.gif"
       alt="Session Notification" 
