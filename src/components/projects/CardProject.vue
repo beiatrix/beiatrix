@@ -122,16 +122,15 @@ ion-card-content {
 }
 
 img {
-  box-shadow: 1px 4px 8px rgb(var(--ion-color-charcoal-rgb), 0.2);
-  border-radius: 0.25rem;
+  border-radius: 0.25rem;  /* border: 1px solid grey; */
 }
 
 .img-container {
   display: flex;
   justify-content: center;
   align-items: start;
-  padding: 1.25rem;
-  background-color: var(--ion-color-light-shade);
+  padding: 0.5rem;
+  background-color: rgba(var(--ion-color-forest-rgb), 0.3);
 }
 
 .icon-technology-container {

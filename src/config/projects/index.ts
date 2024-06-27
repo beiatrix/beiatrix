@@ -93,7 +93,7 @@ export const projects: Project[] = [
     subtitle: '@ Revolution Prep',
     description: 'Mobile app for Revolution Prep students built with Ionic/Vue.',
     slug: 'mobile-app',
-    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/landing.jpg',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/mobile-app-cover-horizontal.gif',
     company: 'Revolution Prep',
     year: 2022,
     technologies: [
