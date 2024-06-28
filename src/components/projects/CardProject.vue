@@ -130,7 +130,7 @@ img {
   justify-content: center;
   align-items: start;
   padding: 0.5rem;
-  background-color: rgba(var(--ion-color-forest-rgb), 0.3);
+  background-color: var(--ion-color-light-shade);
 }
 
 .icon-technology-container {

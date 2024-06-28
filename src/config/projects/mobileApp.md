@@ -225,7 +225,16 @@ option 2: tap edit button > open modal to edit answers
 
 Score announcement modal
 
-**[img: score announcement]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 40%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/score-announcement-modal.gif"
+      alt="Score Announcement Modal" 
+    />
+  </div>
+</div>
 
 submit score >> exams show page
 
@@ -253,15 +262,81 @@ tap an item to view score report
   </div>
 </div>
 
-### **<a style="color: var(--ion-color-dark);" name="self-proctor-exam">Self Proctor Exam</a>**
+### **<a style="color: var(--ion-color-dark);" name="self-proctor-exam">Self Proctor</a>**
 
 Self proctor
 
-**[img: self proctor page]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: space-between;"
+>
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/self-proctor.jpg"
+    alt="Self Proctor" 
+    style="width: 30%; height: auto;"
+  />
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/self-proctor-sections.jpg"
+    alt="Self Proctor - Sections" 
+    style="width: 30%; height: auto;"
+  />
+  <img 
+    src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/self-proctor-start.jpg"
+    alt="Self Proctor - Start" 
+    style="width: 30%; height: auto;"
+  />
+</div>
+
+Download answersheet
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 40%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/download-answersheet.gif"
+      alt="Download Answersheet" 
+    />
+  </div>
+</div>
 
 Live proctor
 
-**[img: live proctor page]**
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 40%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/live-proctor.gif"
+      alt="Live Proctor" 
+    />
+  </div>
+</div>
+
+Self Proctor - Local Notification
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 40%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/self-proctor-notification.gif"
+      alt="Self Proctor - Notification" 
+    />
+  </div>
+</div>
+
+Congratulations > score exam
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 40%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/self-proctor-congratulations.jpg"
+      alt="Self Proctor - Congratulations" 
+    />
+  </div>
+</div>
 
 ## **<a style="color: var(--ion-color-dark);" name="app-bar">App Bar</a>**
 
@@ -325,3 +400,28 @@ session notification
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
+
+global styling
+header - app bar
+footer - tab navigator
+
+live help
+- marketing card
+- next live session chip
+- remaining sessions chip
+- browse schedules section
+- app store screenshots
+
+exams - all contents in tab
+- exam show page - graph, completed exams, partially scored exams, congratulations modal
+- self proctor - start page, select exams alert, select sections, start exam modal, download answersheet,live proctor, download answersheet [interact with filesystem]
+
+help with notifications feature
+- request permission modal
+- local notifications (self proctor)
+
+unit tests
+
+bug fixes
+
+next, link to mobile chat!
