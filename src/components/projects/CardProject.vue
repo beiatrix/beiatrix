@@ -44,7 +44,7 @@ function getProjectUrl (project: Project) {
     :href="getProjectUrl(project)"
   >
     <div class="img-container">
-      <img 
+      <img
         :alt="project.title"
         :src="project.image" 
       />
@@ -77,7 +77,7 @@ function getProjectUrl (project: Project) {
             v-for="(technology, index) in project.technologies"
             :style="
               index < project.technologies.length - 1
-                ? 'margin-right: 0.5rem;' 
+                ? 'margin-right: 0.4rem;' 
                 : ''
               "
             :key="`${project.title}-${technology}`"

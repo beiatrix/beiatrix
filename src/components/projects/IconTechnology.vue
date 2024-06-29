@@ -45,7 +45,7 @@ const technologyItem = computed(() => {
         :color="technologyItem.iconColor"
         :src="technologyItem.icon"
       />
-      <img 
+      <img
         v-if="technologyItem.logo"
         :alt="technologyItem.text" 
         :src="technologyItem.logo"
@@ -66,5 +66,9 @@ const technologyItem = computed(() => {
 
 img {
   max-width: 1.5rem;
+}
+
+ion-icon {
+  font-size: 1.5rem;
 }
 </style>

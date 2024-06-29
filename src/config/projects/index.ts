@@ -56,7 +56,7 @@ export const projects: Project[] = [
       'Ruby on Rails'
     ],
     content: mobileChatContent,
-    private: true
+    private: false
   },
   {
     title: 'Enrollment Wizard',
