@@ -2,7 +2,8 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-todo
+The Revolution Prep mobile app is where students can launch live help sessions with their tutors and easily score practice exams with their camera. It is available for download on the App Store and Google Play Store. 
+
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
@@ -18,10 +19,10 @@ todo
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-Landing, login form, forgot password
+When the student downloads the app for the first time, they see this home screen on the left below. Tapping "log in" takes them to the login form, where they can authenticate to enter the app. Otherwise, tapping "forgot password" allows the user to reset their password.
 
 <div 
-  style="display: flex; flex-direction: row; justify-content: space-between;"
+  style="display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 2rem;"
 >
   <img 
     src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/landing.jpg"
@@ -44,7 +45,9 @@ Landing, login form, forgot password
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-first time - opt in to trial enrollment for Revolution Now
+Upon logging in, the user is taken to the Live Help view by default.
+
+If this is the user's first time ever logging in, they may tap "Let me see the sessions!" to opt in to a free trial of Revolution Now – a service that allows students to connect with a tutor for quick questions or homework help.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -56,8 +59,8 @@ first time - opt in to trial enrollment for Revolution Now
     />
   </div>
 </div>
-Live Help tab
-Session cards
+
+Once the student is enrolled in Revolution Now, this is the default view they will see. At the top, chips indicate the next available session time and the number of free sessions available. The centerpiece is a slide group of cards displaying upcoming tutoring sessions. The lower half of the page contains list items of the student's study areas.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -70,7 +73,7 @@ Session cards
   </div>
 </div>
 
-Tapping "What is this anyway" opens the marketing modal 
+Tapping the "What is this anyway?" banner opens a marketing modal with more information about the Revolution Now program.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -83,8 +86,7 @@ Tapping "What is this anyway" opens the marketing modal
   </div>
 </div>
 
-
-Select Subjects
+At the bottom of the page, students can tap "Edit Subjects" to open a subject selection modal. Adding a subject allows the student to view sessions for that subject right away.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -97,7 +99,7 @@ Select Subjects
   </div>
 </div>
 
-Save spot > Session show page > Reserved sessions section
+In the slide group of session cards, a student can tap "Save Spot" to easily reserve their spot with a tutor. Tapping this button opens a detail view for their session. When they go back to the main Live Help screen, they can now see their reservation under a section called "Reserved Sessions."
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -110,7 +112,7 @@ Save spot > Session show page > Reserved sessions section
   </div>
 </div>
 
-Browse schedules > Subject Show page
+Below "Reserved Sessions" is a "Browse Schedules" session. Tapping a subject name allows the student to see all the upcoming tutoring availabilities for that subject.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -123,7 +125,7 @@ Browse schedules > Subject Show page
   </div>
 </div>
 
-Cancel reservation (unreserve)
+To cancel a reservation, the student can tap an "Unreserve" button in the session detail view. They can do so by tapping either the "Details" button of a session card or a session list item under "Reserved Sessions."
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -142,7 +144,7 @@ Cancel reservation (unreserve)
 
 ### **<a style="color: var(--ion-color-dark);" name="exams-view">Exams View</a>**
 
-tap exams in exams tabs - Exams index page
+Tapping "Exams" in the footer tab navigator takes the student to the Exams view. Here, the student can see an overview of their exam scores, use their camera to score an exam, or use the self-proctor feature to administer a practice exam.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -157,7 +159,7 @@ tap exams in exams tabs - Exams index page
 
 ### **<a style="color: var(--ion-color-dark);" name="score-exam">Score Exam</a>**
 
-Tap score exam > if first time, see help flow, then grant permissions
+When the user taps "Score Exam" for the first time ever, they will see these tutorial slides, followed by a prompt to grant permission to access the camera.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -170,7 +172,7 @@ Tap score exam > if first time, see help flow, then grant permissions
   </div>
 </div>
 
-Scoring flow
+Once permissions are granted, the student can use their camera to snap photos of their exam.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -183,7 +185,7 @@ Scoring flow
   </div>
 </div>
 
-Help Slides - Review (first time)
+Once all the images have been uploaded, a first-time user will see these help slides showing the student how to review their submitted answers.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -196,8 +198,7 @@ Help Slides - Review (first time)
   </div>
 </div>
 
-Review flow
-option 1: tap magnifying glass > bubble in answers directly on photo
+The student has the option to tap the magnifying glass button to edit their answer bubbles directly on the photo.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -210,7 +211,7 @@ option 1: tap magnifying glass > bubble in answers directly on photo
   </div>
 </div>
 
-option 2: tap edit button > open modal to edit answers
+They also have the option to tap the "Edit" button to check their answers in a modal.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -223,7 +224,7 @@ option 2: tap edit button > open modal to edit answers
   </div>
 </div>
 
-Score announcement modal
+When they're finished reviewing their answers, clicking "Submit" opens a celebratory score announcement modal if this is the student's first exam score they've ever submitted.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -236,7 +237,7 @@ Score announcement modal
   </div>
 </div>
 
-submit score >> exams show page
+For returning users, tapping "Submit" takes the student to their transcript page.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -249,7 +250,7 @@ submit score >> exams show page
   </div>
 </div>
 
-tap an item to view score report 
+To learn more, the student can tap a list item to view an in-depth score report.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -264,7 +265,7 @@ tap an item to view score report
 
 ### **<a style="color: var(--ion-color-dark);" name="self-proctor-exam">Self Proctor</a>**
 
-Self proctor
+From the Exams home page, tapping "Self Proctor" takes them to a view where the student can select an exam to proctor. They have the option to proctor a full exam or target specific sections.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: space-between;"
@@ -286,7 +287,7 @@ Self proctor
   />
 </div>
 
-Download answersheet
+Tapping "Download Answersheet" allows the student to get an answer sheet PDF for their selected exam.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -299,7 +300,7 @@ Download answersheet
   </div>
 </div>
 
-Live proctor
+Tapping "Start Exam" launches the proctoring feature. It comprises of a timer with audible prompts that notify the student when a section is beginning or ending, or announce a break in between sections. Ambient gifs float in the background, with ambient room sounds that may be toggled on or off. The stop button allows the student to exit the flow and the skip button confirms before allowing a student to skip to the next section.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -312,7 +313,7 @@ Live proctor
   </div>
 </div>
 
-Self Proctor - Local Notification
+If the student sends the app to the background, they can see a local notification with details about their in-progress exam.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -325,7 +326,7 @@ Self Proctor - Local Notification
   </div>
 </div>
 
-Congratulations > score exam
+Once the proctored exam is complete, a "Congratulations" message appears prompting the student to score their exam. Tapping "Score Exam" takes the student to the exam scoring flow.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -342,11 +343,7 @@ Congratulations > score exam
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-App bar - tap avatar to open profile menu
-
-- my user
-- company contact info
-- logout 
+The app bar that appears at the top of the Live Help and Exams view contains the page title and the student's avatar. The student can tap their avatar to open their profile menu, which contains their user information, Revolution Prep's company contact information, and a Logout button.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -363,7 +360,7 @@ App bar - tap avatar to open profile menu
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-if logging in for the first time, notifications modal and prompt
+A student logging in for the very first time will see a modal prompting the student to allow notifications.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -382,7 +379,7 @@ if logging in for the first time, notifications modal and prompt
   </div>
 </div>
 
-session notification
+Once permissions are granted, students can receive session reminders on their device. Tapping the notification opens a modal enabling the student to quickly join their session.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -394,8 +391,6 @@ session notification
     />
   </div>
 </div>
-
-[see document]
 
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
