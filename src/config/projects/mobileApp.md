@@ -7,7 +7,7 @@ The Revolution Prep mobile app allows students to launch live help sessions with
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/mobile-app-cover.gif"
       alt="Mobile App" 
@@ -52,7 +52,7 @@ If this is the user's first time ever logging in, they may tap "Let me see the s
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-now-trial.jpg"
       alt="Help Now Trial" 
@@ -65,7 +65,7 @@ Once the student is enrolled in Revolution Now, this is the default view they wi
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/live-help.jpg"
       alt="Live Help" 
@@ -78,7 +78,7 @@ Tapping the "What is this anyway?" banner opens a marketing modal with more info
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/marketing-modal.gif"
       alt="Marketing Modal" 
@@ -91,7 +91,7 @@ At the bottom of the page, students can tap "Edit Subjects" to open a subject se
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/select-subjects-modal.gif"
       alt="Select Subjects Modal" 
@@ -104,7 +104,7 @@ In the slide group of session cards, a student can tap "Save Spot" to easily res
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/save-spot.gif"
       alt="Save Spot" 
@@ -117,7 +117,7 @@ Below "Reserved Sessions" is a "Browse Schedules" session. Tapping a subject nam
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/subject-show.gif"
       alt="Subject Show Page" 
@@ -130,7 +130,7 @@ To cancel a reservation, the student can tap an "Unreserve" button in the sessio
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/unreserve.gif"
       alt="Unreserve Session" 
@@ -149,7 +149,7 @@ Tapping "Exams" in the footer tab navigator takes the student to the Exams view.
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/exams.jpg"
       alt="Exams" 
@@ -164,7 +164,7 @@ When the user taps "Score Exam" for the first time ever, they will see tutorial 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-slides-preview.gif"
       alt="Help Slides - Preview" 
@@ -177,7 +177,7 @@ Once permissions are granted, the student can use their camera to snap photos of
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/score-exam.gif"
       alt="Score Exam" 
@@ -190,7 +190,7 @@ Once all the images have been uploaded, a first-time user will see help slides s
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/help-slides-review.gif"
       alt="Help Slides - Review" 
@@ -203,7 +203,7 @@ The student has the option to tap the magnifying glass button to edit their answ
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/review-photo.gif"
       alt="Review - Photo" 
@@ -216,7 +216,7 @@ They also have the option to tap the "Edit" button to check their answers in a m
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/review-modal.gif"
       alt="Review - Modal" 
@@ -229,7 +229,7 @@ When they're finished reviewing their answers, clicking "Submit" opens a celebra
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/score-announcement-modal.gif"
       alt="Score Announcement Modal" 
@@ -242,7 +242,7 @@ For returning users, tapping "Submit" takes the student to their transcript page
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/submit-score.gif"
       alt="Submit Score" 
@@ -255,7 +255,7 @@ To learn more, the student can tap a list item to view an in-depth score report.
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/score-report.gif"
       alt="Score Report" 
@@ -292,7 +292,7 @@ Tapping "Download Answersheet" allows the student to get an answer sheet PDF for
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/download-answersheet.gif"
       alt="Download Answersheet" 
@@ -305,7 +305,7 @@ Tapping "Start Exam" launches the proctoring feature. It comprises a timer with 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/live-proctor.gif"
       alt="Live Proctor" 
@@ -318,7 +318,7 @@ If the student sends the app to the background, they can see a notification with
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/self-proctor-notification.gif"
       alt="Self Proctor - Notification" 
@@ -331,7 +331,7 @@ Once the proctored exam is complete, a "Congratulations" message appears, encour
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/self-proctor-congratulations.jpg"
       alt="Self Proctor - Congratulations" 
@@ -339,7 +339,7 @@ Once the proctored exam is complete, a "Congratulations" message appears, encour
   </div>
 </div>
 
-## **<a style="color: var(--ion-color-dark);" name="app-bar">App Bar</a>**
+## **<a style="color: var(--ion-color-dark);" name="app-bar">Header and Footer</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
@@ -348,10 +348,23 @@ The app bar that appears at the top of the Live Help and Exams views contains th
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/profile-menu.gif"
       alt="Profile Menu" 
+    />
+  </div>
+</div>
+
+The footer tab navigator allows the user to switch between the main views of the app.
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/footer.gif"
+      alt="Footer" 
     />
   </div>
 </div>
@@ -365,13 +378,13 @@ A student logging in for the very first time will see a modal prompting them to 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto; margin-right: 2rem">
+  <div style="width: 30%; height: auto; margin-right: 2rem">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/notifications-modal.jpg"
       alt="Notifications Modal" 
     />
   </div>
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/notifications-prompt.jpg"
       alt="Notifications Prompt"
@@ -384,7 +397,7 @@ Once permissions are granted, students can receive session reminders on their de
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
-  <div style="width: 40%; height: auto;">
+  <div style="width: 30%; height: auto;">
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/session-notification.gif"
       alt="Session Notification" 
@@ -400,12 +413,12 @@ As a developer, I built various features across the two main views of the app in
 
 In the Exams view, I worked on the exam summary page, the score report page containing a ChartJS graph and list of scored exams, and the entirety of the self-proctor feature (comprising a start page, various modals, functions to interact with the filesystem for the "Download Answersheet" button, the timer feature with floating SVG images, and local notifications).
 
-In the Live Help view, I worked on the marketing card, next live session and remaining sessions chips, and the "Browse Schedules" session.
+In the Live Help view, I developed the marketing card, the next live session and remaining sessions chips, and the "Browse Schedules" session.
 
-I pitched in towards the push notifications feature and built the modal to request notifications permissions.
+Furthermore, I pitched in towards the push notifications feature and built the modal to request notification permissions.
 
-I worked on some global elements, including the header app bar, footer tab navigator, and a styling pass across all views of the app.
+I also worked on some global elements, including the header app bar and footer tab navigator, and performed a styling pass across all views of the app.
 
-I prepared screenshots showcasing the mobile app for our App Store listings and helped submit the app to the App Store and Google Play store for review and publishing.
+Finally, I prepared screenshots showcasing the mobile app for our App Store listings and helped submit the app to the App Store and Google Play Store for review and publishing.
 
-In 2023 I was given the opportunity to lead the technical effort for a major update to the mobile app: the addition of **[Mobile Chat](/projects/mobile-chat)**.
+In 2023, I was given the opportunity to lead the technical effort for a major update to the mobile app: the addition of **[Mobile Chat](/projects/mobile-chat)**.
