@@ -396,27 +396,16 @@ Once permissions are granted, students can receive session reminders on their de
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-global styling
-header - app bar
-footer - tab navigator
+As a developer, I built various features across the two main views of the app in Ionic and Vue, wrote unit tests in Jest, helped prepare the app for publishing to the app stores, and provided bug fixes and improvements post-launch.
 
-live help
-- marketing card
-- next live session chip
-- remaining sessions chip
-- browse schedules section
-- app store screenshots
+In the Exams view, I worked on the exam summary page, the score report page containing a ChartJS graph and list of scored exams, and the entirety of the self-proctor feature (comprising a start page, various modals, functions to interact with the filesystem for the "Download Answersheet" button, the timer feature with floating SVG images, and local notifications).
 
-exams - all contents in tab
-- exam show page - graph, completed exams, partially scored exams, congratulations modal
-- self proctor - start page, select exams alert, select sections, start exam modal, download answersheet,live proctor, download answersheet [interact with filesystem]
+In the Live Help view, I worked on the marketing card, next live session and remaining sessions chips, and the "Browse Schedules" session.
 
-help with notifications feature
-- request permission modal
-- local notifications (self proctor)
+I pitched in towards the push notifications feature and built the modal to request notifications permissions.
 
-unit tests
+I worked on some global elements, including the header app bar, footer tab navigator, and a styling pass across all views of the app.
 
-bug fixes
+I prepared screenshots showcasing the mobile app for our App Store listings and helped submit the app to the App Store and Google Play store for review and publishing.
 
-next, link to mobile chat!
+In 2023 I was given the opportunity to lead the technical effort for a major update to the mobile app: the addition of **[Mobile Chat](/projects/mobile-chat)**.
