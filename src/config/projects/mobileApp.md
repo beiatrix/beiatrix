@@ -2,7 +2,7 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-The Revolution Prep mobile app is where students can launch live help sessions with their tutors and easily score practice exams with their camera. It is available for download on the App Store and Google Play Store. 
+The Revolution Prep mobile app allows students to launch live help sessions with their tutors and easily score practice exams using their camera. It is available for download on the App Store and Google Play Store.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -19,7 +19,7 @@ The Revolution Prep mobile app is where students can launch live help sessions w
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-When the student downloads the app for the first time, they see this home screen on the left below. Tapping "log in" takes them to the login form, where they can authenticate to enter the app. Otherwise, tapping "forgot password" allows the user to reset their password.
+When the student downloads the app for the first time, they see the home screen on the left below. Tapping "log in" takes them to the login form, where they can authenticate to enter the app. Alternatively, tapping "forgot password" allows the user to reset their password.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 2rem;"
@@ -47,7 +47,7 @@ When the student downloads the app for the first time, they see this home screen
 
 Upon logging in, the user is taken to the Live Help view by default.
 
-If this is the user's first time ever logging in, they may tap "Let me see the sessions!" to opt in to a free trial of Revolution Now – a service that allows students to connect with a tutor for quick questions or homework help.
+If this is the user's first time ever logging in, they may tap "Let me see the sessions!" to opt into a free trial of Revolution Now – a service that allows students to connect with a tutor for quick questions or homework help.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -99,7 +99,7 @@ At the bottom of the page, students can tap "Edit Subjects" to open a subject se
   </div>
 </div>
 
-In the slide group of session cards, a student can tap "Save Spot" to easily reserve their spot with a tutor. Tapping this button opens a detail view for their session. When they go back to the main Live Help screen, they can now see their reservation under a section called "Reserved Sessions."
+In the slide group of session cards, a student can tap "Save Spot" to easily reserve their spot with a tutor. Tapping this button opens a detail view for their session. When they return to the main Live Help screen, they can now see their reservation under a section called "Reserved Sessions."
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -159,7 +159,7 @@ Tapping "Exams" in the footer tab navigator takes the student to the Exams view.
 
 ### **<a style="color: var(--ion-color-dark);" name="score-exam">Score Exam</a>**
 
-When the user taps "Score Exam" for the first time ever, they will see these tutorial slides, followed by a prompt to grant permission to access the camera.
+When the user taps "Score Exam" for the first time ever, they will see tutorial slides followed by a prompt to grant permission to access the camera.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -185,7 +185,7 @@ Once permissions are granted, the student can use their camera to snap photos of
   </div>
 </div>
 
-Once all the images have been uploaded, a first-time user will see these help slides showing the student how to review their submitted answers.
+Once all the images have been uploaded, a first-time user will see help slides showing the student how to review their submitted answers.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -224,7 +224,7 @@ They also have the option to tap the "Edit" button to check their answers in a m
   </div>
 </div>
 
-When they're finished reviewing their answers, clicking "Submit" opens a celebratory score announcement modal if this is the student's first exam score they've ever submitted.
+When they're finished reviewing their answers, clicking "Submit" opens a celebratory score announcement modal if this is the first exam score they've ever submitted.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -300,7 +300,7 @@ Tapping "Download Answersheet" allows the student to get an answer sheet PDF for
   </div>
 </div>
 
-Tapping "Start Exam" launches the proctoring feature. It comprises of a timer with audible prompts that notify the student when a section is beginning or ending, or announce a break in between sections. Ambient gifs float in the background, with ambient room sounds that may be toggled on or off. The stop button allows the student to exit the flow and the skip button confirms before allowing a student to skip to the next section.
+Tapping "Start Exam" launches the proctoring feature. It comprises a timer with audible cues that notify the student when a section is beginning or ending, or announce a break in between sections. Ambient illustrations float in the background, with ambient room sounds that may be toggled on or off. The stop button allows the student to exit the flow, and the skip button enables them to skip to the next section.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -313,7 +313,7 @@ Tapping "Start Exam" launches the proctoring feature. It comprises of a timer wi
   </div>
 </div>
 
-If the student sends the app to the background, they can see a local notification with details about their in-progress exam.
+If the student sends the app to the background, they can see a notification with details about their in-progress exam.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -326,7 +326,7 @@ If the student sends the app to the background, they can see a local notificatio
   </div>
 </div>
 
-Once the proctored exam is complete, a "Congratulations" message appears prompting the student to score their exam. Tapping "Score Exam" takes the student to the exam scoring flow.
+Once the proctored exam is complete, a "Congratulations" message appears, encouraging the student to score their exam. Tapping "Score Exam" takes the student to the exam scoring flow.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -343,7 +343,7 @@ Once the proctored exam is complete, a "Congratulations" message appears prompti
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-The app bar that appears at the top of the Live Help and Exams view contains the page title and the student's avatar. The student can tap their avatar to open their profile menu, which contains their user information, Revolution Prep's company contact information, and a Logout button.
+The app bar that appears at the top of the Live Help and Exams views contains the page title and the student's avatar. The student can tap their avatar to open their profile menu, which contains their user information, Revolution Prep's company contact information, and a Logout button.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -360,7 +360,7 @@ The app bar that appears at the top of the Live Help and Exams view contains the
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-A student logging in for the very first time will see a modal prompting the student to allow notifications.
+A student logging in for the very first time will see a modal prompting them to allow notifications.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
