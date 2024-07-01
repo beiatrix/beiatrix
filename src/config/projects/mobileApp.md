@@ -8,7 +8,7 @@ The Revolution Prep mobile app allows students to launch live help sessions with
   style="display: flex; flex-direction: row; justify-content: center;"
 >
   <div style="width: 30%; height: auto;">
-    <img 
+    <img
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/mobile-app-cover.gif"
       alt="Mobile App" 
     />
