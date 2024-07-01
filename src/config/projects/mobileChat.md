@@ -28,14 +28,26 @@ Chat View. List of subjects
 >
   <div style="width: 30%; height: auto;">
     <img 
-      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/mobile-chat.jpg"
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/chat-view.jpg"
       alt="Chat View" 
     />
   </div>
 </div>
 
-**![todo - no subjects view]**
+no subjects view
 
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/no-subjects.jpg"
+      alt="No Subjects" 
+    />
+  </div>
+</div>
+
+below list of subjects are two buttons
 Edit subjects modal.
 
 <div
@@ -49,7 +61,18 @@ Edit subjects modal.
   </div>
 </div>
 
-**![todo - hours modal]**
+tap view hours - view hours modal
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/view-hours.jpg"
+      alt="View Hours"
+    />
+  </div>
+</div>
 
 tapping "ask a tutor" opens room view, enter chat with a tutor
 
@@ -148,7 +171,7 @@ send app to background - message notifications
 >
   <div style="width: 30%; height: auto;">
     <img 
-      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/notification-mesage.gif"
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/notification-message.gif"
       alt="Notification - Message"
     />
   </div>

@@ -47,7 +47,7 @@ export const projects: Project[] = [
     subtitle: '@ Revolution Prep',
     description: 'Real-time chat messaging app for iOS and Android, built with Ionic/Vue and Ruby on Rails.',
     slug: 'mobile-chat',
-    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/mobile-chat-cover.gif',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/mobile-chat-cover-horizontal.gif',
     company: 'Revolution Prep',
     year: 2023,
     technologies: [

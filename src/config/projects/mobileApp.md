@@ -138,6 +138,34 @@ To cancel a reservation, the student can tap an "Unreserve" button in the sessio
   </div>
 </div>
 
+### **<a style="color: var(--ion-color-dark);" name="empty-states">Empty States</a>**
+
+If a student has no subjects selected, an alert prompts them to pick some areas of study to get started.
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/no-subjects.jpg"
+      alt="No Subjects" 
+    />
+  </div>
+</div>
+
+If there are no upcoming sessions for a student's subjects, a "No Upcoming Sessions" banner appears in lieu of a session slide group.
+
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-app/no-sessions.jpg"
+      alt="No Sessions" 
+    />
+  </div>
+</div>
+
 ## **<a style="color: var(--ion-color-dark);" name="exams">Exams</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
