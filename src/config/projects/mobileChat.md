@@ -4,8 +4,6 @@
 
 intro text
 
-**![todo - cover img - STILLS](IMAGE URL)**
-
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
 >
@@ -20,6 +18,20 @@ intro text
 ## **<a style="color: var(--ion-color-dark);" name="chat-view">Chat View</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
+if first time ever logging into this view, marketing card
+tap btn to opt into a trial of Revolution Now, a service that allows students to connect with a tutor for quick questions or homework help.
+
+<div
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/marketing-card.jpg"
+      alt="Marketing Card" 
+    />
+  </div>
+</div>
 
 Chat View. List of subjects
 
@@ -95,6 +107,7 @@ tutor typing indicator
   </div>
 </div>
 
+tap camera button
 option 1 - send photo (camera)
 
 <div
@@ -108,7 +121,7 @@ option 1 - send photo (camera)
   </div>
 </div>
 
-draw on
+draw on an image from the chat
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -117,6 +130,19 @@ draw on
     <img 
       src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/draw-on.gif"
       alt="Draw On"
+    />
+  </div>
+</div>
+
+tap paintbrush button to open whiteboard and send drawing
+
+<div
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/whiteboard.gif"
+      alt="Whiteboard"
     />
   </div>
 </div>
@@ -190,8 +216,24 @@ still there? local notification
   </div>
 </div>
 
+if room ended (whether due to student inactivity, tutor leave due to urgent matter, etc)
+show view of room details, reason for chat end
+
+<div
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 30%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/room-ended.jpg"
+      alt="Room Ended"
+    />
+  </div>
+</div>
+
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
 todo process!
+
+![Mobile Chat - Designs](https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/mobile-chat-designs.jpg)
