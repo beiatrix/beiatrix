@@ -21,7 +21,7 @@ It is the mobile adaptation of **[Revolution Now for Desktop](/projects/student-
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-If this is the student's first time ever logging into this view, a marketing card appears, prompting the student to opt into a trial of "Revolution Now" – a product that allows students to connect with a tutor for quick academic support. Tapping "I want to try 3 sessions" takes them to the main Chat view.
+If this is the student's first time logging into this view, a marketing card appears, encouraging the student to opt into a trial of "Revolution Now" – a product that enables students to connect with a tutor for quick academic support. Tapping "I want to try 3 sessions" takes them to the main Chat view.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -34,7 +34,7 @@ If this is the student's first time ever logging into this view, a marketing car
   </div>
 </div>
 
-The Chat view contains a list of all the student's study areas that they can receive support in. Returning users will see this page by default.
+The Chat view contains a list of all the student's study areas in which they can receive support. Returning users will see this page by default.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -47,7 +47,7 @@ The Chat view contains a list of all the student's study areas that they can rec
   </div>
 </div>
 
-If a student has never selected any subjects before, they will see this alert prompting them to do so.
+If a student has never selected any subjects before, they will see an alert prompting them to do so.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -92,9 +92,7 @@ Finally, tapping "Ask a Tutor" next to a subject opens the Room view, where the 
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-room view - begin chat with tutor
-first messages
-tutor typing indicator
+In the Room view, the student can exchange text messages with their tutor in real time. Students can compose a message in the input field and tap the paper airplane icon button to send. A typing indicator in the lower left shows when the tutor is writing their message.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -107,8 +105,7 @@ tutor typing indicator
   </div>
 </div>
 
-tap camera button
-option 1 - send photo (camera)
+Tapping the camera button allows the student to snap a photo of their homework, then send it in the chat.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -121,7 +118,7 @@ option 1 - send photo (camera)
   </div>
 </div>
 
-draw on an image from the chat
+Tapping the "Draw On" button opens the whiteboard, allowing users to mark up an image from a previous message.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -134,7 +131,7 @@ draw on an image from the chat
   </div>
 </div>
 
-tap paintbrush button to open whiteboard and send drawing
+Tapping the paintbrush icon button also opens the whiteboard, where the student can send drawings.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -147,7 +144,7 @@ tap paintbrush button to open whiteboard and send drawing
   </div>
 </div>
 
-option 2 - send photo (select from library)
+In addition to sending photos from the camera, the student also has the option to select images from their library.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -160,7 +157,7 @@ option 2 - send photo (select from library)
   </div>
 </div>
 
-end chat 
+Finally, the student can tap "End Chat" in the upper right when they are ready to leave the room. They are asked to provide a reason for ending the chat.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -173,7 +170,7 @@ end chat
   </div>
 </div>
 
-review chat > back to chat
+Tapping "End Chat" in the modal opens the "Review Chat" modal, where the student can provide a star rating and additional feedback for their tutor.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
