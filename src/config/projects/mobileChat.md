@@ -92,7 +92,7 @@ Finally, tapping "Ask a Tutor" next to a subject opens the Room view, where the 
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-In the Room view, the student can exchange text messages with their tutor in real time. Students can compose a message in the input field and tap the paper airplane icon button to send. A typing indicator in the lower left shows when the tutor is writing their message.
+In the Room view, the student can exchange text messages with their tutor in real time. Students can compose a message in the input field and tap the paper airplane icon to send it. A typing indicator in the lower left shows when the tutor is writing a message.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -105,7 +105,7 @@ In the Room view, the student can exchange text messages with their tutor in rea
   </div>
 </div>
 
-Tapping the camera button allows the student to snap a photo of their homework, then send it in the chat.
+Tapping the camera button allows the student to snap a photo of their homework and send it in the chat.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -131,7 +131,7 @@ Tapping the "Draw On" button opens the whiteboard, allowing users to mark up an 
   </div>
 </div>
 
-Tapping the paintbrush icon button also opens the whiteboard, where the student can send drawings.
+Tapping the paintbrush icon also opens the whiteboard, where the student can send drawings.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -187,7 +187,7 @@ Tapping "End Chat" in the modal opens the "Review Chat" modal, where the student
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-send app to background - message notifications
+If a student sends the app to the background while a chat is in progress, they can continue to receive notifications for incoming messages from their tutor.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -200,7 +200,7 @@ send app to background - message notifications
   </div>
 </div>
 
-still there? local notification
+If the student has been inactive for more than 5 minutes, a modal and local notification appear, advising the student to send a message. Otherwise, the chat will automatically close in one minute.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -213,8 +213,7 @@ still there? local notification
   </div>
 </div>
 
-if room ended (whether due to student inactivity, tutor leave due to urgent matter, etc)
-show view of room details, reason for chat end
+Finally, if the room has ended (whether due to student inactivity, the tutor leaving due to an urgent matter, or otherwise), the view displays the time and reason for the chat ending, as well as a call to action button to begin a new chat.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -226,6 +225,8 @@ show view of room details, reason for chat end
     />
   </div>
 </div>
+
+**![todo][tutor online indicator???]**
 
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
