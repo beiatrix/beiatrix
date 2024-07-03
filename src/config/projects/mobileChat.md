@@ -2,7 +2,9 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-intro text
+Revolution Now for Mobile is a service that allows students to connect with tutors via the **[Revolution Prep Mobile App](/projects/mobile-app)**, where they can send text messages, share photos of their homework, open a whiteboard to create drawings, and draw on images previously sent in the chat.
+
+It is the mobile adaptation of **[Revolution Now for Desktop](/projects/student-dashboard#text-chat)**.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -19,8 +21,7 @@ intro text
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-if first time ever logging into this view, marketing card
-tap btn to opt into a trial of Revolution Now, a service that allows students to connect with a tutor for quick questions or homework help.
+If this is the student's first time ever logging into this view, a marketing card appears, prompting the student to opt into a trial of "Revolution Now" – a product that allows students to connect with a tutor for quick academic support. Tapping "I want to try 3 sessions" takes them to the main Chat view.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -33,7 +34,7 @@ tap btn to opt into a trial of Revolution Now, a service that allows students to
   </div>
 </div>
 
-Chat View. List of subjects
+The Chat view contains a list of all the student's study areas that they can receive support in. Returning users will see this page by default.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -46,7 +47,7 @@ Chat View. List of subjects
   </div>
 </div>
 
-no subjects view
+If a student has never selected any subjects before, they will see this alert prompting them to do so.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -59,8 +60,7 @@ no subjects view
   </div>
 </div>
 
-below list of subjects are two buttons
-Edit subjects modal.
+Below the list of subjects are two buttons: "Edit Subjects" and "View Hours." Tapping "Edit Subjects" opens the Select Subjects modal, which contains many areas of study to choose from, organized by category.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -73,7 +73,7 @@ Edit subjects modal.
   </div>
 </div>
 
-tap view hours - view hours modal
+Tapping "View Hours" opens a modal displaying the hours that tutors are available to chat.
 
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -86,7 +86,7 @@ tap view hours - view hours modal
   </div>
 </div>
 
-tapping "ask a tutor" opens room view, enter chat with a tutor
+Finally, tapping "Ask a Tutor" next to a subject opens the Room view, where the student may enter a chat with a tutor.
 
 ## **<a style="color: var(--ion-color-dark);" name="room-view">Room View</a>**
 
