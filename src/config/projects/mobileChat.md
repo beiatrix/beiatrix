@@ -2,7 +2,7 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-Revolution Now for Mobile is a service that allows students to connect with tutors via the **[Revolution Prep Mobile App](/projects/mobile-app)**, where they can send text messages, share photos of their homework, open a whiteboard to create drawings, and draw on images previously sent in the chat.
+Revolution Now for Mobile is a service that allows students to connect with tutors via the **[Revolution Prep Mobile App](/projects/mobile-chat)**, where they can send text messages, share photos of their homework, open a whiteboard to create drawings, and draw on images previously sent in the chat.
 
 It is the mobile adaptation of **[Revolution Now for Desktop](/projects/student-dashboard#text-chat)**.
 
@@ -21,7 +21,7 @@ It is the mobile adaptation of **[Revolution Now for Desktop](/projects/student-
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-If this is the student's first time logging into this view, a marketing card appears, encouraging the student to opt into a trial of "Revolution Now" – a product that enables students to connect with a tutor for quick academic support. Tapping "I want to try 3 sessions" takes them to the main Chat view.
+If this is the student's first time logging into this view, a marketing card appears, encouraging the student to opt into a trial of Revolution Now. Tapping "I want to try 3 sessions" takes them to the main Chat view.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -232,6 +232,72 @@ Finally, if the room has ended (whether due to student inactivity, the tutor lea
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-todo process!
+In the winter and spring of 2023, I served as the technical lead for the Revolution Now for Mobile project. 
+
+I started off with a Product Requirements Document created by one of my colleagues, the product manager, which contained a list of user stories.
+
+<div
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 50%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/user-stories.jpg"
+      alt="User Stories"
+    />
+  </div>
+</div>
+
+I used this document as a launching point to create an architecture document, which I presented to the engineers.
+
+This document contains an overview of the overall approach and technologies involved in building a mobile chat application, followed by a component drill-down.
+
+<div
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 50%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/architecture-document.jpg"
+      alt="Architecture Document"
+    />
+  </div>
+</div>
+
+I designed every screen in high-fidelity in Adobe XD:
 
 ![Mobile Chat - Designs](https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/mobile-chat-designs.jpg)
+
+Used the user stories in the Product Requirements document as guide to create the Jira epic and populate it with tickets
+ 
+<div 
+  style="display: flex; flex-direction: row; justify-content: center;"
+>
+  <div style="width: 40%; height: auto; margin-right: 2rem">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/jira-epic.jpg"
+      alt="Jira Epic" 
+    />
+  </div>
+  <div style="width: 40%; height: auto;">
+    <img 
+      src="https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/jira-tickets.jpg"
+      alt="Jira Tickets"
+    />
+  </div>
+</div>
+
+ divided the work amongst the team.
+
+I organized numerous meetings including deep-dives of the existing Revolution Now desktop app, scoping meetings, code walkthroughs, and multiple rounds of bug scrubs.
+
+ As for my code contributions, I set up the infrastructure to send real-time chat messages between the mobile app and the server via WebSockets, established the new Chat and Room pages, and paired with a backend engineering colleague to make requisite changes to the API side. In addition to experiencing organizing a project, I had the opportunity to pick up a new (to me) framework in Ruby on Rails and make my first backend contributions.
+
+- Revolution Now for Mobile `kronos`
+    - Tech lead
+    - Ionic, Vue 3, Ruby on Rails
+    - Organize meetings at key milestones such as kickoff, scoping, code walkthrough
+    - Craft frontend architecture document
+    - Designed all screens with high fidelity in XD
+    - Populate epic with tickets and distributed/delegated work amongst team
+    - Key features:
+        - set up infrastructure to send real-time chat messages via websockets
+        - initialize new Chat page and Room page
