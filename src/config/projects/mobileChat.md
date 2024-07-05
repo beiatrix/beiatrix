@@ -230,10 +230,9 @@ Finally, if the room has ended (whether due to student inactivity, the tutor lea
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-In the winter and spring of 2023, I served as the technical lead for the Revolution Now for Mobile project. 
+In 2023, I served as the technical lead for the Revolution Now for Mobile project.
 
-I started off with a product requirements document created by the product manager, which contains a list of use cases:
-
+I began with a product requirements document created by the product manager, which included a list of use cases. 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
 >
@@ -245,11 +244,11 @@ I started off with a product requirements document created by the product manage
   </div>
 </div>
 
-With the user stories as my guide, I designed every screen in high-fidelity in Adobe XD:
+With these user stories as my guide, I designed every screen in high fidelity using Adobe XD.
 
 ![Mobile Chat - Designs](https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/mobile-chat-designs.jpg)
 
-Next, I created an architecture document containing an overview of the overall approach and technologies involved in building a mobile chat application, followed by a component drill-down.
+Next, I created an architecture document outlining the overall approach and technologies involved in building a mobile chat application, followed by a component drill-down.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -262,7 +261,7 @@ Next, I created an architecture document containing an overview of the overall a
   </div>
 </div>
 
-Referencing the product requirements document and my architecture document, I created a Jira epic and populated it with tickets. Then, I worked with the team to prioritize, assign story points, and delegate the tasks.
+Referring to both the product requirements document and my architecture plan, I created a Jira epic and populated it with tickets. I then worked with the team to prioritize tasks, assign story points, and delegate responsibilities.
  
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -281,12 +280,14 @@ Referencing the product requirements document and my architecture document, I cr
   </div>
 </div>
 
-Furthermore, I organized numerous meetings, including a kickoff, scoping meetings, code walkthroughs, and testing sessions including external stakeholders.
+Furthermore, I organized numerous meetings, including a kickoff, scoping discussions, code walkthroughs, and testing sessions with external stakeholders.
 
-For my frontend contributions, I set up the infrastructure to send real-time chat messages via WebSockets using `@rails/actioncable`, established the new Chat and Room pages and state management stores with `pinia`, and implemented push notifications for chat messages and room inactivity in our Ionic/Vue mobile app.
+For my frontend contributions to the Ionic/Vue mobile app, I set up infrastructure to enable real-time chat messaging via WebSockets using `@rails/actioncable`, I established new Chat and Room views and managed state with `pinia`, and I implemented push notifications for chat messages and inactive rooms.
 
-I paired with a colleague who specializes in the backend to modify **[Revolution Now for Desktop](/projects/student-dashboard#text-chat)**, a fullstack Ruby on Rails app, and the backend for the mobile chat frontend to consume. I updated models and controllers for the chat rooms and messages, amended background jobs to support message and inactivity push notifications, and created an "online" indicator badge that appears in the tutor-facing app:
+I collaborated closely with a backend specialist to adapt **[Revolution Now for Desktop](/projects/student-dashboard#text-chat)**, a full-stack Ruby on Rails application, to support the backend needs of the mobile chat frontend. This involved updating models and controllers for chat rooms and messages, modifying background jobs to support message and inactivity notifications, and writing unit tests.
+
+An additional improvement I made in the Rails app was creating an "online" indicator badge visible in the tutor-facing app:
 
 ![Mobile Chat - Online Indicator](https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/online-indicator.jpg)
 
-This is a project that enabled me to gain a breadth of experience: organizing as a leader, putting on my UI/UX designer hat, and contributing as a developer to both the frontend and backend.
+This project provided me with valuable experience in leadership, UI/UX design, and frontend and backend development.
