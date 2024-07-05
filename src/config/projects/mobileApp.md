@@ -437,7 +437,7 @@ Once permissions are granted, students can receive session reminders on their de
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-As a developer, I built various features across the two main views of the app in Ionic and Vue, wrote unit tests in Jest, helped prepare the app for publishing to the app stores, and provided bug fixes and improvements post-launch.
+As a developer, I built various features across the two main views of the app in Ionic and Vue, implemented state management in Pinia, wrote unit tests in Jest, helped prepare the app for publishing to the app stores, and provided bug fixes and improvements post-launch.
 
 In the Exams view, I worked on the exam summary page, the score report page containing a ChartJS graph and list of scored exams, and the entirety of the self-proctor feature (comprising a start page, various modals, functions to interact with the filesystem for the "Download Answersheet" button, the timer feature with floating SVG images, and local notifications).
 

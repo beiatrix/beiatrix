@@ -200,7 +200,7 @@ If a student sends the app to the background while a chat is in progress, they c
   </div>
 </div>
 
-If the student has been inactive for more than 5 minutes, a modal and local notification appear, advising the student to send a message. Otherwise, the chat will automatically close in one minute.
+If the student has been inactive for more than 5 minutes, a modal and notification appear, advising the student to send a message. Otherwise, the chat will automatically close in one minute.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -226,15 +226,13 @@ Finally, if the room has ended (whether due to student inactivity, the tutor lea
   </div>
 </div>
 
-**![todo][tutor online indicator???]**
-
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
 In the winter and spring of 2023, I served as the technical lead for the Revolution Now for Mobile project. 
 
-I started off with a Product Requirements Document created by one of my colleagues, the product manager, which contained a list of user stories.
+I started off with a product requirements document created by the product manager, which contains a list of use cases:
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -247,9 +245,11 @@ I started off with a Product Requirements Document created by one of my colleagu
   </div>
 </div>
 
-I used this document as a launching point to create an architecture document, which I presented to the engineers.
+With the user stories as my guide, I designed every screen in high-fidelity in Adobe XD:
 
-This document contains an overview of the overall approach and technologies involved in building a mobile chat application, followed by a component drill-down.
+![Mobile Chat - Designs](https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/mobile-chat-designs.jpg)
+
+Next, I created an architecture document containing an overview of the overall approach and technologies involved in building a mobile chat application, followed by a component drill-down.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -262,11 +262,7 @@ This document contains an overview of the overall approach and technologies invo
   </div>
 </div>
 
-I designed every screen in high-fidelity in Adobe XD:
-
-![Mobile Chat - Designs](https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/mobile-chat-designs.jpg)
-
-Used the user stories in the Product Requirements document as guide to create the Jira epic and populate it with tickets
+Referencing the product requirements document and my architecture document, I created a Jira epic and populated it with tickets. Then, I worked with the team to prioritize, assign story points, and delegate the tasks.
  
 <div 
   style="display: flex; flex-direction: row; justify-content: center;"
@@ -285,19 +281,12 @@ Used the user stories in the Product Requirements document as guide to create th
   </div>
 </div>
 
- divided the work amongst the team.
+Furthermore, I organized numerous meetings, including a kickoff, scoping meetings, code walkthroughs, and testing sessions including external stakeholders.
 
-I organized numerous meetings including deep-dives of the existing Revolution Now desktop app, scoping meetings, code walkthroughs, and multiple rounds of bug scrubs.
+For my frontend contributions, I set up the infrastructure to send real-time chat messages via WebSockets using `@rails/actioncable`, established the new Chat and Room pages and state management stores with `pinia`, and implemented push notifications for chat messages and room inactivity in our Ionic/Vue mobile app.
 
- As for my code contributions, I set up the infrastructure to send real-time chat messages between the mobile app and the server via WebSockets, established the new Chat and Room pages, and paired with a backend engineering colleague to make requisite changes to the API side. In addition to experiencing organizing a project, I had the opportunity to pick up a new (to me) framework in Ruby on Rails and make my first backend contributions.
+I paired with a colleague who specializes in the backend to modify **[Revolution Now for Desktop](/projects/student-dashboard#text-chat)**, a fullstack Ruby on Rails app, and the backend for the mobile chat frontend to consume. I updated models and controllers for the chat rooms and messages, amended background jobs to support message and inactivity push notifications, and created an "online" indicator badge that appears in the tutor-facing app:
 
-- Revolution Now for Mobile `kronos`
-    - Tech lead
-    - Ionic, Vue 3, Ruby on Rails
-    - Organize meetings at key milestones such as kickoff, scoping, code walkthrough
-    - Craft frontend architecture document
-    - Designed all screens with high fidelity in XD
-    - Populate epic with tickets and distributed/delegated work amongst team
-    - Key features:
-        - set up infrastructure to send real-time chat messages via websockets
-        - initialize new Chat page and Room page
+![Mobile Chat - Online Indicator](https://beiatrix.s3.us-west-1.amazonaws.com/projects/mobile-chat/online-indicator.jpg)
+
+This is a project that enabled me to gain a breadth of experience: organizing as a leader, putting on my UI/UX designer hat, and contributing as a developer to both the frontend and backend.
