@@ -4,9 +4,9 @@ My name is **beiatrix**. I'm a software engineer and designer with a specializat
 
 - 🎨 Before launching my career in software engineering, I worked professionally as a graphic designer and illustrator
 
-- 👩🏻‍💻 At my current role, I get to use both skill sets!
+- 👩🏻‍💻 I find joy in being able to use both skill sets!
 
-- 🌿 I also create content on YouTube to share what I know
+- 🌿 I also create content on [YouTube](https://youtube.com/beiatrix) and [Instagram](https://www.instagram.com/beiatrix.art)
 
 - 🚀 I built my personal website with `ionic` + `vue`
 
@@ -14,4 +14,4 @@ My name is **beiatrix**. I'm a software engineer and designer with a specializat
 
 - 🤖 My go-to Netflix genres are comedy, documentary, and guilty-pleasure reality shows
 
-- 🌻 For fun, I love to go on hiking adventures with the boyfriend and dog, run by the beach, do hot yoga, cook and bake, tend to my houseplants, and travel the world!
+- 🌻 For fun, I love going on hiking adventures with my boyfriend and dog, practicing hot yoga, drawing and painting, eating incredible foods, and traveling with family and friends!

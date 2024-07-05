@@ -84,7 +84,6 @@ img.hello {
 }
 
 img.headshot {
-  border: 0.75rem solid var(--ion-color-tertiary-shade);
   max-height: 25vh;
   width: auto;
   object-fit: cover;
