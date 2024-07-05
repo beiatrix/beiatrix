@@ -71,15 +71,8 @@ const filteredProjects = computed(() => {
             </ion-col>
           </ion-row>
         </ion-grid>
+        <AppFooter />
       </ion-content>
-
-      <AppFooter />
     </div>
   </ion-page>
 </template>
-
-<style scoped>
-.container {
-  height: 100%;
-}
-</style>
