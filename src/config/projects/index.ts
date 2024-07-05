@@ -116,7 +116,7 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: examPlayerContent,
-    private: true
+    private: false
   },
   {
     title: 'Tutor Matching Form',

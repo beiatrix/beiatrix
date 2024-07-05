@@ -213,7 +213,7 @@ If the student has been inactive for more than 5 minutes, a modal and notificati
   </div>
 </div>
 
-Finally, if the room has ended (whether due to student inactivity, the tutor leaving due to an urgent matter, or otherwise), the view displays the time and reason for the chat ending, as well as a call to action button to begin a new chat.
+Finally, if the room has ended (whether due to student inactivity, the tutor leaving due to an urgent matter, or otherwise), the view displays the time and reason for the chat ending, as well as a call-to-action button to begin a new chat.
 
 <div
   style="display: flex; flex-direction: row; justify-content: center;"

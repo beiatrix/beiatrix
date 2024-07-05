@@ -2,26 +2,56 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-# **🚧 Under Construction 🚧** 
-Please come back later!
+**![TODO COVER IMAGE](image url)**
 
-![COVER IMAGE](image url)
-
-## **<a style="color: var(--ion-color-dark);" name="page-1">Page 1</a>**
+## **<a style="color: var(--ion-color-dark);" name="configure">Configure Page</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-TODO
+begin on exams page of **[Student Dashboard](/projects/student-dashboard#exams)**
 
-![IMAGE NAME](image url)
+click "take digital exam" go to configure page
 
-## **<a style="color: var(--ion-color-dark);" name="page-2">Page 2</a>**
+
+## **<a style="color: var(--ion-color-dark);" name="start">Start Page</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-TODO
+todo
 
-![IMAGE NAME](image url)
+## **<a style="color: var(--ion-color-dark);" name="exam-player">Exam Player View</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
+todo - global features
+timer
+more menu
+exit
+etc
+
+**![IMAGE NAME](image url)**
+
+### **<a style="color: var(--ion-color-dark);" name="reading-and-writing">Reading and Writing Sections</a>**
+
+directions panel
+annotations
+
+**![IMAGE NAME](image url)**
+
+### **<a style="color: var(--ion-color-dark);" name="break">Break</a>**
+
+break
+
+**![IMAGE NAME](image url)**
+
+### **<a style="color: var(--ion-color-dark);" name="math">Math Sections</a>**
+
+directions panel 
+mathjax
+calculator
+reference
+
+**![IMAGE NAME](image url)**
 
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
