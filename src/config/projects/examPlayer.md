@@ -2,16 +2,25 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
+In response to the launch of the digital SAT in 2023, Revolution Prep developed an exam player to offer students a practice exam experience that closely mirrors the official test.
+
 **![TODO COVER IMAGE](image url)**
 
-## **<a style="color: var(--ion-color-dark);" name="configure">Configure Page</a>**
+## **<a style="color: var(--ion-color-dark);" name="start-exam">Launching An Exam</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
 begin on exams page of **[Student Dashboard](/projects/student-dashboard#exams)**
 
-click "take digital exam" go to configure page
+click "take digital exam" go open exam player, beginning on configure page
 
+practice mode
+
+## **<a style="color: var(--ion-color-dark);" name="configure">Configure Page</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
+TODO
 
 ## **<a style="color: var(--ion-color-dark);" name="start">Start Page</a>**
 
@@ -23,38 +32,99 @@ todo
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-todo - global features
-timer
-more menu
-exit
-etc
+global features
+
+### header
+- directions panel - automatically open at beginning of each section
+- more menu
+  - help
+  - toggle practice mode
+  - save and exit 
+
+### timing / timer
+- timer - view time remaining in each section, ability to hide timer
+  - also, see an alert when about to run out of time
+
+## panels
+- passage on left
+- question/answer on right
+  - bookmark - mark for review for later
+  - cross out - process of elimination answers
+- expand and collapse
+
+### question navigation
+- exam question navigator (footer)
+  - students to navigate freely between questions ion the current module
+  - quickly see which questions are still unanswered
+- back and next btn
 
 **![IMAGE NAME](image url)**
 
 ### **<a style="color: var(--ion-color-dark);" name="reading-and-writing">Reading and Writing Sections</a>**
 
-directions panel
-annotations
+- annotations
+
+REVIEW page
+- after completing all questions of a section, see overview of questions. reminder/opportunity to revisit unanswered or bookmarked questions before submit
 
 **![IMAGE NAME](image url)**
 
 ### **<a style="color: var(--ion-color-dark);" name="break">Break</a>**
 
 break
+- show timer
+
+resume testing when timer elapses / break is over
 
 **![IMAGE NAME](image url)**
 
 ### **<a style="color: var(--ion-color-dark);" name="math">Math Sections</a>**
 
-directions panel 
-mathjax
-calculator
-reference
+- directions panel 
+  - mathjax to render math expressions
+- calculator
+- reference
 
 **![IMAGE NAME](image url)**
+
+## **<a style="color: var(--ion-color-dark);" name="end-exam">Completing an Exam</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
+View Your Score button to navigate back to student dashboard - exams page
+view score report
+
+## **<a style="color: var(--ion-color-dark);" name="practice-mode">Practice Mode</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
+- practice mode 
+  - grey dashed border line - quick visual indicator
+  - skip to next module whenever you are ready, early (in both exam player / break)
+- test day mode
+  - colorful dashed border line
+  - proceed to next module only once timer elapses, automatically advance to next session when timer runs out
+
+
+## **<a style="color: var(--ion-color-dark);" name="demo">Demo Version</a>**
+
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
+available / viewable to all students for free, no authentication/login required
 
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
 TODO
+
+bluebook precedent
+
+- Digital SAT `athena`
+    - Ionic, Vue 3
+    - develop rapid prototype
+    - lead key pair programming sessions to initialize app
+    - create custom icons and SVG assets in Adobe Illustrator
+
+
+also built a [demo version](https://digital-demo.revolutionprep.com/) 
