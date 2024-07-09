@@ -14,19 +14,31 @@ begin on exams page of **[Student Dashboard](/projects/student-dashboard#exams)*
 
 click "take digital exam" go open exam player, beginning on configure page
 
-practice mode
+![Start Exam](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/start-exam.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="configure">Configure Page</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-TODO
+select your exam, etc. then launch exam btn enabled.
 
-## **<a style="color: var(--ion-color-dark);" name="start">Start Page</a>**
+![Configure Page](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page.gif)
+
+practice mode
+
+[todo gif]
+
+accommodations 
+
+[todo gif]
+
+## **<a style="color: var(--ion-color-dark);" name="instructions">Instructions Page</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-todo
+todo copy
+
+![Instructions Page](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/instructions-page.jpg)
 
 ## **<a style="color: var(--ion-color-dark);" name="exam-player">Exam Player View</a>**
 
