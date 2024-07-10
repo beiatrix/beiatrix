@@ -26,17 +26,21 @@ select your exam, etc. then launch exam btn enabled.
 
 practice mode
 
-[todo gif]
+![Configure Page - Practice Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page-practice-mode.jpg)
 
 accommodations 
 
-[todo gif]
+![Configure Page - Accommodations](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page-accommodations.gif)
+
+to learn more about accommodations, click link to open modal
+
+![Configure Page - Accommodations Modal](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page-accommodations-modal.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="instructions">Instructions Page</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-todo copy
+this page contains instructions
 
 ![Instructions Page](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/instructions-page.jpg)
 
