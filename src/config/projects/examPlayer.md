@@ -44,18 +44,35 @@ this page contains instructions
 
 ![Instructions Page](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/instructions-page.jpg)
 
+click next to enter first question of first section of exam
+
 ## **<a style="color: var(--ion-color-dark);" name="exam-player">Exam Player View</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-global features
+### Directions Popover 
 
-### header
-- directions panel - automatically open at beginning of each section
-- more menu
-  - help
-  - toggle practice mode
-  - save and exit 
+- directions popover - automatically open at beginning of each section. can be re-opened to reference any time
+
+![Directions Popover](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/directions-popover.jpg)
+
+### More menu
+
+- more menu copy
+
+![More Menu](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu.jpg)
+
+  - help copy
+
+  [TODO HELP MODAL GIF]
+
+  - toggle practice mode copy
+
+  [TODO toggle practice mode GIF]
+
+  - save and exit copy
+
+  [TODO save and exit gif, resume exam gif]
 
 ### timing / timer
 - timer - view time remaining in each section, ability to hide timer
