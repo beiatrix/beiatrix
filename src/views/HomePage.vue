@@ -65,8 +65,8 @@ onUnmounted(() => {
             >
               <SectionHello />
               <SectionCareer />
-              <SectionSkills />
               <SectionProjects />
+              <SectionSkills />
               <SectionInterests />
             </ion-col>
           </ion-row>
