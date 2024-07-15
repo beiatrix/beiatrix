@@ -6,7 +6,7 @@ import examPlayerContent from './examPlayer.md'
 import enrollmentWizardContent from './enrollmentWizard.md'
 import mobileAppContent from './mobileApp.md'
 import mobileChatContent from './mobileChat.md'
-import schedulingWizardContent from './schedulingWizard.md'
+import schedulingFlowContent from './schedulingFlow.md'
 import studentDashboardContent from './studentDashboard.md'
 import studentProfileContent from './studentProfile.md'
 import tutorMatchingFormContent from './tutorMatchingForm.md'
@@ -74,18 +74,18 @@ export const projects: Project[] = [
     private: false
   },
   {
-    title: 'Scheduling Wizard',
+    title: 'Scheduling Flow',
     subtitle: '@ Revolution Prep',
-    description: 'Revolution Prep Scheduling Wizard',
-    slug: 'scheduling-wizard',
-    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-2.gif',
+    description: 'Revolution Prep Scheduling Flow',
+    slug: 'scheduling-flow',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-2.gif',
     company: 'Revolution Prep',
     year: 2024,
     technologies: [
       'Nuxt',
       'Vue'
     ],
-    content: schedulingWizardContent,
+    content: schedulingFlowContent,
     private: false
   },
   {

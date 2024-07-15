@@ -4,7 +4,7 @@
 
 In 2024, we launched an updated version of the Revolution Prep **[Student Dashboard | Schedule Sessions](/projects/student-dashboard#schedule-sessions)** feature.
 
-![Schedule Sessions](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-cover.gif)
+![Schedule Sessions](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-cover.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="schedule-sessions-version-1">Schedule Sessions | Version 1</a>**
 
@@ -86,11 +86,11 @@ The student begins on the schedule page, now with a number of improvements.
 
 We introduce the ability for students to subscribe to their tutoring calendar, so that their sessions can now appear on their personal Apple or Google calendar.
 
-![Schedule Sessions - Schedule](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-schedule.jpg)
+![Schedule Sessions - Schedule](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-schedule.jpg)
 
 In addition, the Hours Summary menu is revamped to accommodate multiple kinds of enrollments. Students can view information about all of their programs at a glance and can click a button to renew their enrollment or add more tutoring hours.
 
-![Schedule Sessions - Hours Summary](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-hours-summary.gif)
+![Schedule Sessions - Hours Summary](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-hours-summary.gif)
 As part of upgrading the **[Student Dashboard](/projects/student-dashboard#my-contributions)**, the calendar is rebuilt in FullCalendar, resulting in code that is more readable and easy to maintain.
 
 Clicking the green "Schedule Sessions" button takes the student to Step 1.
@@ -101,11 +101,11 @@ The purpose of Step 1 is still the same: select a tutor to work with.
 
 To show students more information about their enrollments, we introduce a chip component that displays the number of hours they have scheduled and how many are remaining.
 
-![Schedule Sessions - Step 1](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-1.gif)
+![Schedule Sessions - Step 1](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-1.gif)
 
 We also improve how we handle the case when the student has run out of tutoring hours. Clicking "Schedule" opens a call-to-action dialog that prompts the student to purchase more hours or contact customer support.
 
-![Schedule Sessions - Step 1 - Re-up Hours](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-1-reup-hours.gif)
+![Schedule Sessions - Step 1 - Re-up Hours](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-1-reup-hours.gif)
 
 Clicking "Schedule" next to a tutor's name moves the student onward to Step 2.
 
@@ -117,7 +117,7 @@ On Step 2, we introduce an improved scheduling calendar.
 
 The light green areas indicate when the tutor is available, while the outlined rectangles indicate when the student is available. Now, the student can easily locate where their availabilities overlap and can pick an ideal time.
 
-![Schedule Sessions - Step 2](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-2.jpg)
+![Schedule Sessions - Step 2](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-2.jpg)
 
 Previously, this calendar spanned just a 4-day view. Now, the student sees a full week.
 
@@ -125,13 +125,13 @@ Furthermore, the student has the ability to select multiple session times.
 
 Selecting a time shows a popover indicating that this same day and time can be repeated in future weeks.
 
-![Schedule Sessions - Step 2](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-2.gif)
+![Schedule Sessions - Step 2](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-2.gif)
 
 #### <a style="color: var(--ion-color-dark);" name="enrollment-details">Enrollment Details</a>
 
 To continue to provide context for the student, we show a card with the name of the enrollment and tutor they are currently scheduling with. This additional reminder is helpful as a student may be working with any number of tutors across any number of Revolution Prep programs.
 
-![Schedule Sessions - Step 2 - Enrollment Details](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-2-enrollment-details.gif)
+![Schedule Sessions - Step 2 - Enrollment Details](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-2-enrollment-details.gif)
 
 We also display the same chip as in Step 1, with the number of tutoring hours the student has remaining.
 
@@ -141,13 +141,13 @@ If the student has multiple tutors, we conditionally show a "Choose another tuto
 
 A new addition to this view is a dedicated card for the student's session details, where we show the number of times to meet per week and enable the student to update the duration and subject of their tutoring session. For convenience, all of these fields are pre-populated with the information listed on the student's enrollment.
 
-![Schedule Sessions - Step 2 - Duration](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-2-duration.gif)
+![Schedule Sessions - Step 2 - Duration](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-2-duration.gif)
 
 #### <a style="color: var(--ion-color-dark);" name="update-availability">Update Availability</a>
 
 In all steps of this scheduling flow, we incorporate an "Update Availability" button. Clicking this button opens a dialog that allows students to specify when they are available and make changes in real time.
 
-![Schedule Sessions - Step 2 - Update Availability](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-2-availability.gif)
+![Schedule Sessions - Step 2 - Update Availability](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-2-availability.gif)
 
 This dialog contains a calendar that is re-used in the **[Tutor Matching Form](/projects/tutor-matching-form)** and **[Enrollment Wizard](/projects/enrollment-wizard)**. Once again, this calendar was also re-built in FullCalendar! We updated the UX to add a click-and-drag functionality to select ranges of availability.
 
@@ -157,7 +157,7 @@ Once the student is all done picking their times, they can click Next to move on
 
 Step 3 is dedicated to configuring repeat options for the session times selected in Step 2.
 
-![Schedule Sessions - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-3.jpg)
+![Schedule Sessions - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-3.jpg)
 
 We present a table with one row for each of the times selected in the previous step.
 
@@ -166,17 +166,17 @@ The left-most column, "Sessions Pending Scheduled," lists the session time.
 The "Repeat For" column contains a dropdown with repeat options.
 By default, we set the amount of repeats to consume all the student's available tutoring hours.
 
-![Schedule Sessions - Step 3 - Repeat Dropdown](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-3-repeat-dropdown.gif)
+![Schedule Sessions - Step 3 - Repeat Dropdown](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-3-repeat-dropdown.gif)
 
 The third column, "Available Repeat Sessions," contains checkboxes that allow the user to fine-tune exactly which sessions they would like to repeat. Small help text indicates if there is a holiday or if the tutor is not available on a particular date.
 
 Modifying repeat options updates the progress bar in real time.
 
-![Schedule Sessions - Step 3 - Checkboxes](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-3-checkboxes.gif)
+![Schedule Sessions - Step 3 - Checkboxes](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-3-checkboxes.gif)
 
 We encourage the student to use all their tutoring hours. If they reserve fewer than all of their available hours, clicking the "Schedule Hours" button opens a confirmation dialog.
 
-![Schedule Sessions - Step 3 - Are You Sure](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-step-3-are-you-sure.gif)
+![Schedule Sessions - Step 3 - Are You Sure](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-step-3-are-you-sure.gif)
 
 Otherwise, if the student has selected all their remaining hours to be scheduled, clicking "Schedule Hours" takes them directly to the final view: the success dialog!
 
@@ -186,7 +186,7 @@ This view re-uses the existing success dialog seen in v1 of the Schedule Session
 
 We add a new feature prompting the user to add sessions to their personal calendar by clicking "Add to iCal" or "Add to Google Calendar." This alert component is also re-used in the Schedule page.
 
-![Schedule Sessions - Success](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-success.jpg)
+![Schedule Sessions - Success](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-success.jpg)
 
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
@@ -194,7 +194,7 @@ We add a new feature prompting the user to add sessions to their personal calend
 
 For this project's development in late 2023 and launch in early 2024, I collaborated closely with Product and Engineering team members to determine product requirements, designed UI/UX for every screen in Adobe XD, and built the critical calendar components.
 
-![Schedule Sessions - Design](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-wizard/schedule-sessions-design.jpg)
+![Schedule Sessions - Design](https://beiatrix.s3.us-west-1.amazonaws.com/projects/scheduling-flow/schedule-sessions-design.jpg)
 
 Over two meetings, I presented the designs to stakeholders, gathered and incorporated feedback, and ultimately helped win buy-in to move forward with building our design. Furthermore, I led six meetings ranging across scoping, design reviews, development kickoff, and ticket creation & distribution.
 

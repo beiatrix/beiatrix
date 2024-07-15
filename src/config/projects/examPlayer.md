@@ -42,7 +42,7 @@ this page contains instructions
 
 click next to enter first question of first section of exam
 
-## **<a style="color: var(--ion-color-dark);" name="exam-player">Exam Player View</a>**
+## **<a style="color: var(--ion-color-dark);" name="exam-player">Exam Player</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
@@ -88,31 +88,11 @@ center of header
 
 ![Timer - 5-Minute Warning](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/timer-5-minute-warning.jpg)
 
-### More menu
-
-upper right
-- more menu copy
-
-![More Menu](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu.jpg)
-
-  - help copy
-
-  ![More Menu - Help Modal](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu-help-modal.gif)
-
-  - toggle practice mode copy
-
-  ![More Menu - Practice Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu-practice-mode.gif)
-
-  - save and exit copy
-
-  ![More Menu - Save and Exit](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu-save-and-exit.jpg)
-
-
 ### **<a style="color: var(--ion-color-dark);" name="review">Review Page</a>**
 
-REVIEW page
 - after completing all questions of a section, see overview of questions. reminder/opportunity to revisit unanswered or bookmarked questions before submit
 
+**![TODO IMAGE NAME](image url)**
 
 ### **<a style="color: var(--ion-color-dark);" name="reading-and-writing">Reading and Writing Sections</a>**
 
@@ -137,6 +117,25 @@ resume testing when timer elapses / break is over
 - reference
 
 **![TODO IMAGE NAME](image url)**
+
+### More menu
+
+upper right
+- more menu copy
+
+![More Menu](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu.jpg)
+
+  - help copy
+
+  ![More Menu - Help Modal](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu-help-modal.gif)
+
+  - toggle practice mode copy
+
+  ![More Menu - Practice Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu-practice-mode.gif)
+
+  - save and exit copy
+
+  ![More Menu - Save and Exit](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu-save-and-exit.jpg)
 
 ## **<a style="color: var(--ion-color-dark);" name="end-exam">Completing an Exam</a>**
 
