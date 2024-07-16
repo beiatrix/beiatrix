@@ -24,11 +24,7 @@ select your exam, etc. then launch exam btn enabled.
 
 ![Configure Page](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page.gif)
 
-practice mode
-
-![Configure Page - Practice Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page-practice-mode.jpg)
-
-accommodations 
+toggle practice mode, toggle accommodations 
 
 ![Configure Page - Accommodations](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page-accommodations.jpg)
 
@@ -45,13 +41,6 @@ click next to enter first question of first section of exam
 ## **<a style="color: var(--ion-color-dark);" name="exam-player">Exam Player</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
-
-### Directions Popover 
-
-upper left
-- directions popover - automatically open at beginning of each section. can be re-opened to reference any time
-
-![Directions Popover](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/directions-popover.jpg)
 
 ## panels
 
@@ -75,7 +64,7 @@ upper left
   - students to navigate freely between questions in the current module
   - quickly see which questions are still unanswered
 
-**![TODO IMAGE NAME](image url)**
+![Question Navigator](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/question-navigator.gif)
 
 ### timing / timer
 
@@ -91,10 +80,26 @@ center of header
 ### **<a style="color: var(--ion-color-dark);" name="review">Review Page</a>**
 
 - after completing all questions of a section, see overview of questions. reminder/opportunity to revisit unanswered or bookmarked questions before submit
+- also accessible any time via the question navigator popover at bottom of page
 
-**![TODO IMAGE NAME](image url)**
+![Review Page - Test Day Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/review-page-test-day-mode.jpg)
+
+![Review Page - Practice Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/review-page-practice-mode.jpg)
+
+- practice mode 
+  - grey dashed border line - quick visual indicator
+  - skip to next module whenever you are ready, early (in both exam player / break)
+
+- test day mode
+  - colorful dashed border line
+  - proceed to next module only once timer elapses, automatically advance to next session when timer runs out
 
 ### **<a style="color: var(--ion-color-dark);" name="reading-and-writing">Reading and Writing Sections</a>**
+
+upper left
+- directions popover - automatically open at beginning of each section. can be re-opened to reference any time
+
+![Reading and Writing - Directions Popover](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/reading-and-writing-directions.jpg)
 
 - annotations
 
@@ -107,14 +112,15 @@ break
 
 resume testing when timer elapses / break is over
 
-**![IMAGE NAME](image url)**
+**![IMAGE - BREAK PAGE PRACTICE MODE](image url)**
+**![IMAGE - BREAK PAGE TEST DAY MODE](image url)**
 
 ### **<a style="color: var(--ion-color-dark);" name="math">Math Sections</a>**
 
-- directions panel 
+- directions panel **[TODO IMAGE]**
   - mathjax to render math expressions
-- calculator
-- reference
+- calculator **[TODO IMAGE]**
+- reference **[TODO IMAGE]**
 
 **![TODO IMAGE NAME](image url)**
 
@@ -144,19 +150,7 @@ upper right
 View Your Score button to navigate back to student dashboard - exams page
 view score report
 
-## **<a style="color: var(--ion-color-dark);" name="practice-mode">Practice Mode</a>**
-
-<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
-
-[TODO should this be its own section?? or move to more menu?? try demonstrating both and see if major visual difference]
-
-- practice mode 
-  - grey dashed border line - quick visual indicator
-  - skip to next module whenever you are ready, early (in both exam player / break)
-- test day mode
-  - colorful dashed border line
-  - proceed to next module only once timer elapses, automatically advance to next session when timer runs out
-
+**[TODO IMAGE]**
 
 ## **<a style="color: var(--ion-color-dark);" name="demo">Demo Version</a>**
 
