@@ -103,7 +103,7 @@ upper left
 
 - annotations
 
-**![IMAGE NAME](image url)**
+![Reading and Writing - Annotations](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/reading-and-writing-annotations.gif)
 
 ### **<a style="color: var(--ion-color-dark);" name="break">Break</a>**
 
@@ -112,8 +112,15 @@ break
 
 resume testing when timer elapses / break is over
 
-**![IMAGE - BREAK PAGE PRACTICE MODE](image url)**
-**![IMAGE - BREAK PAGE TEST DAY MODE](image url)**
+test day: 
+
+![Break Page - Test Day Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/break-page-test-day-mode.gif)
+
+![Break Page - Resume](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/break-page-resume.jpg)
+
+practice: 
+
+![Break Page - Practice Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/break-page-practice-mode.gif)
 
 ### **<a style="color: var(--ion-color-dark);" name="math">Math Sections</a>**
 
