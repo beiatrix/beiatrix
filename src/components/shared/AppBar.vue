@@ -56,7 +56,7 @@ onMounted(() => {
       <ion-button href="/">
         <ion-icon
           slot="icon-only"
-          :src="require('@/assets/images/logo.svg')"
+          :src="require('@/assets/images/beiatrix-logo.svg')"
         />
       </ion-button>
     </ion-buttons>
