@@ -124,12 +124,19 @@ practice:
 
 ### **<a style="color: var(--ion-color-dark);" name="math">Math Sections</a>**
 
-- directions panel **[TODO IMAGE]**
-  - mathjax to render math expressions
-- calculator **[TODO IMAGE]**
-- reference **[TODO IMAGE]**
+- directions panel
 
-**![TODO IMAGE NAME](image url)**
+![Math - Directions Popover](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/math-directions.gif)
+
+- mathjax to render math expressions **[TODO IMAGE -- #14]**
+
+- calculator 
+
+![Math - Calculator](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/math-calculator.gif)
+
+- reference 
+
+![Math - Reference](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/math-reference.gif)
 
 ### More menu
 
@@ -157,7 +164,9 @@ upper right
 View Your Score button to navigate back to student dashboard - exams page
 view score report
 
-**[TODO IMAGE]**
+![Complete Page](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/complete-page.jpg)
+
+![View Score](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/view-score.jpg)
 
 ## **<a style="color: var(--ion-color-dark);" name="demo">Demo Version</a>**
 
