@@ -25,7 +25,8 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: '',
-    private: false
+    private: false,
+    featured: true
   },
   {
     title: 'Student Dashboard',
@@ -40,7 +41,8 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: studentDashboardContent,
-    private: false
+    private: false,
+    featured: true
   },
   {
     title: 'Mobile Chat',
@@ -56,7 +58,8 @@ export const projects: Project[] = [
       'Ruby on Rails'
     ],
     content: mobileChatContent,
-    private: false
+    private: false,
+    featured: true
   },
   {
     title: 'Enrollment Wizard',
@@ -71,7 +74,8 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: enrollmentWizardContent,
-    private: false
+    private: false,
+    featured: true
   },
   {
     title: 'Scheduling Flow',
@@ -86,7 +90,8 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: schedulingFlowContent,
-    private: false
+    private: false,
+    featured: true
   },
   {
     title: 'Mobile App',
@@ -101,14 +106,15 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: mobileAppContent,
-    private: false
+    private: false,
+    featured: true
   },
   {
     title: 'Exam Player',
     subtitle: '@ Revolution Prep',
     description: 'Revolution Prep exam player',
     slug: 'exam-player',
-    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/exam-player-cover.gif',
     company: 'Revolution Prep',
     year: 2023,
     technologies: [
@@ -116,7 +122,8 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: examPlayerContent,
-    private: false
+    private: false,
+    featured: false
   },
   {
     title: 'Tutor Matching Form',
@@ -131,7 +138,8 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: tutorMatchingFormContent,
-    private: false
+    private: false,
+    featured: false
   },
   {
     title: 'Student Profile',
@@ -146,7 +154,8 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: studentProfileContent,
-    private: false
+    private: false,
+    featured: false
   },
   {
     title: 'Documentation Samples',
@@ -158,6 +167,7 @@ export const projects: Project[] = [
     year: 'ongoing',
     technologies: [],
     content: '',
-    private: true
+    private: true,
+    featured: false
   },
 ]

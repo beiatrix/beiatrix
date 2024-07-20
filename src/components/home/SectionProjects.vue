@@ -17,7 +17,7 @@ import { projects } from '@/config/projects'
  * ================================================================
  */
 const filteredProjects = computed(() => {
-  return projects.filter((project) => !project.private)
+  return projects.filter((project) => project.featured)
 })
 </script>
 
@@ -32,9 +32,17 @@ const filteredProjects = computed(() => {
         alt="projects"
         class="projects"
       >
+      <p>
+        Here are a few of my highlighted projects below.
+        To see even more, visit my
+        <strong>
+          <a href="/projects">
+            projects page</a>
+        </strong>!
+      </p>
     </ion-col>
     <ion-col
-      class="observer-target"
+      class="observer-target ion-padding"
       v-for="(project, index) in filteredProjects"
       :key="`project-${index}`"
       size-md="6"

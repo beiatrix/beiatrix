@@ -78,6 +78,7 @@ h1 {
 h2 {
   color: rgba(var(--ion-color-charcoal-rgb), 0.9);
   font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+  font-size: 1.75rem;
   font-weight: 500;
 }
 
@@ -128,7 +129,7 @@ img.thats-me {
 /* md */
 @media (max-width: 768px) {
   .container-headshot {
-    justify-content: start;
+    justify-content: flex-start;
   }
 
   h1 {

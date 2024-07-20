@@ -52,7 +52,7 @@ import SectionItem from './SectionItem.vue'
 
 <style scoped>
 img.skills {
-  height: 4rem;
+  height: 4.5rem;
 }
 
 .item-type {

@@ -45,7 +45,7 @@ withDefaults(defineProps<Props>(), {
       class="item-img ion-margin-end"
       :alt="item.text" 
       :src="item.logo"
-    />
+    >
     <ion-label class="item-label ion-text-wrap">
       {{ item.text }}
     </ion-label>

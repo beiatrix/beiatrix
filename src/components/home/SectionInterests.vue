@@ -42,6 +42,6 @@ import SectionItem from './SectionItem.vue'
 
 <style scoped>
 img.interests {
-  height: 3.5rem;
+  height: 4rem;
 }
 </style>

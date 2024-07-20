@@ -27,10 +27,6 @@ const { getTargetAttribute } = useAppBarItems()
  */
 const windowWidth = ref()
 
-const showButtonText = computed(() => {
-  return windowWidth.value >= 1200 // xl
-})
-
 const showPushMenu = computed(() => {
   return windowWidth.value < 768 // md
 })

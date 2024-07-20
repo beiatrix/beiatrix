@@ -47,7 +47,7 @@ function getProjectUrl (project: Project) {
       <img
         :alt="project.title"
         :src="project.image" 
-      />
+      >
     </div>
 
     <ion-card-header>
@@ -79,7 +79,7 @@ function getProjectUrl (project: Project) {
               index < project.technologies.length - 1
                 ? 'margin-right: 0.4rem;' 
                 : ''
-              "
+            "
             :key="`${project.title}-${technology}`"
             :technology-name="technology"
           />
@@ -128,7 +128,7 @@ img {
 .img-container {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   padding: 0.5rem;
   background-color: var(--ion-color-light-shade);
 }
@@ -136,7 +136,7 @@ img {
 .icon-technology-container {
   display: flex;
   justify-content: flex-end;
-  align-items: start;
+  align-items: flex-start;
   margin-bottom: 0.2rem;
 }
 

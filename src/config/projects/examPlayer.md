@@ -4,7 +4,7 @@
 
 In response to the launch of the digital SAT in 2023, Revolution Prep developed an exam player to offer students a practice exam experience that closely mirrors the official test.
 
-**![TODO COVER IMAGE](image url)**
+![Exam Player - Cover](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/exam-player-cover.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="start-exam">Launching An Exam</a>**
 
@@ -24,7 +24,7 @@ select your exam, etc. then launch exam btn enabled.
 
 ![Configure Page](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page.gif)
 
-toggle practice mode, toggle accommodations 
+toggle practice mode, toggle accommodations
 
 ![Configure Page - Accommodations](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page-accommodations.jpg)
 
@@ -48,7 +48,7 @@ click next to enter first question of first section of exam
 
 - question/answer on right
   - bookmark - mark for review for later
-  
+
   ![Mark For Review](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/mark-for-review.gif)
 
   - cross out - process of elimination answers
@@ -86,7 +86,7 @@ center of header
 
 ![Review Page - Practice Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/review-page-practice-mode.jpg)
 
-- practice mode 
+- practice mode
   - grey dashed border line - quick visual indicator
   - skip to next module whenever you are ready, early (in both exam player / break)
 
@@ -112,13 +112,13 @@ break
 
 resume testing when timer elapses / break is over
 
-test day: 
+test day:
 
 ![Break Page - Test Day Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/break-page-test-day-mode.gif)
 
 ![Break Page - Resume](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/break-page-resume.jpg)
 
-practice: 
+practice:
 
 ![Break Page - Practice Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/break-page-practice-mode.gif)
 
@@ -128,15 +128,16 @@ practice:
 
 ![Math - Directions Popover](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/math-directions.gif)
 
-- mathjax to render math expressions **[TODO IMAGE -- #14]**
-
-- calculator 
+- calculator
 
 ![Math - Calculator](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/math-calculator.gif)
 
-- reference 
+- reference
 
 ![Math - Reference](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/math-reference.gif)
+
+- student-produced response - mathjax to render math expressions
+![Math - Student Produced Response](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/math-student-produced-response.gif)
 
 ### More menu
 
@@ -189,4 +190,4 @@ bluebook precedent
     - create custom icons and SVG assets in Adobe Illustrator
 
 
-also built a [demo version](https://digital-demo.revolutionprep.com/) 
+also built a [demo version](https://digital-demo.revolutionprep.com/)

@@ -49,7 +49,7 @@ const technologyItem = computed(() => {
         v-if="technologyItem.logo"
         :alt="technologyItem.text" 
         :src="technologyItem.logo"
-      />
+      >
     </div>
     <template #content>
       {{ technologyItem.text }}
@@ -61,7 +61,7 @@ const technologyItem = computed(() => {
 .container {
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
 }
 
 img {
