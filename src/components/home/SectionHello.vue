@@ -88,7 +88,7 @@ h2 {
 img.hello {
   height: 5rem;
   margin-left: -2.5rem;
-  margin-bottom: -1rem;
+  margin-bottom: -0.5rem;
 }
 
 img.headshot {
@@ -133,6 +133,15 @@ img.thats-me {
 
   h1 {
     font-size: 2.5rem;
+  }
+}
+
+/* sm */
+@media (max-width: 576px) {
+  img.hello {
+    margin-left: -1rem;
+    margin-bottom: 0;
+    margin-top: -1rem;
   }
 }
 
