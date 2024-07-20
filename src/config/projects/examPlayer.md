@@ -24,7 +24,7 @@ On the Configure page, the student selects a test from the dropdown menus. Once 
 
 ![Configure Page](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page.gif)
 
-Optionally, the student can turn on "Practice Mode," which allows the user to proceed to the next portion of the exam at their earliest convenience. They may also toggle on Accommodations and Supports, such as extended time for Reading, Math, or Breaks.
+Optionally, the student can turn on "Practice Mode," which allows them to proceed to the next portion of the exam at their earliest convenience. They may also toggle on Accommodations and Supports, such as extended time for Reading, Math, or Breaks.
 
 ![Configure Page - Accommodations](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/configure-page-accommodations.jpg)
 
@@ -32,7 +32,7 @@ Optionally, the student can turn on "Practice Mode," which allows the user to pr
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-The instruction page contains some information about the exam experience.
+The instruction page contains information about the exam experience.
 
 ![Instructions Page](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/instructions-page.jpg)
 
@@ -42,7 +42,7 @@ Clicking "Next" brings the student to the first question of the first section of
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-The exam player view is divided into two main panels: a left panel containing a passage or instructions, and a question with answer choices on the right. These panels may expand and collapse to conform to the student's viewing preferences.
+The exam player view is divided into two main panels: a left panel containing a passage or instructions, and a right panel with a question and answer choices. These panels may expand and collapse to conform to the student's viewing preferences.
 
 ![Panels](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/panels.gif)
 
@@ -50,7 +50,7 @@ The exam player view is divided into two main panels: a left panel containing a 
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-Clicking the bookmark icon next to a question number allows the student to mark a question for review at a later time.
+Clicking the bookmark icon next to a question number allows the student to mark a question for review later.
 
 ![Mark For Review](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/mark-for-review.gif)
 
@@ -58,7 +58,7 @@ Clicking the bookmark icon next to a question number allows the student to mark 
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-Clicking the strikethrough "ABC" icon allows a student to use a "cross-out" feature to use the process of elimination on answer choices.
+Clicking the strikethrough "ABC" icon enables a "cross-out" feature for eliminating answer choices.
 
 ![Cross Out](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/cross-out.gif)
 
@@ -66,7 +66,7 @@ Clicking the strikethrough "ABC" icon allows a student to use a "cross-out" feat
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-In the footer of the exam player, a button with copy "Question X of X" keeps track of where the student is in the exam. Clicking this button opens a popover that allows students to quickly see which questions are still unanswered or marked for review, and navigate freely between the questions in the current module.
+In the footer of the exam player, a button labeled "Question X of X" keeps track of the student's progress. Clicking this button opens a popover that allows students to quickly see which questions are still unanswered or marked for review and navigate freely between the questions in the current module.
 
 ![Question Navigator](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/question-navigator.gif)
 
@@ -74,11 +74,11 @@ In the footer of the exam player, a button with copy "Question X of X" keeps tra
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-In the center of the header is a timer that counts down the time remaining in the current exam module. The student has the ability to toggle showing or hiding this timer.
+In the center of the header, a timer counts down the time remaining in the current exam module. The student can control whether the timer is visible or hidden.
 
 ![Timer](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/timer.gif)
 
-When a module is about to run out of time, an alert appears indicating that there are 5 minutes remaining. If time expires before a student completes the module, the answers they have submitted so far will still be saved.
+When a module is about to run out of time, an alert appears indicating that there are 5 minutes remaining. If time expires before the student completes the module, the answers they have submitted so far will still be saved.
 
 ![Timer - 5-Minute Warning](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/timer-5-minute-warning.jpg)
 
@@ -86,7 +86,7 @@ When a module is about to run out of time, an alert appears indicating that ther
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-At the end of a module, a student can see an overview of all of its questions. Here, they have an opportunity to revisit unanswered or bookmarked questions before they move forward.
+At the end of a module, the student can see an overview of all its questions. Here, they have an opportunity to revisit unanswered or bookmarked questions before moving forward.
 
 In "Test Day Mode," the student is automatically advanced to the next module once the timer elapses.
 
@@ -104,7 +104,7 @@ In the upper left, the directions popover describes the format of the Reading an
 
 ![Reading and Writing - Directions Popover](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/reading-and-writing-directions.jpg)
 
-In the Reading and Writing questions, a student can highlight a portion of a passage, then click "Annotate" to write an annotation, which appears over the highlighted areas upon creation and on mouseover. The student has the ability to edit and delete their annotations too.
+In the Reading and Writing questions, a student can highlight a portion of a passage, then click "Annotate" to write an annotation, which appears over the highlighted areas upon creation and on mouseover. The student can edit and delete their annotations as well.
 
 ![Reading and Writing - Annotations](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/reading-and-writing-annotations.gif)
 
@@ -114,7 +114,7 @@ In the Reading and Writing questions, a student can highlight a portion of a pas
 
 The Break page appears in the middle of the exam, between the Reading and Writing Section and the Math Section. It contains a timer for 10 minutes.
 
-If a student had selected an accommodation for extended time or more frequent breaks in the Configure page, the Break page would appear accordingly.
+If a student had selected an accommodation for extended time or more frequent breaks on the Configure page, the Break page would adjust accordingly.
 
 In "Test Day Mode," testing resumes once the break timer is over.
 
@@ -136,7 +136,7 @@ In the Math questions, a graphing calculator is available for the student to use
 
 ![Math - Calculator](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/math-calculator.gif)
 
-Additionally, the student may open a reference sheet, containing handy formulas and diagrams.
+Additionally, the student may open a reference sheet containing handy formulas and diagrams.
 
 ![Math - Reference](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/math-reference.gif)
 
@@ -160,7 +160,7 @@ Another menu item is a toggle to turn "Practice Mode" on or off. The dashed bord
   
 ![More Menu - Practice Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu-practice-mode.gif)
 
-Clicking "Save and Exit" opens a modal confirming that the student wishes to exit the test. Clicking "Save and Exit" in the modal allows the student to save their progress on their current device before being redirected back to the Student Dashboard.
+Clicking the "Save and Exit" menu item opens a modal confirming that the student wishes to exit the test. Clicking "Save and Exit" in the modal allows the student to save their progress on their current device before being redirected back to the Student Dashboard.
 
 ![More Menu - Save and Exit](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu-save-and-exit.jpg)
 
