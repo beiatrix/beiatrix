@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // ionic + vue
-import { 
+import {
   IonCol,
   IonContent,
   IonGrid,
@@ -50,15 +50,15 @@ const filteredProjects = computed(() => {
             >
               <ion-row class="ion-padding-vertical">
                 <ion-col size="12">
-                  <div class="header">
-                    <h1 class="heading">
-                      projects
-                    </h1>
-                  </div>
+                  <img
+                    :src="require('@/assets/images/projects.svg')"
+                    alt="projects"
+                    class="projects"
+                  >
                 </ion-col>
               </ion-row>
               <ion-row>
-                <ion-col 
+                <ion-col
                   v-for="(project, index) in filteredProjects"
                   :key="`project-${index}`"
                   size-md="6"
@@ -76,3 +76,9 @@ const filteredProjects = computed(() => {
     </div>
   </ion-page>
 </template>
+
+<style scoped>
+img.projects {
+  height: 5.5rem;
+}
+</style>

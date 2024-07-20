@@ -49,7 +49,7 @@ onMounted(() => {
 
 <template>
   <ion-toolbar>
-    <ion-buttons 
+    <ion-buttons
       class="ion-padding"
       slot="start"
     >
@@ -60,36 +60,30 @@ onMounted(() => {
         />
       </ion-button>
     </ion-buttons>
-    <ion-buttons 
+    <ion-buttons
       class="ion-padding"
       slot="end"
     >
-      <ion-menu-button 
+      <ion-menu-button
         v-if="showPushMenu"
-        color="primary" 
+        color="primary"
       />
-      <div 
+      <div
         v-else
         class="ion-padding-end"
       >
         <ion-button
           v-for="(item, index) in appBarItems"
           :key="`app-bar-item-${index}`"
-          :class="`${showButtonText ? 'btn-app-bar' : ''}`"
+          class="btn-app-bar"
           :href="item.url"
           :target="getTargetAttribute(item.url)"
         >
-          <ion-icon 
-            slot="start"
+          <ion-icon
             color="primary"
+            slot="icon-only"
             :icon="item.icon"
           />
-          <span
-            v-if="showButtonText"
-            class="app-bar-item-text"
-          >
-            {{ item.text }}
-          </span>
         </ion-button>
       </div>
     </ion-buttons>
@@ -107,6 +101,6 @@ ion-toolbar {
 }
 
 .btn-app-bar {
-  margin-right: 0.5rem;
+  margin: 0 0.5rem;
 }
 </style>

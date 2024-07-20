@@ -3,11 +3,15 @@ module.exports = {
   env: {
     node: true
   },
-  'extends': [
-    'plugin:vue/vue3-essential',
+  extends: [
     'eslint:recommended',
+    'plugin:vue/vue3-strongly-recommended',
     '@vue/typescript/recommended'
   ],
+  globals: {
+    HTMLCollectionOf: 'readonly'
+  },
+  parser: 'vue-eslint-parser',
   parserOptions: {
     ecmaVersion: 2020
   },

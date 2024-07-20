@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // ionic + vue
-import { 
+import {
   IonCol,
   IonContent,
   IonGrid,

@@ -27,11 +27,11 @@ const filteredProjects = computed(() => {
       class="observer-target"
       size="12"
     >
-      <div class="header">
-        <h1 class="heading">
-          projects
-        </h1>
-      </div>
+      <img
+        :src="require('@/assets/images/projects.svg')"
+        alt="projects"
+        class="projects"
+      >
     </ion-col>
     <ion-col
       class="observer-target"
@@ -44,3 +44,9 @@ const filteredProjects = computed(() => {
     </ion-col>
   </ion-row>
 </template>
+
+<style scoped>
+img.projects {
+  height: 5.5rem;
+}
+</style>

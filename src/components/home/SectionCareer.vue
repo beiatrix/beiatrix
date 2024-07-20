@@ -27,19 +27,19 @@ const yearsOfExperience = computed(() => {
       class="observer-target"
       size="12"
     >
-      <div class="header">
-        <h1 class="heading">
-          career
-        </h1>
-      </div>
+      <img
+        :src="require('@/assets/images/career.svg')"
+        alt="career"
+        class="career"
+      >
     </ion-col>
     <ion-col
       class="observer-target"
       size="12"
     >
       <p>
-        I have <strong>{{ yearsOfExperience }}</strong> of professional 
-        experience in software engineering with a specialization in frontend 
+        I have <strong>{{ yearsOfExperience }}</strong> of professional
+        experience in software engineering with a specialization in frontend
         development.
       </p>
       <p>
@@ -47,7 +47,7 @@ const yearsOfExperience = computed(() => {
         <strong>2.5 years</strong> of professional experience.
       </p>
       <p>
-        I find joy in being able to use both skill sets. I continue to apply my 
+        I find joy in being able to use both skill sets. I continue to apply my
         design skills to deliver delightful UI and UX in my daily work.
       </p>
       <p>
@@ -59,3 +59,9 @@ const yearsOfExperience = computed(() => {
     </ion-col>
   </ion-row>
 </template>
+
+<style scoped>
+img.career {
+  height: 3rem;
+}
+</style>

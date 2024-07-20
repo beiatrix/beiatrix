@@ -7,7 +7,7 @@ import {
 </script>
 
 <template>
-  <ion-row class="ion-padding-top ion-justify-space-between">
+  <ion-row class="ion-padding-top ion-justify-space-between ion-margin-bottom">
     <ion-col
       class="header-content"
       size="12"
@@ -15,29 +15,28 @@ import {
       size-xl="8"
     >
       <ion-row>
-        <!-- <img
+        <img
           :src="require('@/assets/images/hello.svg')"
           alt="hello"
           class="hello"
-        /> -->
-        <h2>hi there 👋</h2>
+        >
       </ion-row>
       <ion-row>
         <h1>
-          my name is <span class="name">beiatrix</span>.
+          my name is <span class="name">beiatrix</span>
         </h1>
       </ion-row>
       <ion-row>
         <h2 class="ion-margin-bottom">
-          I'm a 
-          <span class="heading">software engineer</span>
-          and 
-          <span class="heading">designer</span>.
+          I'm a
+          <span class="highlight">software engineer</span>
+          +
+          <span class="highlight">designer</span>!
         </h2>
       </ion-row>
     </ion-col>
-    <ion-col 
-      class="container-headshot"
+    <ion-col
+      class="container-headshot ion-margin-bottom"
       size="12"
       size-md="5"
       size-xl="4"
@@ -46,7 +45,12 @@ import {
         :src="require('@/assets/images/headshot.jpg')"
         alt="Beiatrix Pedrasa"
         class="headshot"
-      />
+      >
+      <img
+        :src="require('@/assets/images/thats-me.svg')"
+        alt="thats-me"
+        class="thats-me"
+      >
     </ion-col>
   </ion-row>
 </template>
@@ -73,20 +77,31 @@ h1 {
 
 h2 {
   color: rgba(var(--ion-color-charcoal-rgb), 0.9);
-  font-family: 'Manrope', Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
   font-weight: 500;
 }
 
+.highlight {
+  color: var(--ion-color-primary);
+}
+
 img.hello {
-  height: 2.75rem;
-  margin-right: -0.5rem;
-  margin-bottom: 0.5rem;
+  height: 5rem;
+  margin-left: -2.5rem;
+  margin-bottom: -1rem;
 }
 
 img.headshot {
   max-height: 25vh;
   width: auto;
   object-fit: cover;
+}
+
+img.thats-me {
+  margin-top: 26vh;
+  margin-right: -4rem;
+  height: 3rem;
+  position: absolute;
 }
 
 .name {
@@ -100,13 +115,13 @@ img.headshot {
     font-size: 3rem;
   }
 
-  img.hello {
-    height: 3rem;
-    margin-right: -0.5rem;
-  }
-
   img.headshot {
     max-height: 30vh;
+  }
+
+  img.thats-me {
+    margin-top: 30vh;
+    margin-left: 30vw;
   }
 }
 
@@ -119,18 +134,11 @@ img.headshot {
   h1 {
     font-size: 2.5rem;
   }
-
-  img.hello {
-    height: 2.5rem;
-    margin-right: -0.5rem;
-  }
 }
 
 /* mobile landscape */
 @media (max-height: 600px) {
   img.headshot {
-    border: 0.8rem solid var(--ion-color-tertiary);
-    border-radius: 1.6rem;
     max-height: 50vh;
   }
 }
