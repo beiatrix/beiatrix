@@ -101,7 +101,15 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-forest-contrast-rgb: 255,255,255;
   --ion-color-forest-shade: #2b3b30;
   --ion-color-forest-tint: #46564a;
-  
+
+  /** mist **/
+  --ion-color-mist: #87a8ad;
+  --ion-color-mist-rgb: 135,168,173;
+  --ion-color-mist-contrast: #000000;
+  --ion-color-mist-contrast-rgb: 0,0,0;
+  --ion-color-mist-shade: #779498;
+  --ion-color-mist-tint: #93b1b5;
+
   /** jay **/
   --ion-color-jay: #3474DB;
   --ion-color-jay-rgb: 52,116,219;
@@ -109,6 +117,14 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-jay-contrast-rgb: 255,255,255;
   --ion-color-jay-shade: #2e66c1;
   --ion-color-jay-tint: #4882df;
+
+  /** eggplant **/
+  --ion-color-eggplant: #453ae0;
+  --ion-color-eggplant-rgb: 69,58,224;
+  --ion-color-eggplant-contrast: #ffffff;
+  --ion-color-eggplant-contrast-rgb: 255,255,255;
+  --ion-color-eggplant-shade: #3d33c5;
+  --ion-color-eggplant-tint: #584ee3;
 
   /** taro **/
   --ion-color-taro: #9667CE;
@@ -181,6 +197,16 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-tint: var(--ion-color-forest-tint);
 }
 
+/** mist **/
+.ion-color-mist {
+	--ion-color-base: var(--ion-color-mist);
+	--ion-color-base-rgb: var(--ion-color-mist-rgb);
+	--ion-color-contrast: var(--ion-color-mist-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-mist-contrast-rgb);
+	--ion-color-shade: var(--ion-color-mist-shade);
+	--ion-color-tint: var(--ion-color-mist-tint);
+}
+
 /** jay **/
 .ion-color-jay {
   --ion-color-base: var(--ion-color-jay);
@@ -189,6 +215,16 @@ http://ionicframework.com/docs/theming/ */
   --ion-color-contrast-rgb: var(--ion-color-jay-contrast-rgb);
   --ion-color-shade: var(--ion-color-jay-shade);
   --ion-color-tint: var(--ion-color-jay-tint);
+}
+
+/** eggplant **/
+.ion-color-eggplant {
+  --ion-color-base: var(--ion-color-eggplant);
+  --ion-color-base-rgb: var(--ion-color-eggplant-rgb);
+  --ion-color-contrast: var(--ion-color-eggplant-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-eggplant-contrast-rgb);
+  --ion-color-shade: var(--ion-color-eggplant-shade);
+  --ion-color-tint: var(--ion-color-eggplant-tint);
 }
 
 /** taro **/

@@ -7,7 +7,7 @@ import {
 </script>
 
 <template>
-  <ion-row class="ion-padding-top ion-justify-space-between ion-margin-bottom">
+  <ion-row class="ion-padding-top ion-justify-space-between section-hello-container">
     <ion-col
       class="header-content"
       size="12"
@@ -56,6 +56,10 @@ import {
 </template>
 
 <style scoped>
+.section-hello-container {
+  margin-bottom: 2rem;
+}
+
 .header-content {
   display: flex;
   flex-direction: column;
@@ -121,7 +125,7 @@ img.thats-me {
   }
 
   img.thats-me {
-    margin-top: 30vh;
+    margin-top: 31vh;
     margin-left: 30vw;
   }
 }
@@ -134,6 +138,11 @@ img.thats-me {
 
   h1 {
     font-size: 2.5rem;
+  }
+
+  img.thats-me {
+    margin-top: 31vh;
+    margin-left: 20vw;
   }
 }
 
@@ -150,6 +159,11 @@ img.thats-me {
 @media (max-height: 600px) {
   img.headshot {
     max-height: 50vh;
+  }
+
+  img.thats-me {
+    margin-top: 52vh;
+    margin-left: 20vw;
   }
 }
 </style>

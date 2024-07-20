@@ -52,7 +52,10 @@ const yearsOfExperience = computed(() => {
       </p>
       <p>
         If you'd like to learn more, here is my <strong>
-          <a href="https://beiatrix.s3.us-west-1.amazonaws.com/resume/Beiatrix_Pedrasa_-_Resume.pdf">
+          <a
+            href="https://beiatrix.s3.us-west-1.amazonaws.com/resume/Beiatrix_Pedrasa_-_Resume.pdf"
+            target="_blank"
+          >
             resume</a>
         </strong>.
       </p>

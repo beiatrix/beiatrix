@@ -47,7 +47,7 @@ const technologyItem = computed(() => {
       />
       <img
         v-if="technologyItem.logo"
-        :alt="technologyItem.text" 
+        :alt="technologyItem.text"
         :src="technologyItem.logo"
       >
     </div>

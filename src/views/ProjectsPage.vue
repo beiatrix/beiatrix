@@ -61,7 +61,6 @@ const filteredProjects = computed(() => {
                 <ion-col
                   v-for="(project, index) in filteredProjects"
                   :key="`project-${index}`"
-                  class="ion-padding"
                   size-md="6"
                   size-xl="4"
                   size="12"

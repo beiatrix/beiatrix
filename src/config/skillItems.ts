@@ -95,7 +95,7 @@ export const designSkillItems: Item[] = [
   },
   {
     icon: brush,
-    iconColor: 'taro',
+    iconColor: 'eggplant',
     text: 'Hand-Drawn Illustration'
   }
 ]
