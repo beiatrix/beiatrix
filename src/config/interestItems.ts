@@ -4,30 +4,26 @@ import { Item } from '@/types'
 export const interestItems: Item[] = [
   {
     emoji: '💪',
-    text: 'Fitness – hiking, running, rock climbing, weight lifting, hot yoga'
+    text: 'Fitness – especially rock climbing and hot yoga'
   },
   {
     emoji: '🎨',
     text: 'Drawing and painting'
   },
   {
-    emoji: '📚',
-    text: 'Reading great non-fiction books'
+    emoji: '🍔',
+    text: 'Enjoying delicious foods'
   },
   {
-    emoji: '💸',
-    text: 'Personal finance'
-  },
-  {
-    emoji: '👩🏻‍🍳',
-    text: 'Cooking and baking'
-  },
-  {
-    emoji: '🪴',
-    text: 'House plants'
+    emoji: '🌿',
+    text: 'Spending time in nature'
   },
   {
     emoji: '🐶',
-    text: 'Quality time with boyfriend and dog'
+    text: 'Hiking adventures with partner and dog'
+  },
+  {
+    emoji: '✈️',
+    text: 'Traveling with family and friends'
   }
 ]
