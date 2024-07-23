@@ -157,7 +157,7 @@ Clicking "Help" opens a modal with more information about the exam player.
 ![More Menu - Help Modal](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu-help-modal.gif)
 
 Another menu item is a toggle to turn "Practice Mode" on or off. The dashed border lines at the header and footer of the app provide a quick visual indicator: the grey border indicates that the student is in "Practice Mode," whereas the colorful dashed border indicates that the student is in "Test Day Mode."
-  
+
 ![More Menu - Practice Mode](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/more-menu-practice-mode.gif)
 
 Clicking the "Save and Exit" menu item opens a modal confirming that the student wishes to exit the test. Clicking "Save and Exit" in the modal allows the student to save their progress on their current device before being redirected back to the Student Dashboard.
@@ -176,6 +176,10 @@ Clicking the "View Your Score" call-to-action button navigates the student back 
 
 ![View Score](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/view-score.jpg)
 
+## **<a style="color: var(--ion-color-dark);" name="mobile-modal">Mobile Modal</a>**
+
+TODO
+
 ## **<a style="color: var(--ion-color-dark);" name="demo">Demo Version</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
@@ -190,16 +194,20 @@ TODO IMAGE
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-TODO
+To develop this app, our team examined its precedent: the official College Board Digital SAT. We built our own recreation using Ionic and Vue 3 with Pinia for state management.
 
-bluebook precedent
+On the frontend, I was instrumental in creating a static prototype of nearly every single component, a foundation on which our team could build. Early in the project, I led key pair programming sessions to collaborate on establishing the main user flows of the app: that is, setting the start of the flow to be on the Configure Page; with the Instructions page next; followed by conditionally rendering the Exam Player, Review page, or Break page; with the Complete page at the end.
 
-TODO SCREENSHOTS 
+Some components I worked on were the exam player header; the Help, Accommodations, and Mobile modals; the timing feature, including the 5-minute warning alert; directions in the popovers and in the left panel for Student Produced Responses; and draggable containers for the Calculator and Reference Sheet. I loaded up the Desmos script for the graphing calculator and the MathJax script to render math expressions in the browser.
 
-- Digital SAT `athena`
-    - Ionic, Vue 3
-    - develop rapid prototype
-    - lead key pair programming sessions to initialize app
-    - create custom icons and SVG assets in Adobe Illustrator
+As a designer, I created some custom icons and SVG assets in Adobe Illustrator – particularly, the conditionally-colored dashed borders of the header and footer. I also worked to improve the quality of the images.
 
+~~page loaders
+~~spoofing  - enable employees to "spoof" students
 
+# demo
+
+updated copy on start page, complete page, removed configure page
+set up vercel environment - dev ops - point domains
+branded demo header
+mobile modal
