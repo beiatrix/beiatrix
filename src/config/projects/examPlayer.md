@@ -2,7 +2,7 @@
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-In response to the launch of the digital SAT in 2023, Revolution Prep developed an exam player to offer students a practice exam experience that closely mirrors the official test.
+In response to the launch of the Digital SAT in 2023, Revolution Prep developed an exam player to offer students a practice exam experience that closely mirrors the official test.
 
 ![Exam Player - Cover](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/exam-player-cover.gif)
 
@@ -178,36 +178,30 @@ Clicking the "View Your Score" call-to-action button navigates the student back 
 
 ## **<a style="color: var(--ion-color-dark);" name="mobile-modal">Mobile Modal</a>**
 
-TODO
+<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+
+Because the Exam Player is optimized for larger screens, we display a modal to mobile users, encouraging them to use a desktop browser for the best experience.
+
+![Mobile Modal](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/mobile-modal.gif)
 
 ## **<a style="color: var(--ion-color-dark);" name="demo">Demo Version</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
 
-available / viewable to all students for free, no authentication/login required
+We also created a [Demo Version](https://digital-demo.revolutionprep.com/) of the app that is available to everyone, with no authentication required. The Demo app contains most of the same features as the Exam Player app but uses sample content.
 
-[demo version](https://digital-demo.revolutionprep.com/)
-
-TODO IMAGE
+![Demo](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/demo.gif)
 
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-To develop this app, our team examined its precedent: the official College Board Digital SAT. We built our own recreation using Ionic and Vue 3 with Pinia for state management.
+To develop this app, our team closely examined its precedent: the official College Board Digital SAT. We built our own recreation using Ionic and Vue 3, with Pinia for state management.
 
-On the frontend, I was instrumental in creating a static prototype of nearly every single component, a foundation on which our team could build. Early in the project, I led key pair programming sessions to collaborate on establishing the main user flows of the app: that is, setting the start of the flow to be on the Configure Page; with the Instructions page next; followed by conditionally rendering the Exam Player, Review page, or Break page; with the Complete page at the end.
+On the frontend, I was instrumental in creating a static prototype for nearly every component, providing a solid foundation on which our team could build. Early in the project, I led key pair programming sessions to collaborate on establishing the main user flows of the app. This involved setting the start of the flow on the Configure Page, followed by the Instructions page, and then conditionally rendering the Exam Player, Review page, or Break page, culminating in the Complete page.
 
-Some components I worked on were the exam player header; the Help, Accommodations, and Mobile modals; the timing feature, including the 5-minute warning alert; directions in the popovers and in the left panel for Student Produced Responses; and draggable containers for the Calculator and Reference Sheet. I loaded up the Desmos script for the graphing calculator and the MathJax script to render math expressions in the browser.
+Some of the components I worked on included the exam player header; the Help, Accommodations, and Mobile modals; the timing feature, including the 5-minute warning alert; directions in the popovers and the left panel for Student Produced Responses; and draggable containers for the Calculator and Reference Sheet. I also integrated the Desmos script for the graphing calculator and the MathJax script to render math expressions in the browser.
 
-As a designer, I created some custom icons and SVG assets in Adobe Illustrator – particularly, the conditionally-colored dashed borders of the header and footer. I also worked to improve the quality of the images.
+As a designer, I created custom icons and SVG assets in Adobe Illustrator, particularly the conditionally-colored dashed borders of the header and footer. Additionally, I worked to improve the quality of the images.
 
-~~page loaders
-~~spoofing  - enable employees to "spoof" students
-
-# demo
-
-updated copy on start page, complete page, removed configure page
-set up vercel environment - dev ops - point domains
-branded demo header
-mobile modal
+For the Demo app, I designed and built the branded header and handled some DevOps tasks, such as setting up the Vercel environment and assigning custom domains to our `main`, `staging`, and `release` branches.
