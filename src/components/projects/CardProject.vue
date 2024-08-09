@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // ionic + vue
-import { 
+import {
   IonButton,
   IonCard,
   IonCardHeader,
@@ -12,6 +12,9 @@ import { logoGithub } from 'ionicons/icons'
 
 // types
 import { Project } from '@/types'
+
+// popover
+import { Tippy } from 'vue-tippy'
 
 // components
 import IconTechnology from '@/components/projects/IconTechnology.vue'
@@ -30,14 +33,14 @@ defineProps<Props>()
  * ================================================================
  */
 function getProjectUrl (project: Project) {
-  return project.slug 
+  return project.slug
     ? `/projects/${project.slug}`
     : project.url
 }
 </script>
 
 <template>
-  <ion-card 
+  <ion-card
     button
     mode="md"
     target="_blank"
@@ -46,7 +49,7 @@ function getProjectUrl (project: Project) {
     <div class="img-container">
       <img
         :alt="project.title"
-        :src="project.image" 
+        :src="project.image"
       >
     </div>
 
@@ -59,25 +62,30 @@ function getProjectUrl (project: Project) {
           {{ project.subtitle }}
         </div>
         <div class="icon-technology-container">
-          <ion-button
-            v-if="project.githubUrl" 
-            color="white"
-            shape="round"
-            style="margin-right: 0.2rem;"
-            :href="project.githubUrl"
-            target="_blank"
-          >
-            <ion-icon 
-              color="charcoal"
-              :icon="logoGithub" 
-              slot="icon-only"
-            />
-          </ion-button>
-          <IconTechnology 
+          <Tippy>
+            <ion-button
+              v-if="project.githubUrl"
+              color="white"
+              shape="round"
+              style="margin-right: 0.2rem;"
+              :href="project.githubUrl"
+              target="_blank"
+            >
+              <ion-icon
+                color="charcoal"
+                :icon="logoGithub"
+                slot="icon-only"
+              />
+            </ion-button>
+            <template #content>
+              View code in GitHub
+            </template>
+          </Tippy>
+          <IconTechnology
             v-for="(technology, index) in project.technologies"
             :style="
               index < project.technologies.length - 1
-                ? 'margin-right: 0.4rem;' 
+                ? 'margin-right: 0.4rem;'
                 : ''
             "
             :key="`${project.title}-${technology}`"
@@ -85,7 +93,7 @@ function getProjectUrl (project: Project) {
           />
         </div>
       </ion-card-subtitle>
-    </ion-card-header>    
+    </ion-card-header>
   </ion-card>
 </template>
 

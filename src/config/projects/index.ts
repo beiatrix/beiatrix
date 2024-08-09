@@ -29,6 +29,22 @@ export const projects: Project[] = [
     featured: true
   },
   {
+    title: 'Portfolio Website',
+    subtitle: 'I made a website for my mom',
+    description: 'Portfolio Website built with Nuxt, Sanity, and Tailwind',
+    url: 'https://cynthia-pedrasa.vercel.app/',
+    githubUrl: 'https://github.com/beiatrix/cynthia-pedrasa-v2',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/portfolio-website/portfolio-website-cover.jpg',
+    year: 2024,
+    technologies: [
+      'Nuxt',
+      'Sanity'
+    ],
+    content: '',
+    private: false,
+    featured: true
+  },
+  {
     title: 'Student Dashboard',
     subtitle: '@ Revolution Prep',
     description: 'Dashboard for Revolution Prep students built with Nuxt.',
@@ -107,7 +123,7 @@ export const projects: Project[] = [
     ],
     content: mobileAppContent,
     private: false,
-    featured: true
+    featured: false
   },
   {
     title: 'Exam Player',

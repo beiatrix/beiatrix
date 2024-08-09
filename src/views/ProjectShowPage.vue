@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // ionic + vue
-import { 
+import {
   IonChip,
   IonCol,
   IonContent,
@@ -9,12 +9,12 @@ import {
   IonPage,
   IonRow
 } from '@ionic/vue'
-import { 
-  computed, 
-  nextTick, 
-  onMounted, 
-  onUpdated, 
-  ref 
+import {
+  computed,
+  nextTick,
+  onMounted,
+  onUpdated,
+  ref
 } from 'vue'
 
 // route
@@ -26,7 +26,6 @@ import Markdown from 'vue3-markdown-it'
 // components
 import AppBar from '@/components/shared/AppBar.vue'
 import AppBarMenu from '@/components/shared/AppBarMenu.vue'
-import AppFooter from '@/components/shared/AppFooter.vue'
 import IconTechnology from '@/components/projects/IconTechnology.vue'
 
 // content
@@ -88,7 +87,7 @@ onUpdated(async () => {
         <AppBar />
       </ion-header>
 
-      <ion-content 
+      <ion-content
         v-if="project"
         color="creme"
       >
@@ -111,7 +110,7 @@ onUpdated(async () => {
                 </IonChip>
                 <IonChip>{{ project.year }}</IonChip>
                 <div class="icon-technology-container">
-                  <IconTechnology 
+                  <IconTechnology
                     v-for="technology in project.technologies"
                     style="margin-left: 0.5rem;"
                     :key="`${project.title}-${technology}`"
@@ -120,16 +119,15 @@ onUpdated(async () => {
                 </div>
               </div>
               <div ref="projectContentElement">
-                <Markdown 
+                <Markdown
                   v-if="project.content"
                   :html="true"
-                  :source="project.content.toString()" 
+                  :source="project.content.toString()"
                 />
               </div>
             </ion-col>
           </ion-row>
         </ion-grid>
-        <AppFooter />
       </ion-content>
     </div>
   </ion-page>

@@ -4,8 +4,11 @@ import {
   chatbubbleEllipses,
   create,
   list,
-  logoHtml5,
-  logoCss3,
+  logoAngular,
+  // logoCss3,
+  // logoHtml5,
+  logoIonic,
+  logoReact,
   people,
   rocket,
   school,
@@ -19,43 +22,58 @@ import { Item } from '@/types'
 
 export const technicalSkillItems: Item[] = [
   {
-    logo: require('@/assets/images/logos/vue.png'),
+    logo: require('@/assets/images/logos/vue.svg'),
     text: 'Vue'
   },
   {
-    logo: require('@/assets/images/logos/nuxt.png'),
+    logo: require('@/assets/images/logos/nuxt.svg'),
     text: 'Nuxt'
   },
   {
-    logo: require('@/assets/images/logos/ionic.png'),
-    text: 'Ionic'
-  },
-  {
-    logo: require('@/assets/images/logos/react.png'),
+    icon: logoReact,
+    iconColor: 'react-blue',
     text: 'React'
   },
   {
-    logo: require('@/assets/images/logos/graphql.png'),
+    icon: logoAngular,
+    iconColor: 'angular-red',
+    text: 'Angular'
+  },
+  {
+    icon: logoIonic,
+    iconColor: 'ionic-blue',
+    text: 'Ionic'
+  },
+  {
+    logo: require('@/assets/images/logos/graphql.svg'),
     text: 'GraphQL'
   },
   {
-    logo: require('@/assets/images/logos/typescript.png'),
+    logo: require('@/assets/images/logos/turborepo.svg'),
+    text: 'Turborepo'
+  },
+  {
+    logo: require('@/assets/images/logos/sanity.svg'),
+    text: 'Sanity'
+  },
+  {
+    logo: require('@/assets/images/logos/typescript.svg'),
     text: 'TypeScript'
   },
   {
-    logo: require('@/assets/images/logos/javascript.png'),
+    logo: require('@/assets/images/logos/javascript.svg'),
     text: 'JavaScript'
   },
-  {
-    icon: logoHtml5,
-    iconColor: 'html-orange',
-    text: 'HTML'
-  },
-  {
-    icon: logoCss3,
-    iconColor: 'css-blue',
-    text: 'CSS'
-  },
+  // {
+  //   icon: logoHtml5,
+  //   iconColor: 'html-orange',
+  //   text: 'HTML'
+  // },
+  // {
+  //   icon: logoCss3,
+  //   iconColor: 'css-blue',
+  //   text: 'CSS'
+  // },
   {
     icon: require('@/assets/images/logos/ruby.svg'),
     iconColor: 'ruby-red',
@@ -70,27 +88,27 @@ export const technicalSkillItems: Item[] = [
 
 export const designSkillItems: Item[] = [
   {
-    logo: require('@/assets/images/logos/adobe-after-effects.png'),
+    logo: require('@/assets/images/logos/adobe-after-effects.svg'),
     text: 'Adobe AfterEffects'
   },
   {
-    logo: require('@/assets/images/logos/adobe-illustrator.png'),
+    logo: require('@/assets/images/logos/adobe-illustrator.svg'),
     text: 'Adobe Illustrator'
   },
   {
-    logo: require('@/assets/images/logos/adobe-in-design.png'),
+    logo: require('@/assets/images/logos/adobe-in-design.svg'),
     text: 'Adobe InDesign'
   },
   {
-    logo: require('@/assets/images/logos/adobe-photoshop.png'),
+    logo: require('@/assets/images/logos/adobe-photoshop.svg'),
     text: 'Adobe Photoshop'
   },
   {
-    logo: require('@/assets/images/logos/adobe-xd.png'),
+    logo: require('@/assets/images/logos/adobe-xd.svg'),
     text: 'Adobe XD'
   },
   {
-    logo: require('@/assets/images/logos/final-cut-pro.png'),
+    logo: require('@/assets/images/logos/final-cut-pro.svg'),
     text: 'Final Cut Pro'
   },
   {
