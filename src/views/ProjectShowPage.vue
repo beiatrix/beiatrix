@@ -55,8 +55,8 @@ onMounted(() => {
 const projectContentElement = ref<HTMLElement | undefined>(undefined)
 function applyImageStyles () {
   /**
-   * using style scoped to attempt to access the img tags is not working –
-   * likely due to the way the question content is loaded via v-html.
+   * using style scoped to attempt to access img tags is not working –
+   * likely due to the way the project content is loaded via markdown.
    * while not ideal, this method is a functioning workaround.
    */
   const images = projectContentElement.value?.getElementsByTagName('img')

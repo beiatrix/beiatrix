@@ -59,6 +59,19 @@ const yearsOfExperience = computed(() => {
             resume</a>
         </strong>.
       </p>
+      <div class="download-resume-container">
+        <ion-button
+          class="ion-margin"
+          color="mist"
+          size="large"
+          href="https://beiatrix.s3.us-west-1.amazonaws.com/resume/Beiatrix_Pedrasa_-_Resume.pdf"
+          target="_blank"
+        >
+          <span class="btn-text">
+            Download Resume
+          </span>
+        </ion-button>
+      </div>
     </ion-col>
   </ion-row>
 </template>
@@ -66,5 +79,18 @@ const yearsOfExperience = computed(() => {
 <style scoped>
 img.career {
   height: 3rem;
+}
+
+.download-resume-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-text {
+  color: var(--ion-color-creme);
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  text-transform: none;
 }
 </style>

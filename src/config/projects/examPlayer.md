@@ -36,7 +36,7 @@ The instruction page contains information about the exam experience.
 
 ![Instructions Page](https://beiatrix.s3.us-west-1.amazonaws.com/projects/exam-player/instructions-page.jpg)
 
-Clicking "Next" brings the student to the first question of the first section of the exam.
+Clicking "Next" brings the student to the first question of the exam.
 
 ## **<a style="color: var(--ion-color-dark);" name="exam-player-panels">Exam Player Panels</a>**
 
