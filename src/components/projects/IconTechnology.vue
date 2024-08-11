@@ -65,6 +65,7 @@ const technologyItem = computed(() => {
 }
 
 img {
+  border-radius: 0.2rem;
   max-width: 1.5rem;
 }
 
