@@ -7,7 +7,7 @@ import {
 </script>
 
 <template>
-  <ion-row class="ion-padding-top ion-justify-space-between">
+  <ion-row class="ion-padding-top ion-justify-space-between section-hello-container">
     <ion-col
       class="header-content"
       size="12"
@@ -15,43 +15,51 @@ import {
       size-xl="8"
     >
       <ion-row>
-        <!-- <img
+        <img
           :src="require('@/assets/images/hello.svg')"
           alt="hello"
           class="hello"
-        /> -->
-        <h2>hi there 👋</h2>
+        >
       </ion-row>
       <ion-row>
         <h1>
-          my name is <span class="name">beiatrix</span>.
+          my name is <span class="name">beiatrix</span>
         </h1>
       </ion-row>
       <ion-row>
         <h2 class="ion-margin-bottom">
-          I'm a 
-          <span class="heading">software engineer</span>
-          and 
-          <span class="heading">designer</span>.
+          I'm a
+          <span class="highlight">software engineer</span>
+          +
+          <span class="highlight">designer</span>!
         </h2>
       </ion-row>
     </ion-col>
-    <ion-col 
-      class="container-headshot"
+    <ion-col
+      class="container-headshot ion-margin-bottom"
       size="12"
       size-md="5"
       size-xl="4"
     >
       <img
-        src="https://i.imgur.com/iFc0B4c.jpg"
+        :src="require('@/assets/images/headshot.jpg')"
         alt="Beiatrix Pedrasa"
         class="headshot"
-      />
+      >
+      <img
+        :src="require('@/assets/images/thats-me.svg')"
+        alt="thats-me"
+        class="thats-me"
+      >
     </ion-col>
   </ion-row>
 </template>
 
 <style scoped>
+.section-hello-container {
+  margin-bottom: 2rem;
+}
+
 .header-content {
   display: flex;
   flex-direction: column;
@@ -73,21 +81,32 @@ h1 {
 
 h2 {
   color: rgba(var(--ion-color-charcoal-rgb), 0.9);
-  font-family: 'Manrope', Helvetica, Arial, sans-serif;
+  font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+  font-size: 1.75rem;
   font-weight: 500;
 }
 
+.highlight {
+  color: var(--ion-color-primary);
+}
+
 img.hello {
-  height: 2.75rem;
-  margin-right: -0.5rem;
-  margin-bottom: 0.5rem;
+  height: 5rem;
+  margin-left: -2.5rem;
+  margin-bottom: -0.5rem;
 }
 
 img.headshot {
-  border: 0.75rem solid var(--ion-color-tertiary-shade);
   max-height: 25vh;
   width: auto;
   object-fit: cover;
+}
+
+img.thats-me {
+  margin-top: 26vh;
+  margin-right: -4rem;
+  height: 3rem;
+  position: absolute;
 }
 
 .name {
@@ -101,38 +120,50 @@ img.headshot {
     font-size: 3rem;
   }
 
-  img.hello {
-    height: 3rem;
-    margin-right: -0.5rem;
-  }
-
   img.headshot {
     max-height: 30vh;
+  }
+
+  img.thats-me {
+    margin-top: 31vh;
+    margin-left: 30vw;
   }
 }
 
 /* md */
 @media (max-width: 768px) {
   .container-headshot {
-    justify-content: start;
+    justify-content: flex-start;
   }
 
   h1 {
     font-size: 2.5rem;
   }
 
+  img.thats-me {
+    margin-top: 31vh;
+    margin-left: 20vw;
+  }
+}
+
+/* sm */
+@media (max-width: 576px) {
   img.hello {
-    height: 2.5rem;
-    margin-right: -0.5rem;
+    margin-left: -1rem;
+    margin-bottom: 0;
+    margin-top: -1rem;
   }
 }
 
 /* mobile landscape */
 @media (max-height: 600px) {
   img.headshot {
-    border: 0.8rem solid var(--ion-color-tertiary);
-    border-radius: 1.6rem;
     max-height: 50vh;
+  }
+
+  img.thats-me {
+    margin-top: 52vh;
+    margin-left: 20vw;
   }
 }
 </style>

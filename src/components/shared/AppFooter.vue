@@ -10,7 +10,10 @@ import { computed } from 'vue'
 // utilities
 import { format } from 'date-fns'
 
-// display year
+/**
+ * display year
+ * ================================================================
+ */
 const currentYear = computed(() => {
   return format(new Date(), 'yyyy')
 })

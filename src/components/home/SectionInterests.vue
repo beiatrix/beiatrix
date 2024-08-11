@@ -19,11 +19,11 @@ import SectionItem from './SectionItem.vue'
       class="observer-target"
       size="12"
     >
-      <div class="header">
-        <h1 class="heading">
-          interests
-        </h1>
-      </div>
+      <img
+        :src="require('@/assets/images/interests.svg')"
+        alt="interests"
+        class="interests"
+      >
     </ion-col>
     <ion-col
       class="observer-target"
@@ -39,3 +39,9 @@ import SectionItem from './SectionItem.vue'
     </ion-col>
   </ion-row>
 </template>
+
+<style scoped>
+img.interests {
+  height: 4rem;
+}
+</style>

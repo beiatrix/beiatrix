@@ -1,6 +1,6 @@
 // ionic
-import { 
-  colorPalette,
+import {
+  image,
   logoGithub,
   logoInstagram,
   logoLinkedin,
@@ -13,9 +13,9 @@ import { Item } from '@/types'
 
 export const appBarItems: Item[] = [
   {
-    icon: logoYoutube,
-    text: 'YouTube',
-    url: 'https://www.youtube.com/beiatrix'
+    icon: image,
+    text: 'Art',
+    url: 'https://instagram.com/beiatrix.art'
   },
   {
     icon: logoInstagram,
@@ -23,9 +23,9 @@ export const appBarItems: Item[] = [
     url: 'https://instagram.com/beiatrix'
   },
   {
-    icon: colorPalette,
-    text: 'Art',
-    url: 'https://instagram.com/beiatrix.art'
+    icon: logoYoutube,
+    text: 'YouTube',
+    url: 'https://www.youtube.com/beiatrix'
   },
   {
     icon: logoGithub,

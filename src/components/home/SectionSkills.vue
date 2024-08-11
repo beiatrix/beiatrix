@@ -17,15 +17,15 @@ import SectionItem from './SectionItem.vue'
 
 <template>
   <ion-row class="ion-padding-vertical">
-    <ion-col 
-      class="observer-target"
+    <ion-col
+      class="observer-target ion-margin-vertical"
       size="12"
     >
-      <div class="header">
-        <h1 class="heading">
-          skills
-        </h1>
-      </div>
+      <img
+        :src="require('@/assets/images/skills.svg')"
+        alt="skills"
+        class="skills"
+      >
     </ion-col>
     <ion-col
       v-for="(value, key) in skillItems"
@@ -51,6 +51,10 @@ import SectionItem from './SectionItem.vue'
 </template>
 
 <style scoped>
+img.skills {
+  height: 4.5rem;
+}
+
 .item-type {
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
 }

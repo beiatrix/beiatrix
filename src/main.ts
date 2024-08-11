@@ -20,6 +20,9 @@ import '@ionic/vue/css/text-transformation.css'
 import '@ionic/vue/css/flex-utils.css'
 import '@ionic/vue/css/display.css'
 
+/* Tippy CSS */
+import 'tippy.js/dist/tippy.css'
+
 /* Theme variables */
 import './theme/variables.css'
 

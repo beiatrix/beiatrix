@@ -15,22 +15,26 @@ import { appBarItems } from '@/config/appBarItems'
 // composables
 import { useAppBarItems } from '@/composables/appBarItems'
 
-// responsiveness
+/**
+ * app bar item links
+ * ================================================================
+ */
+const { getTargetAttribute } = useAppBarItems()
+
+/**
+ * responsiveness
+ * ================================================================
+ */
 const windowWidth = ref()
-function setWindowWidth () {
-  windowWidth.value = window.innerWidth
-}
-const showButtonText = computed(() => {
-  return windowWidth.value >= 992 // lg
-})
+
 const showPushMenu = computed(() => {
   return windowWidth.value < 768 // md
 })
 
-// app bar item links
-const { getTargetAttribute } = useAppBarItems()
+function setWindowWidth () {
+  windowWidth.value = window.innerWidth
+}
 
-// lifecycle hooks
 onMounted(() => {
   setWindowWidth()
   window.addEventListener('resize', () => {
@@ -41,47 +45,41 @@ onMounted(() => {
 
 <template>
   <ion-toolbar>
-    <ion-buttons 
+    <ion-buttons
       class="ion-padding"
       slot="start"
     >
       <ion-button href="/">
         <ion-icon
           slot="icon-only"
-          :src="require('@/assets/images/logo.svg')"
+          :src="require('@/assets/images/beiatrix-logo.svg')"
         />
       </ion-button>
     </ion-buttons>
-    <ion-buttons 
+    <ion-buttons
       class="ion-padding"
       slot="end"
     >
-      <ion-menu-button 
+      <ion-menu-button
         v-if="showPushMenu"
-        color="primary" 
+        color="primary"
       />
-      <div 
+      <div
         v-else
         class="ion-padding-end"
       >
         <ion-button
           v-for="(item, index) in appBarItems"
           :key="`app-bar-item-${index}`"
-          :class="`${showButtonText ? 'btn-app-bar' : ''}`"
+          class="btn-app-bar"
           :href="item.url"
           :target="getTargetAttribute(item.url)"
         >
-          <ion-icon 
-            slot="start"
+          <ion-icon
             color="primary"
+            slot="icon-only"
             :icon="item.icon"
           />
-          <span
-            v-if="showButtonText"
-            class="app-bar-item-text"
-          >
-            {{ item.text }}
-          </span>
         </ion-button>
       </div>
     </ion-buttons>
@@ -99,6 +97,6 @@ ion-toolbar {
 }
 
 .btn-app-bar {
-  margin-right: 0.5rem;
+  margin: 0 0.5rem;
 }
 </style>

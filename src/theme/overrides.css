@@ -29,6 +29,7 @@
 
 p {
   font-family: 'Manrope', Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
   color: var(--ion-color-charcoal);
   line-height: 1.7;
 }

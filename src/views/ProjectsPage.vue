@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // ionic + vue
-import { 
+import {
   IonCol,
   IonContent,
   IonGrid,
@@ -8,6 +8,7 @@ import {
   IonPage,
   IonRow
 } from '@ionic/vue'
+import { computed } from 'vue'
 
 // components
 import AppBar from '@/components/shared/AppBar.vue'
@@ -17,6 +18,14 @@ import CardProject from '@/components/projects/CardProject.vue'
 
 // config
 import { projects } from '@/config/projects'
+
+/**
+ * projects
+ * ================================================================
+ */
+const filteredProjects = computed(() => {
+  return projects.filter((project) => !project.private)
+})
 </script>
 
 <template>
@@ -38,23 +47,23 @@ import { projects } from '@/config/projects'
               size="12"
               size-sm="10"
               size-md="9"
-              size-lg="8"
-              size-xl="6"
             >
               <ion-row class="ion-padding-vertical">
                 <ion-col size="12">
-                  <div class="header">
-                    <h1 class="heading">
-                      projects
-                    </h1>
-                  </div>
+                  <img
+                    :src="require('@/assets/images/projects.svg')"
+                    alt="projects"
+                    class="projects"
+                  >
                 </ion-col>
               </ion-row>
               <ion-row>
-                <ion-col 
-                  v-for="(project, index) in projects"
+                <ion-col
+                  v-for="(project, index) in filteredProjects"
                   :key="`project-${index}`"
-                  size="6"
+                  size-md="6"
+                  size-xl="4"
+                  size="12"
                 >
                   <CardProject :project="project" />
                 </ion-col>
@@ -62,15 +71,14 @@ import { projects } from '@/config/projects'
             </ion-col>
           </ion-row>
         </ion-grid>
+        <AppFooter />
       </ion-content>
-
-      <AppFooter />
     </div>
   </ion-page>
 </template>
 
 <style scoped>
-.container {
-  height: 100%;
+img.projects {
+  height: 5.5rem;
 }
 </style>
