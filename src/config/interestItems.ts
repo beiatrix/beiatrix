@@ -3,12 +3,12 @@ import { Item } from '@/types'
 
 export const interestItems: Item[] = [
   {
-    emoji: '💪',
-    text: 'Fitness – especially rock climbing and hot yoga'
-  },
-  {
     emoji: '🎨',
     text: 'Drawing and painting'
+  },
+  {
+    emoji: '💪',
+    text: 'Fitness – hiking, rock climbing, hot yoga'
   },
   {
     emoji: '🍔',
@@ -20,7 +20,7 @@ export const interestItems: Item[] = [
   },
   {
     emoji: '🐶',
-    text: 'Hiking adventures with partner and dog'
+    text: 'Quality time with partner and dog'
   },
   {
     emoji: '✈️',
