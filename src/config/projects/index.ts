@@ -29,6 +29,22 @@ export const projects: Project[] = [
     featured: true
   },
   {
+    title: 'Animal Crossing Art Guide',
+    subtitle: 'real vs fake art',
+    description: 'A guide to Redd\'s real vs fake art 🦊 built with React, Gatsby, Tailwind, and Contentful',
+    url: 'https://animal-crossing-art-guide.netlify.app/',
+    githubUrl: 'https://github.com/beiatrix/animal-crossing-art-guide',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/animal-crossing-art-guide/animal-crossing-art-guide.gif',
+    year: 2024,
+    technologies: [
+      'Gatsby',
+      'React'
+    ],
+    content: '',
+    private: false,
+    featured: true
+  },
+  {
     title: 'Portfolio Website',
     subtitle: 'I made a website for my mom',
     description: 'Portfolio Website built with Nuxt, Sanity, and Tailwind',
@@ -123,7 +139,7 @@ export const projects: Project[] = [
     ],
     content: mobileAppContent,
     private: false,
-    featured: false
+    featured: true
   },
   {
     title: 'Exam Player',

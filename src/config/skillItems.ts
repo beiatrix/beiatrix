@@ -49,6 +49,10 @@ export const technicalSkillItems: Item[] = [
     text: 'GraphQL'
   },
   {
+    logo: require('@/assets/images/logos/gatsby.svg'),
+    text: 'Gatsby'
+  },
+  {
     logo: require('@/assets/images/logos/turborepo.svg'),
     text: 'Turborepo'
   },
