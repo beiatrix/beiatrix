@@ -29,6 +29,22 @@ export const projects: Project[] = [
     featured: true
   },
   {
+    title: 'Seasonal Foods',
+    subtitle: 'What\'s in season right now?',
+    description: 'What\'s in season right now? 👩🏻‍🌾 🥬 built with React, Gatsby, Tailwind, and Firebase',
+    url: 'https://seasonalfoods.netlify.app/',
+    githubUrl: 'https://github.com/beiatrix/seasonal-foods',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/seasonal-foods/seasonal-foods.gif',
+    year: 2024,
+    technologies: [
+      'Firebase',
+      'React'
+    ],
+    content: '',
+    private: false,
+    featured: true
+  },
+  {
     title: 'Animal Crossing Art Guide',
     subtitle: 'real vs fake art',
     description: 'A guide to Redd\'s real vs fake art 🦊 built with React, Gatsby, GraphQL, Tailwind, and Contentful',
@@ -139,7 +155,7 @@ export const projects: Project[] = [
     ],
     content: mobileAppContent,
     private: false,
-    featured: true
+    featured: false
   },
   {
     title: 'Exam Player',

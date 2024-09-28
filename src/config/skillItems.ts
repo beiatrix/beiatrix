@@ -57,6 +57,10 @@ export const technicalSkillItems: Item[] = [
     text: 'Turborepo'
   },
   {
+    logo: require('@/assets/images/logos/firebase.svg'),
+    text: 'Firebase'
+  },
+  {
     logo: require('@/assets/images/logos/sanity.svg'),
     text: 'Sanity'
   },
