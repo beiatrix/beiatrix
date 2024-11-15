@@ -202,7 +202,7 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: studentProfileContent,
-    private: false,
+    private: true,
     featured: false
   },
   {
