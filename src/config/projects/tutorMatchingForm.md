@@ -6,6 +6,8 @@ The Tutor Matching Form is designed for students who have just signed up for a R
 
 ![Tutor Matching Form](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-matching-form/tutor-matching-form-cover.gif)
 
+Revolution Prep team members use the information gathered in this form in order to hand-select a perfect tutor match for the student. This process is further optimized in the **[Tutor Self-Match](/projects/tutor-self-match)** flow.
+
 ## **<a style="color: var(--ion-color-dark);" name="step-1">Step 1</a>**
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />

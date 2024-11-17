@@ -10,6 +10,7 @@ import schedulingFlowContent from './schedulingFlow.md'
 import studentDashboardContent from './studentDashboard.md'
 import studentProfileContent from './studentProfile.md'
 import tutorMatchingFormContent from './tutorMatchingForm.md'
+import tutorSelfMatchContent from './tutorSelfMatch.md'
 
 export const projects: Project[] = [
   {
@@ -108,6 +109,22 @@ export const projects: Project[] = [
     content: mobileChatContent,
     private: false,
     featured: true
+  },
+  {
+    title: 'Tutor Self-Match',
+    subtitle: '@ Revolution Prep',
+    description: 'A flow that enables students to match with a tutor by themselves',
+    slug: 'tutor-self-match',
+    image: 'https://place-hold.it/500x300',
+    company: 'Revolution Prep',
+    year: 2024,
+    technologies: [
+      'Nuxt',
+      'Vue'
+    ],
+    content: tutorSelfMatchContent,
+    private: false,
+    featured: false
   },
   {
     title: 'Enrollment Wizard',
