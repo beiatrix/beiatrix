@@ -4,7 +4,7 @@
 
 The Tutor Self-Match flow empowers students to match with their own Revolution Prep tutor based on their preferred tutoring subject and availability.
 
-![Tutor Self-Match]()
+![Tutor Self-Match](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/self-match-cover.gif)
 
 This flow is the successor to a more manual process where a Revolution Prep team member would gather information from the **[Tutor Matching Form](/projects/tutor-matching-form)** to hand-select a tutor for the student.
 
@@ -40,35 +40,35 @@ This availability calendar is re-used in a few other places, such as the **[Sche
 
 As the student enters Step 3 of the flow, an interstitial plays as the tutor-matching algorithm calculates a best match.
 
-![Tutor Self-Match - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-interstitial.gif)
+![Tutor Self-Match - Step 3 - Interstitial](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-interstitial.gif)
 
 Finally, a dialog presents the student with their best tutor match.
 
-![Tutor Self-Match - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-result-dialog.jpg)
+![Tutor Self-Match - Step 3 - Result Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-result-dialog.jpg)
 
 The student can now select their desired session times with their recommended tutor.
 
-![Tutor Self-Match - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-select-times.gif)
+![Tutor Self-Match - Step 3 - Select Times](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-select-times.gif)
 
 They have the option to expand "See alternative tutors" and browse their schedules as well.
 
-![Tutor Self-Match - Step 3](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-alternative-tutors.jpg)
+![Tutor Self-Match - Step 3 - Alternative Tutors](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-alternative-tutors.jpg)
 
 Clicking "Read more" opens a dialog with the tutor's profile information.
 
+![Tutor Self-Match - Step 3 - Tutor Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-tutor-dialog.jpg)
+
 If the student selects fewer than all of their available hours, a dialog appears encouraging them to book more.
 
-Once their desired hours are selected, success modal.
+![Tutor Self-Match - Step 3 - Underbooked Hours Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-underbooked-hours-dialog.jpg)
 
-Closing this modal returns them to the Schedule Sessions page, where they may click Book Session with their existing to go to the **[Scheduling Flow](/projects/scheduling-flow)**, or click "Add A Tutor" to match with another tutor once more.
+Once their desired session times are booked, a success modal appears.
 
-## **<a style="color: var(--ion-color-dark);" name="success">Success</a>**
+![Tutor Self-Match - Step 3 - Success Dialog](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/step-3-success-dialog.jpg)
 
-<hr style="border-bottom: 2px solid var(--ion-color-secondary-tint);" />
+Closing this modal returns them to the Schedule Sessions page. Now, they may click "Book Session" with their existing tutor to go to the **[Scheduling Flow](/projects/scheduling-flow)**, or click "Add A Tutor" to match with another tutor once more.
 
-
-
-![Tutor Self-Match - Success]()
+![Tutor Self-Match - End](https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/self-match-end.jpg)
 
 # **<a style="color: var(--ion-color-dark);" name="my-contributions">My Contributions</a>**
 

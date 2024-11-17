@@ -115,7 +115,7 @@ export const projects: Project[] = [
     subtitle: '@ Revolution Prep',
     description: 'A flow that enables students to match with a tutor by themselves',
     slug: 'tutor-self-match',
-    image: 'https://place-hold.it/500x300',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/self-match-cover.gif',
     company: 'Revolution Prep',
     year: 2024,
     technologies: [
