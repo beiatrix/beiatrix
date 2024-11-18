@@ -9,6 +9,7 @@ import mobileChatContent from './mobileChat.md'
 import schedulingFlowContent from './schedulingFlow.md'
 import studentDashboardContent from './studentDashboard.md'
 import studentProfileContent from './studentProfile.md'
+import trialsContent from './trials.md'
 import tutorMatchingFormContent from './tutorMatchingForm.md'
 import tutorSelfMatchContent from './tutorSelfMatch.md'
 
@@ -123,6 +124,22 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: tutorSelfMatchContent,
+    private: false,
+    featured: false
+  },
+  {
+    title: 'Trials',
+    subtitle: '@ Revolution Prep',
+    description: 'Revolution Prep Trials',
+    slug: 'trials',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/trials/trials-cover.gif',
+    company: 'Revolution Prep',
+    year: 2024,
+    technologies: [
+      'Nuxt',
+      'Vue'
+    ],
+    content: trialsContent,
     private: false,
     featured: false
   },
