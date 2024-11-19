@@ -9,6 +9,7 @@ import mobileChatContent from './mobileChat.md'
 import schedulingFlowContent from './schedulingFlow.md'
 import studentDashboardContent from './studentDashboard.md'
 import studentProfileContent from './studentProfile.md'
+import trialsContent from './trials.md'
 import tutorMatchingFormContent from './tutorMatchingForm.md'
 import tutorSelfMatchContent from './tutorSelfMatch.md'
 
@@ -111,22 +112,6 @@ export const projects: Project[] = [
     featured: true
   },
   {
-    title: 'Tutor Self-Match',
-    subtitle: '@ Revolution Prep',
-    description: 'A flow that enables students to match with a tutor by themselves',
-    slug: 'tutor-self-match',
-    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/self-match-cover.gif',
-    company: 'Revolution Prep',
-    year: 2024,
-    technologies: [
-      'Nuxt',
-      'Vue'
-    ],
-    content: tutorSelfMatchContent,
-    private: false,
-    featured: false
-  },
-  {
     title: 'Enrollment Wizard',
     subtitle: '@ Revolution Prep',
     description: 'Revolution Prep Enrollment Wizard',
@@ -155,6 +140,38 @@ export const projects: Project[] = [
       'Vue'
     ],
     content: schedulingFlowContent,
+    private: false,
+    featured: true
+  },
+  {
+    title: 'Tutor Self-Match',
+    subtitle: '@ Revolution Prep',
+    description: 'A flow that enables students to match with a tutor by themselves',
+    slug: 'tutor-self-match',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/tutor-self-match/self-match-cover.gif',
+    company: 'Revolution Prep',
+    year: 2024,
+    technologies: [
+      'Nuxt',
+      'Vue'
+    ],
+    content: tutorSelfMatchContent,
+    private: false,
+    featured: true
+  },
+  {
+    title: 'Trials',
+    subtitle: '@ Revolution Prep',
+    description: 'Revolution Prep Trials',
+    slug: 'trials',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/trials/trials-cover.gif',
+    company: 'Revolution Prep',
+    year: 2024,
+    technologies: [
+      'Nuxt',
+      'Vue'
+    ],
+    content: trialsContent,
     private: false,
     featured: true
   },
