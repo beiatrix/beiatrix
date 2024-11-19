@@ -62,14 +62,16 @@ If the user still hasn't started their trial and there are two days before the t
 
 <hr style="border-bottom: 2px solid var(--ion-color-secondary);" />
 
-wordpress page
+This project presented an intriguing challenge due to its integration of multiple platforms: landing pages built in Wordpress and HubSpot, quizzes developed with Typeform, emails powered by Vero, and a checkout cart app built in Angular.
 
-typeform embed
+One of my key contributions was implementing the quiz landing page on the WordPress site, where I embedded the Typeform as a modal for a seamless user experience. 
 
-hubspot landing pages
-- ap exams
-- executive functioning
+I also developed the quiz result landing pages in HubSpot, particularly the AP Exams and Executive Functioning key concerns.
 
-emails
+A critical integration I managed was redirecting users from the HubSpot quiz result pages to the Angular checkout cart app. This included pre-populating the cart with a trial tutor package and the user’s email for a smoother transition.
 
-analytics
+Additionally, I created both trial reminder emails in Vero.
+
+During QA rounds, I addressed and resolved bugs across various platforms and pages.
+
+Finally, I led the implementation of analytics using Mixpanel. This work was crucial in enabling seamless tracking of the user journey across platforms, providing valuable insights to improve the experience.
