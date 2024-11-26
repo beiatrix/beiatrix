@@ -7,17 +7,20 @@ import {
 import { computed } from 'vue'
 
 // utilities
-import { formatDistanceToNowStrict } from 'date-fns'
+// import { formatDistanceToNowStrict } from 'date-fns'
 
 /**
  * years of experience
  * ================================================================
  */
-const startDate = new Date('2019-05-13T00:00:00')
+// const startDateCurrentJob = new Date('2019-05-13T00:00:00')
 const yearsOfExperience = computed(() => {
-  return formatDistanceToNowStrict(startDate, {
-    unit: 'year'
-  })
+  const ruggableExperience = 1
+  const revolutionPrepExperience = 4.5
+  return `${ruggableExperience + revolutionPrepExperience} years`
+  // return formatDistanceToNowStrict(startDateCurrentJob, {
+  //   unit: 'year'
+  // })
 })
 </script>
 
