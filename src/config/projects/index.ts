@@ -31,6 +31,22 @@ export const projects: Project[] = [
     featured: true
   },
   {
+    title: 'Aff(ai)rmations',
+    subtitle: 'Daily affirmations powered by AI',
+    description: 'daily affirmations, powered by AI 💫 built using Nuxt, Vue, Gemini, and Tailwind',
+    url: 'https://aff-ai-rmations.vercel.app/',
+    githubUrl: 'https://github.com/beiatrix/aff-ai-rmations',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/aff-ai-rmations/aff-ai-rmations.jpg',
+    year: 2025,
+    technologies: [
+      'Nuxt',
+      'Vue'
+    ],
+    content: '',
+    private: false,
+    featured: true
+  },
+  {
     title: 'Seasonal Foods',
     subtitle: 'What\'s in season right now?',
     description: 'What\'s in season right now? 👩🏻‍🌾 🥬 built with React, Gatsby, Tailwind, and Firebase',
@@ -173,7 +189,7 @@ export const projects: Project[] = [
     ],
     content: trialsContent,
     private: false,
-    featured: true
+    featured: false
   },
   {
     title: 'Mobile App',
