@@ -96,6 +96,21 @@ export const projects: Project[] = [
     featured: true
   },
   {
+    title: 'Speed-Based Pricing',
+    subtitle: '@ Closinglock',
+    description: 'Choose your payment transfer speed for real estate transactions',
+    slug: 'speed-based-pricing',
+    image: 'https://beiatrix.s3.us-west-1.amazonaws.com/projects/speed-based-pricing/payment-summary-dynamic-fields.gif',
+    company: 'Closinglock',
+    year: 2025,
+    technologies: [
+      'Vue'
+    ],
+    content: speedBasedPricingContent,
+    private: true,
+    featured: false
+  },
+  {
     title: 'Student Dashboard',
     subtitle: '@ Revolution Prep',
     description: 'Dashboard for Revolution Prep students built with Nuxt.',
@@ -254,21 +269,6 @@ export const projects: Project[] = [
     ],
     content: studentProfileContent,
     private: true,
-    featured: false
-  },
-  {
-    title: 'Speed-Based Pricing',
-    subtitle: '@ Closinglock',
-    description: 'Choose your payment transfer speed for real estate transactions',
-    slug: 'speed-based-pricing',
-    image: 'https://place-hold.it/500x300',
-    company: 'Closinglock',
-    year: 2025,
-    technologies: [
-      'Vue'
-    ],
-    content: speedBasedPricingContent,
-    private: false,
     featured: false
   },
 ]
