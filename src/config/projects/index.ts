@@ -7,6 +7,7 @@ import enrollmentWizardContent from './enrollmentWizard.md'
 import mobileAppContent from './mobileApp.md'
 import mobileChatContent from './mobileChat.md'
 import schedulingFlowContent from './schedulingFlow.md'
+import speedBasedPricingContent from './speedBasedPricing.md'
 import studentDashboardContent from './studentDashboard.md'
 import studentProfileContent from './studentProfile.md'
 import trialsContent from './trials.md'
@@ -256,16 +257,18 @@ export const projects: Project[] = [
     featured: false
   },
   {
-    title: 'Documentation Samples',
-    subtitle: 'Revolution Prep • Engineering Documentation',
-    description: 'Samples of documentation written for Revolution Prep Engineering',
-    slug: 'documentation-samples',
-    image: 'https://ionicframework.com/docs/img/demos/card-media.png',
-    company: 'Revolution Prep',
-    year: 'ongoing',
-    technologies: [],
-    content: '',
-    private: true,
+    title: 'Speed-Based Pricing',
+    subtitle: '@ Closinglock',
+    description: 'Choose your payment transfer speed for real estate transactions',
+    slug: 'speed-based-pricing',
+    image: 'https://place-hold.it/500x300',
+    company: 'Closinglock',
+    year: 2025,
+    technologies: [
+      'Vue'
+    ],
+    content: speedBasedPricingContent,
+    private: false,
     featured: false
   },
 ]
