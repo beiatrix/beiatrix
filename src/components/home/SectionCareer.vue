@@ -7,20 +7,25 @@ import {
 import { computed } from 'vue'
 
 // utilities
-// import { formatDistanceToNowStrict } from 'date-fns'
+import { formatDistanceToNowStrict } from 'date-fns'
 
 /**
  * years of experience
  * ================================================================
  */
-// const startDateCurrentJob = new Date('2019-05-13T00:00:00')
+const startDateCurrentJob = new Date('2025-04-14T00:00:00')
 const yearsOfExperience = computed(() => {
-  const ruggableExperience = 1
-  const revolutionPrepExperience = 4.5
-  return `${ruggableExperience + revolutionPrepExperience} years`
-  // return formatDistanceToNowStrict(startDateCurrentJob, {
-  //   unit: 'year'
-  // })
+  // May 2019 - Apr 2020
+  const ruggableExperience = 1 
+  // May 2020 - Nov 2024
+  const revolutionPrepExperience = 4.5 
+  // Apr 2025 - Present
+  const currentJobExperience = formatDistanceToNowStrict(startDateCurrentJob, {
+    addSuffix: false,
+    unit: 'year'
+  })
+  const totalExperience = ruggableExperience + revolutionPrepExperience + parseFloat(currentJobExperience)
+  return `${totalExperience} years`
 })
 </script>
 
