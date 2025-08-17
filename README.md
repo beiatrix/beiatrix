@@ -8,6 +8,6 @@ My name is **beiatrix**. I'm a software engineer and designer with a specializat
 
 - 🌿 I also create content on [Instagram](https://www.instagram.com/beiatrix.art) and [YouTube](https://youtube.com/beiatrix)
 
-- 🚀 I hand-crafted my personal website with `ionic` + `vue`
+- 🚀 I hand-crafted my personal website with `Vue` + `Nuxt`
 
 - 🌻 For fun, I love going on hiking adventures with my partner and dog, practicing hot yoga, drawing and painting, eating incredible foods, and traveling with family and friends!
