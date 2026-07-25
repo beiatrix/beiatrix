@@ -5,18 +5,12 @@ import { formatDistanceToNowStrict } from 'date-fns'
 const RESUME_URL = 'https://beiatrix.s3.us-west-1.amazonaws.com/resume/Beiatrix_Pedrasa_-_Resume.pdf'
 
 // years of experience
-const startDateCurrentJob = new Date('2025-04-14T00:00:00')
+const startDate = new Date('2019-05-13T00:00:00')
 const yearsOfExperience = computed(() => {
-  // May 2019 - Apr 2020
-  const ruggableExperience = 1 
-  // May 2020 - Nov 2024
-  const revolutionPrepExperience = 4.5 
-  // Apr 2025 - Present
-  const currentJobExperience = formatDistanceToNowStrict(startDateCurrentJob, {
+  const totalExperience = parseFloat(formatDistanceToNowStrict(startDate, {
     addSuffix: false,
     unit: 'year'
-  })
-  const totalExperience = ruggableExperience + revolutionPrepExperience + parseFloat(currentJobExperience)
+  }))
   return `${totalExperience} years`
 })
 </script>
