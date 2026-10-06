@@ -1,13 +1,9 @@
 # Hi there 👋
 
-My name is **beiatrix**. I'm a software engineer and designer with a specialization in frontend JavaScript.
+My name is Beiatrix 👩🏻‍💻 I'm a software engineer with over 7 years of professional experience and a past life as a designer. 👩🏻‍🎨
 
-- 🎨 Before launching my career in software engineering, I worked professionally as a graphic designer and illustrator
+- 🎨 I specialize in frontend development using Javascript frameworks – mostly Vue, with some experience with React and Angular – though I do enjoy traversing across the stack and contributing to the backend from time to time. In the design world, I bring over a decade of experience with the Adobe suite, and proficiency in other tools such as Figma, Procreate, and Final Cut Pro X. I am committed to continuous learning and growth to stay current with evolving technologies, including the thoughtful adoption of AI.
 
-- 👩🏻‍💻 I find joy in using both skill sets!
+- 🌿 As a technologist with a creative side, I thrive on collaboration within cross-functional teams. I work closely with Product and Engineering team members to solve business problems, build scalable and maintainable systems, and deliver delightful experiences to the end user. My goal is to live my day-to-day life building great things with kind and smart people. By doing my best every day to communicate intentionally, craft clean and readable code, provide thorough peer reviews, and consolidate team knowledge with great documentation, I am dedicated to elevating the entire team.
 
-- 🌿 I also create content on [Instagram](https://www.instagram.com/beiatrix.art) and [YouTube](https://youtube.com/beiatrix)
-
-- 🚀 I hand-crafted my personal website with `Vue` + `Nuxt`
-
-- 🌻 For fun, I love going on hiking adventures with my partner and dog, practicing hot yoga, drawing and painting, eating incredible foods, and traveling with family and friends!
+- 🌻 For fun, I love hiking with my partner and dog, doing hot yoga, making [art](https://www.instagram.com/beiatrix.art) (ceramics, drawing, painting), discovering great places to eat, and traveling with family and friends.
