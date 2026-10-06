@@ -19,7 +19,7 @@
           I'm a
           <span class="text-primary">software engineer</span>
           &
-          <span class="text-primary">designer</span>!
+          <span class="text-primary">designer</span>
         </h2>
       </div>
     </div>
