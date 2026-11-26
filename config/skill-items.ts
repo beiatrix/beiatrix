@@ -35,8 +35,11 @@ export const technicalSkillItems: Item[] = [
     name: 'GraphQL'
   },
   {
+    icon: technologyIcons.PHP,
+    name: 'PHP'
+  },
+  {
     icon: technologyIcons['Ruby on Rails'],
-    iconClass: 'text-ruby-red',
     name: 'Ruby on Rails'
   },
   {
@@ -72,13 +75,12 @@ export const designSkillItems: Item[] = [
     name: 'Figma'
   },
   {
-    icon: 'custom:final-cut-pro',
-    name: 'Final Cut Pro'
+    icon: 'custom:procreate',
+    name: 'Procreate'
   },
   {
-    icon: 'heroicons:paint-brush-16-solid',
-    iconClass: 'text-eggplant',
-    name: 'Hand-Drawn Illustration'
+    icon: 'custom:final-cut-pro',
+    name: 'Final Cut Pro'
   }
 ]
 
