@@ -3,11 +3,11 @@ import type { Item } from '@/types'
 export const interestItems: Partial<Item>[] = [
   {
     emoji: '🎨',
-    name: 'Drawing and painting'
+    name: 'Art – drawing, painting, ceramics'
   },
   {
     emoji: '💪',
-    name: 'Fitness – hiking, rock climbing, hot yoga'
+    name: 'Fitness – hiking, strength training, hot yoga'
   },
   {
     emoji: '🍔',
